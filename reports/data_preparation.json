@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "purpose": "engineering_pipeline_validation_only",
+  "archive_sha256": "3f1fd5235193a831cd156c823c8d6a0c91c8e6d310c76799ddcea4bb75f96cbc",
+  "train_clips": 10,
+  "val_clips": 10,
+  "classes": 10,
+  "original_frames_preserved_and_hash_verified": 3037,
+  "active_frames": 2946,
+  "train_frames": 1545,
+  "val_frames": 1401,
+  "excluded_frames": 91,
+  "original_train_val_shared_exact_hashes": 26,
+  "active_train_val_shared_exact_hashes": 0,
+  "trimmed_validation_clips": [
+    {
+      "clip": "an_mopping/v_an_mopping_2",
+      "original_frames": 121,
+      "retained_start": 1,
+      "retained_end": 72,
+      "excluded_tail_frames": 49,
+      "cross_train_exact_overlap_positions": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78
+      ]
+    },
+    {
+      "clip": "cha_fang_you/v_cha_fang_you_2",
+      "original_frames": 149,
+      "retained_start": 1,
+      "retained_end": 143,
+      "excluded_tail_frames": 6,
+      "cross_train_exact_overlap_positions": [
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
+      ]
+    },
+    {
+      "clip": "cha_fang_zuo/v_cha_fang_zuo_2",
+      "original_frames": 159,
+      "retained_start": 1,
+      "retained_end": 123,
+      "excluded_tail_frames": 36,
+      "cross_train_exact_overlap_positions": [
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137
+      ]
+    }
+  ],
+  "source_independence": "not_established",
+  "annotations": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\data\\splits",
+  "rawframes": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\data\\ucf101\\rawframes"
+}

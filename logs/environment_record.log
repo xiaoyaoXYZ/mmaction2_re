@@ -1,0 +1,27 @@
+{
+  "versions": {
+    "torch": "2.1.2+cu118",
+    "torchvision": "0.16.2+cu118",
+    "mmcv_lite": "2.1.0",
+    "mmengine": "0.10.7",
+    "mmaction2": "1.2.0",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0"
+  },
+  "gpu_name": "NVIDIA GeForce MX350",
+  "gpu_capability": [
+    6,
+    1
+  ],
+  "cuda_runtime": "11.8",
+  "original_environments_package_metadata_unchanged": true,
+  "pip_check": "No broken requirements found.",
+  "cuda_kernel_probe": {
+    "loss": 14.0,
+    "gradient": [
+      2.0,
+      4.0,
+      6.0
+    ]
+  }
+}

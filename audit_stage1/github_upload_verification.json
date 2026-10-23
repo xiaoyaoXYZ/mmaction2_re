@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "date": "2026-10-23",
+  "repository": "https://github.com/xiaoyaoXYZ/mmaction-rebuild",
+  "visibility": "public (explicitly confirmed by user)",
+  "branch": "main",
+  "commit": "63bb60766923a1f7a77b7ad2f08de6ac8a88ac1d",
+  "tree": "590eb9fe9aba08ef69b11b3a0ada1e845191b58d",
+  "remote_tree_truncated": false,
+  "remote_blob_count": 29,
+  "all_remote_blob_ids_match_local_bytes": true,
+  "remote_manifest_matches_local": true,
+  "mismatches": [],
+  "unexpected_paths": [],
+  "forbidden_data_or_weight_paths": [],
+  "files": [
+    {
+      "path": ".gitignore",
+      "git_blob_sha": "4cb9ee467ee2b8abe49b2925ba8a584e40d7bedb",
+      "bytes": 634
+    },
+    {
+      "path": "PUBLICATION_MANIFEST.json",
+      "git_blob_sha": "d33c68e9d32cc382dd22de4778af26cb8cc9a975",
+      "bytes": 4957
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha": "b9f78a84afd1af069ad6053e5eab618593c54d19",
+      "bytes": 5961
+    },
+    {
+      "path": "audit_stage1/audit_frames.py",
+      "git_blob_sha": "c5b57165615c1b352a7a90f5bc33d9f77d6833a2",
+      "bytes": 9197
+    },
+    {
+      "path": "audit_stage1/audit_provenance.py",
+      "git_blob_sha": "0fabbb921bd5c277a4e72c59a391fe8628c5e1f1",
+      "bytes": 10754
+    },
+    {
+      "path": "audit_stage1/build_publication.py",
+      "git_blob_sha": "1c74067be6845d4ceb79f766edd1bd5a49579044",
+      "bytes": 13777
+    },
+    {
+      "path": "audit_stage1/complete_audit_records.py",
+      "git_blob_sha": "dafa229e33906e46e1dff3059178b13055a3df5a",
+      "bytes": 1615
+    },
+    {
+      "path": "audit_stage1/figures/baseline_v0_confusion.svg",
+      "git_blob_sha": "99fa1bace27ea68b1857d066b5de3d48454f5b77",
+      "bytes": 93188
+    },
+    {
+      "path": "audit_stage1/figures/baseline_v0_loss.svg",
+      "git_blob_sha": "9f3a4b49805d8c8be003a8cfd60b57468cf26618",
+      "bytes": 17767
+    },
+    {
+      "path": "audit_stage1/final_integrity_public.json",
+      "git_blob_sha": "2800a2c0d4a00b25036511d3bcd0a248a8a7b3a6",
+      "bytes": 3484
+    },
+    {
+      "path": "audit_stage1/make_frame_evidence.py",
+      "git_blob_sha": "9b4b96af4c6ace6920842d85681280ee8b606a96",
+      "bytes": 1926
+    },
+    {
+      "path": "audit_stage1/metrics_summary.json",
+      "git_blob_sha": "1cbba3841e0fe5465eff689d7337d149ba1a8aa6",
+      "bytes": 5973
+    },
+    {
+      "path": "audit_stage1/plot_baseline_evidence.py",
+      "git_blob_sha": "b8ec2ba0ca21da1189fbc793e0b93a89bc374ff6",
+      "bytes": 13008
+    },
+    {
+      "path": "audit_stage1/snapshot_baseline.py",
+      "git_blob_sha": "1f7e5588a5aa1f7555987dd1abbbe7682654b9be",
+      "bytes": 4643
+    },
+    {
+      "path": "audit_stage1/verify_baseline_integrity.py",
+      "git_blob_sha": "b0c3d3d36989bfb265fbc8c307a7564fc219fec9",
+      "bytes": 8286
+    },
+    {
+      "path": "baseline_v0/record_public.json",
+      "git_blob_sha": "46e94afbbb82240173d06f6daaed466b337a8ef0",
+      "bytes": 832
+    },
+    {
+      "path": "configs/swin_tiny_industrial.py",
+      "git_blob_sha": "4eebc713185412142c425e5b3f8b805ae70fb561",
+      "bytes": 3761
+    },
+    {
+      "path": "data_audit.md",
+      "git_blob_sha": "51c1ba00459abab3e3af10c800dcd6c0bed953a8",
+      "bytes": 16205
+    },
+    {
+      "path": "next_round_tasks.md",
+      "git_blob_sha": "dd026689926a0765f4ae4e506945468d412684de",
+      "bytes": 5338
+    },
+    {
+      "path": "reproduction_gap_analysis.md",
+      "git_blob_sha": "f4d9af350fbfc730370668822f10b1f5a4e403fa",
+      "bytes": 14165
+    },
+    {
+      "path": "requirements-lock.txt",
+      "git_blob_sha": "b53ba21e93bc6f051d99f57583ee69475bef6e45",
+      "bytes": 960
+    },
+    {
+      "path": "requirements-support.txt",
+      "git_blob_sha": "1b92abd259a3cf4a24ad45e4f44e93ab63a4052e",
+      "bytes": 346
+    },
+    {
+      "path": "run_experiment.ps1",
+      "git_blob_sha": "3d3dba009c3310c9d47b39ecdb2548eff947f022",
+      "bytes": 1217
+    },
+    {
+      "path": "scripts/audit_industrial_data.py",
+      "git_blob_sha": "974427aed712b2d6a4998e2718a39150943f1d1f",
+      "bytes": 7699
+    },
+    {
+      "path": "scripts/download_verified.py",
+      "git_blob_sha": "4015dfc677f9974d895a651767ee1ab915c264a0",
+      "bytes": 3224
+    },
+    {
+      "path": "scripts/prepare_data.py",
+      "git_blob_sha": "df3024610e0b926c5d3b02524ba28a9dd2bf7bd9",
+      "bytes": 8125
+    },
+    {
+      "path": "scripts/propose_engineering_split.py",
+      "git_blob_sha": "82d07802617a6c517acd4c13e8caec06249a852f",
+      "bytes": 2811
+    },
+    {
+      "path": "scripts/record_environment.py",
+      "git_blob_sha": "a33e93e35440c46a3c66d7ac4d89715d8c3477ce",
+      "bytes": 3752
+    },
+    {
+      "path": "scripts/run_baseline.py",
+      "git_blob_sha": "e858a6624769066bd3593c0fbe89f79942c0ffdb",
+      "bytes": 23784
+    }
+  ],
+  "method": "GitHub recursive Git tree and main ref read after push; compare each Git blob SHA1 against SHA1('blob <byte_count>\\0'+local_bytes); compare remote publication manifest to local SHA256 manifest."
+}

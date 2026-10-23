@@ -1,0 +1,3729 @@
+{
+  "audit_date_local": "2026-10-22",
+  "scope": [
+    "E:\\Codes\\mmaction2-master\\data2",
+    "E:\\Codes\\mmaction2-master\\data",
+    "E:\\Codes\\action-analysis_package\\action-analysis"
+  ],
+  "search_limit": "Only explicitly related directories; no whole-drive search. No training or source modification.",
+  "source_archive": {
+    "path": "E:\\Codes\\mmaction2-master\\data2\\ucf101.zip",
+    "bytes": 592494060,
+    "sha256": "3f1fd5235193a831cd156c823c8d6a0c91c8e6d310c76799ddcea4bb75f96cbc",
+    "extension_counts": {
+      ".txt": 3,
+      ".jpg": 3037
+    }
+  },
+  "confirmed_original_video_mappings": [],
+  "unknown_for_all_20_clips": [
+    "original_video_id",
+    "original_video_path",
+    "source_frame_interval",
+    "source_fps",
+    "extraction_stride",
+    "capture_datetime",
+    "session_id",
+    "subject_id",
+    "camera_id"
+  ],
+  "original_annotations": {
+    "classInd.txt": "1 anya_mopping\r\n2 anya_hinge\r\n3 anya_LCD\r\n4 anya_MB\r\n5 bai_you\r\n6 bai_zuo\r\n7 bao\r\n8 cha_fang_you\r\n9 cha_fang_zuo\r\n10 cha1",
+    "testlist01.txt": "cha_fang_you/v_cha_fang_you_2.mp4\r\ncha_fang_zuo/v_cha_fang_zuo_1.mp4\r\ncha_fang_zuo/v_cha_fang_zuo_2.mp4 \r\ncha1/v_cha1_1.mp4\r\ncha1/v_cha1_2.mp4",
+    "trainlist01.txt": "an_mopping/v_an_mopping_1.mp4 1\r\nan_mopping/v_an_mopping_2.mp4 1\r\nanya_hinge/v_anya_hinge_1.mp4 2\r\nanya_hinge/v_anya_hinge_2.mp4 2\r\nanya_LCD/v_anya_LCD_1.mp4 3\r\nanya_LCD/v_anya_LCD_2.mp4 3\r\nanya_MB/v_anya_MB_1.mp4 4\r\nanya_MB/v_anya_MB_2.mp4 4\r\nbai_you/v_baiyou_1.mp4 5\r\nbai_you/v_baiyou_2.mp4 5\r\nbai_zuo/v_baizuo_1.mp4 6\r\nbai_zuo/v_baizuo_2.mp4 6\r\nbao/v_bao_1.mp4 7\r\nbao/v_bao_2.mp4 7\r\ncha_fang_you/v_cha_fang_you_1.mp4 8"
+  },
+  "clips": [
+    {
+      "clip": "an_mopping/v_an_mopping_1",
+      "split": "train",
+      "frames": 174,
+      "label": 0,
+      "original_frames": 174,
+      "source_start": 1,
+      "source_end": 174,
+      "class_name": "anya_mopping",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "train",
+      "original_explicit_label_one_based": 1,
+      "test_label_derivation": null,
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 174,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "anya_hinge/v_anya_hinge_1",
+      "split": "train",
+      "frames": 168,
+      "label": 1,
+      "original_frames": 168,
+      "source_start": 1,
+      "source_end": 168,
+      "class_name": "anya_hinge",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "train",
+      "original_explicit_label_one_based": 2,
+      "test_label_derivation": null,
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 168,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "anya_LCD/v_anya_LCD_1",
+      "split": "train",
+      "frames": 150,
+      "label": 2,
+      "original_frames": 150,
+      "source_start": 1,
+      "source_end": 150,
+      "class_name": "anya_LCD",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "train",
+      "original_explicit_label_one_based": 3,
+      "test_label_derivation": null,
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 150,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "anya_MB/v_anya_MB_1",
+      "split": "train",
+      "frames": 157,
+      "label": 3,
+      "original_frames": 157,
+      "source_start": 1,
+      "source_end": 157,
+      "class_name": "anya_MB",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "train",
+      "original_explicit_label_one_based": 4,
+      "test_label_derivation": null,
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 157,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "bai_you/v_baiyou_1",
+      "split": "train",
+      "frames": 100,
+      "label": 4,
+      "original_frames": 100,
+      "source_start": 1,
+      "source_end": 100,
+      "class_name": "bai_you",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "train",
+      "original_explicit_label_one_based": 5,
+      "test_label_derivation": null,
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 100,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "bai_zuo/v_baizuo_1",
+      "split": "train",
+      "frames": 149,
+      "label": 5,
+      "original_frames": 149,
+      "source_start": 1,
+      "source_end": 149,
+      "class_name": "bai_zuo",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "train",
+      "original_explicit_label_one_based": 6,
+      "test_label_derivation": null,
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 149,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "bao/v_bao_1",
+      "split": "train",
+      "frames": 166,
+      "label": 6,
+      "original_frames": 166,
+      "source_start": 1,
+      "source_end": 166,
+      "class_name": "bao",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "train",
+      "original_explicit_label_one_based": 7,
+      "test_label_derivation": null,
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 166,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "cha_fang_you/v_cha_fang_you_1",
+      "split": "train",
+      "frames": 150,
+      "label": 7,
+      "original_frames": 150,
+      "source_start": 1,
+      "source_end": 150,
+      "class_name": "cha_fang_you",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "train",
+      "original_explicit_label_one_based": 8,
+      "test_label_derivation": null,
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 150,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "cha_fang_zuo/v_cha_fang_zuo_1",
+      "split": "train",
+      "frames": 159,
+      "label": 8,
+      "original_frames": 159,
+      "source_start": 1,
+      "source_end": 159,
+      "class_name": "cha_fang_zuo",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "test",
+      "original_explicit_label_one_based": null,
+      "test_label_derivation": "folder + classInd.txt (explicit alias an_mopping -> anya_mopping)",
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 159,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "cha1/v_cha1_1",
+      "split": "train",
+      "frames": 172,
+      "label": 9,
+      "original_frames": 172,
+      "source_start": 1,
+      "source_end": 172,
+      "class_name": "cha1",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "test",
+      "original_explicit_label_one_based": null,
+      "test_label_derivation": "folder + classInd.txt (explicit alias an_mopping -> anya_mopping)",
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 172,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "an_mopping/v_an_mopping_2",
+      "split": "val",
+      "frames": 72,
+      "label": 0,
+      "original_frames": 121,
+      "source_start": 1,
+      "source_end": 72,
+      "class_name": "anya_mopping",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "train",
+      "original_explicit_label_one_based": 1,
+      "test_label_derivation": null,
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 121,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "anya_hinge/v_anya_hinge_2",
+      "split": "val",
+      "frames": 169,
+      "label": 1,
+      "original_frames": 169,
+      "source_start": 1,
+      "source_end": 169,
+      "class_name": "anya_hinge",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "train",
+      "original_explicit_label_one_based": 2,
+      "test_label_derivation": null,
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 169,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "anya_LCD/v_anya_LCD_2",
+      "split": "val",
+      "frames": 150,
+      "label": 2,
+      "original_frames": 150,
+      "source_start": 1,
+      "source_end": 150,
+      "class_name": "anya_LCD",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "train",
+      "original_explicit_label_one_based": 3,
+      "test_label_derivation": null,
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 150,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "anya_MB/v_anya_MB_2",
+      "split": "val",
+      "frames": 157,
+      "label": 3,
+      "original_frames": 157,
+      "source_start": 1,
+      "source_end": 157,
+      "class_name": "anya_MB",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "train",
+      "original_explicit_label_one_based": 4,
+      "test_label_derivation": null,
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 157,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "bai_you/v_baiyou_2",
+      "split": "val",
+      "frames": 99,
+      "label": 4,
+      "original_frames": 99,
+      "source_start": 1,
+      "source_end": 99,
+      "class_name": "bai_you",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "train",
+      "original_explicit_label_one_based": 5,
+      "test_label_derivation": null,
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 99,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "bai_zuo/v_baizuo_2",
+      "split": "val",
+      "frames": 149,
+      "label": 5,
+      "original_frames": 149,
+      "source_start": 1,
+      "source_end": 149,
+      "class_name": "bai_zuo",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "train",
+      "original_explicit_label_one_based": 6,
+      "test_label_derivation": null,
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 149,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "bao/v_bao_2",
+      "split": "val",
+      "frames": 167,
+      "label": 6,
+      "original_frames": 167,
+      "source_start": 1,
+      "source_end": 167,
+      "class_name": "bao",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "train",
+      "original_explicit_label_one_based": 7,
+      "test_label_derivation": null,
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 167,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "cha_fang_you/v_cha_fang_you_2",
+      "split": "val",
+      "frames": 143,
+      "label": 7,
+      "original_frames": 149,
+      "source_start": 1,
+      "source_end": 143,
+      "class_name": "cha_fang_you",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "test",
+      "original_explicit_label_one_based": null,
+      "test_label_derivation": "folder + classInd.txt (explicit alias an_mopping -> anya_mopping)",
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 149,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "cha_fang_zuo/v_cha_fang_zuo_2",
+      "split": "val",
+      "frames": 123,
+      "label": 8,
+      "original_frames": 159,
+      "source_start": 1,
+      "source_end": 123,
+      "class_name": "cha_fang_zuo",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "test",
+      "original_explicit_label_one_based": null,
+      "test_label_derivation": "folder + classInd.txt (explicit alias an_mopping -> anya_mopping)",
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 159,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    },
+    {
+      "clip": "cha1/v_cha1_2",
+      "split": "val",
+      "frames": 172,
+      "label": 9,
+      "original_frames": 172,
+      "source_start": 1,
+      "source_end": 172,
+      "class_name": "cha1",
+      "source_group": "unknown",
+      "independence": "not_established",
+      "original_split": "test",
+      "original_explicit_label_one_based": null,
+      "test_label_derivation": "folder + classInd.txt (explicit alias an_mopping -> anya_mopping)",
+      "current_label_matches_original_class_mapping": true,
+      "disk_frame_count": 172,
+      "names_match_old_frame_manifest": true,
+      "filename_contiguous_from_one": true,
+      "true_temporal_order_verified": false,
+      "original_video_id": "unknown",
+      "session_id": "unknown",
+      "subject_id": "unknown",
+      "fps": "unknown"
+    }
+  ],
+  "same_named_rawframe_copies": [
+    {
+      "directory": "E:\\Codes\\mmaction2-master\\data2\\Aucf101\\rawframes",
+      "checks": [
+        {
+          "clip": "anya_hinge/v_anya_hinge_1",
+          "matched_sha256_frames": 168,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "anya_hinge/v_anya_hinge_2",
+          "matched_sha256_frames": 169,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "anya_LCD/v_anya_LCD_1",
+          "matched_sha256_frames": 150,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "anya_LCD/v_anya_LCD_2",
+          "matched_sha256_frames": 150,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "anya_MB/v_anya_MB_1",
+          "matched_sha256_frames": 157,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "anya_MB/v_anya_MB_2",
+          "matched_sha256_frames": 157,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "an_mopping/v_an_mopping_1",
+          "matched_sha256_frames": 174,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "an_mopping/v_an_mopping_2",
+          "matched_sha256_frames": 121,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "bai_you/v_baiyou_1",
+          "matched_sha256_frames": 100,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "bai_you/v_baiyou_2",
+          "matched_sha256_frames": 99,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "bai_zuo/v_baizuo_1",
+          "matched_sha256_frames": 149,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "bai_zuo/v_baizuo_2",
+          "matched_sha256_frames": 149,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "bao/v_bao_1",
+          "matched_sha256_frames": 166,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "bao/v_bao_2",
+          "matched_sha256_frames": 167,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "cha1/v_cha1_1",
+          "matched_sha256_frames": 172,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "cha1/v_cha1_2",
+          "matched_sha256_frames": 172,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "cha_fang_you/v_cha_fang_you_1",
+          "matched_sha256_frames": 150,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "cha_fang_you/v_cha_fang_you_2",
+          "matched_sha256_frames": 149,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "cha_fang_zuo/v_cha_fang_zuo_1",
+          "matched_sha256_frames": 159,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "cha_fang_zuo/v_cha_fang_zuo_2",
+          "matched_sha256_frames": 159,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        }
+      ],
+      "interpretation": "A full byte match establishes an identical frame copy, not which copy came first or the original video/session."
+    },
+    {
+      "directory": "E:\\Codes\\mmaction2-master\\data2\\1001\\rawframes",
+      "checks": [
+        {
+          "clip": "anya_hinge/v_anya_hinge_1",
+          "matched_sha256_frames": 168,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "anya_hinge/v_anya_hinge_2",
+          "matched_sha256_frames": 169,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "anya_LCD/v_anya_LCD_1",
+          "matched_sha256_frames": 150,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "anya_LCD/v_anya_LCD_2",
+          "matched_sha256_frames": 150,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "anya_MB/v_anya_MB_1",
+          "matched_sha256_frames": 157,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "anya_MB/v_anya_MB_2",
+          "matched_sha256_frames": 157,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "an_mopping/v_an_mopping_1",
+          "matched_sha256_frames": 174,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "an_mopping/v_an_mopping_2",
+          "matched_sha256_frames": 121,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "bai_you/v_baiyou_1",
+          "matched_sha256_frames": 100,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "bai_you/v_baiyou_2",
+          "matched_sha256_frames": 99,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "bai_zuo/v_baizuo_1",
+          "matched_sha256_frames": 149,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "bai_zuo/v_baizuo_2",
+          "matched_sha256_frames": 149,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "bao/v_bao_1",
+          "matched_sha256_frames": 166,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "bao/v_bao_2",
+          "matched_sha256_frames": 167,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "cha1/v_cha1_1",
+          "matched_sha256_frames": 172,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "cha1/v_cha1_2",
+          "matched_sha256_frames": 172,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "cha_fang_you/v_cha_fang_you_1",
+          "matched_sha256_frames": 150,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "cha_fang_you/v_cha_fang_you_2",
+          "matched_sha256_frames": 149,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "cha_fang_zuo/v_cha_fang_zuo_1",
+          "matched_sha256_frames": 159,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        },
+        {
+          "clip": "cha_fang_zuo/v_cha_fang_zuo_2",
+          "matched_sha256_frames": 159,
+          "missing": [],
+          "mismatched": [],
+          "extra_jpg_names": []
+        }
+      ],
+      "interpretation": "A full byte match establishes an identical frame copy, not which copy came first or the original video/session."
+    }
+  ],
+  "associated_annotation_comparisons": [
+    {
+      "directory": "E:\\Codes\\mmaction2-master\\data2\\Aucf101\\annotations",
+      "text_matches_archive": {
+        "classInd.txt": false,
+        "testlist01.txt": false,
+        "trainlist01.txt": false
+      },
+      "classInd_text": "1 anya_mopping\n2 anya_hinge\n3 anya_LCD\n4 anya_MB\n5 bai_you\n6 bai_zuo\n7 bao\n8 cha_fang_you\n9 cha_fang_zuo\n10 cha1",
+      "note": "The 1001 class list is broader and spells class 1 an_mopping; this alone does not identify an original video."
+    },
+    {
+      "directory": "E:\\Codes\\mmaction2-master\\data2\\1001\\annotations",
+      "text_matches_archive": {
+        "classInd.txt": false,
+        "testlist01.txt": false,
+        "trainlist01.txt": false
+      },
+      "classInd_text": "1 an_mopping\n2 anya_hinge\n3 anya_LCD\n4 anya_MB\n5 bai_you\n6 bai_zuo\n7 bao\n8 cha_fang_you\n9 cha_fang_zuo\n10 cha1\n11 cha-sai-you\n12 cha-sai-zuo\n13 chai-part\n14 check\n15 combine-shuli\n16 dakai-part\n17 fang-youshang\n18 fang-zhua-qu-zuo\n19 fang-zhua-you\n20 fangzhi\n21 fanzhuanA\n22 fanzhuanB\n23 freedown-part\n24 ka\n25 kaihe-part\n26 karu-part\n27 la\n28 li(shang-xia)\n29 li(you-zuo)2\n30 li-you\n31 mo\n32 qianru-LCD\n33 qu-shang\n34 qu-shang(L)\n35 qu-zuo-LED\n36 qu-zuo-part\n37 qu-zuo2\n38 qu-zuoshang\n39 shua-LCD\n40 shua-zuoxia\n41 shua2-Finger\n42 shua3-MB\n43 shua3-shua2-BTY\n44 shua3-zuoshang\n45 si1-2\n46 si3\n47 suo-song\n48 tie\n49 zhe\n50 zhua-L\n",
+      "note": "The 1001 class list is broader and spells class 1 an_mopping; this alone does not identify an original video."
+    }
+  ],
+  "unverified_video_candidates": [
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(1).mp4",
+      "bytes": 295123,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(10).mp4",
+      "bytes": 213982,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(11).mp4",
+      "bytes": 278313,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(12).mp4",
+      "bytes": 214617,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(13).mp4",
+      "bytes": 290806,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(14).mp4",
+      "bytes": 222993,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(15).mp4",
+      "bytes": 260294,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(16).mp4",
+      "bytes": 216821,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(17).mp4",
+      "bytes": 267339,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(18).mp4",
+      "bytes": 223773,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(19).mp4",
+      "bytes": 271418,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(2).mp4",
+      "bytes": 305003,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(20).mp4",
+      "bytes": 254697,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(21).mp4",
+      "bytes": 261396,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(22).mp4",
+      "bytes": 254319,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(23).mp4",
+      "bytes": 366981,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(24).mp4",
+      "bytes": 247781,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(25).mp4",
+      "bytes": 266767,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(26).mp4",
+      "bytes": 283812,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(27).mp4",
+      "bytes": 301349,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(28).mp4",
+      "bytes": 267770,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(29).mp4",
+      "bytes": 239847,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(3).mp4",
+      "bytes": 238451,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(30).mp4",
+      "bytes": 262930,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(4).mp4",
+      "bytes": 247718,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(5).mp4",
+      "bytes": 243128,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(6).mp4",
+      "bytes": 220494,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(7).mp4",
+      "bytes": 292390,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(8).mp4",
+      "bytes": 258567,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\bai-you\\bai-you(9).mp4",
+      "bytes": 212363,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\bai(3).mp4",
+      "bytes": 160061,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\project\\Model_Train\\object-detection-model\\video\\bai(3).mp4",
+      "bytes": 513472,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\project\\Model_Train\\object-detection-model\\video\\bai-zuo(1).mp4",
+      "bytes": 58569,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    },
+    {
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\experiments\\test_video\\output\\29.avi",
+      "bytes": 18617902,
+      "sha256": null,
+      "sha256_reason": "Not hashed: no confirmed association with the 20 clips.",
+      "relation_to_current_20_clips": "unknown",
+      "candidate_basis": "Located under related project directory; filename similarity is not proof of origin."
+    }
+  ],
+  "other_dataset_notice": {
+    "path": "E:\\Codes\\mmaction2-master\\data\\ucf101",
+    "classInd_first_ten_lines": [
+      "1 ApplyEyeMakeup",
+      "2 ApplyLipstick",
+      "3 Archery",
+      "4 BabyCrawling",
+      "5 BalanceBeam",
+      "6 BandMarching",
+      "7 BaseballPitch",
+      "8 Basketball",
+      "9 BasketballDunk",
+      "10 BenchPress"
+    ],
+    "note": "Separate directory uses public-UCF101-style class names. It must not be merged with the supplied industrial 10-class archive by basename.",
+    "other_archive": {
+      "path": "E:\\Codes\\mmaction2-master\\data\\ucf101.zip",
+      "bytes": 549641277,
+      "extension_counts": {
+        ".txt": 13,
+        ".avi": 1374
+      },
+      "first_ten_members": [
+        "ucf101/annotations/classInd.txt",
+        "ucf101/annotations/testlist01.txt",
+        "ucf101/annotations/testlist02.txt",
+        "ucf101/annotations/testlist03.txt",
+        "ucf101/annotations/trainlist01.txt",
+        "ucf101/annotations/trainlist02.txt",
+        "ucf101/annotations/trainlist03.txt",
+        "ucf101/ucf101_train_split_1_rawframes.txt",
+        "ucf101/ucf101_train_split_2_rawframes.txt",
+        "ucf101/ucf101_train_split_3_rawframes.txt"
+      ]
+    }
+  },
+  "inspected_scripts": [
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data2\\rename.py",
+      "sha256": "d739f0fe898bdddaf9fd37b330aaaa7ead4bfb4cc24ac473f706e3eb31da77da",
+      "text": "import os\ni = 0\nfor filename in os.listdir('cha_fang_zuo/v_cha_fang_zuo_1'):\n\tnewname = f'/img_{i + 1:05d}.jpg'\n\tos.rename('cha_fang_zuo/v_cha_fang_zuo_1/'+filename, 'cha_fang_zuo/v_cha_fang_zuo_1/'+newname)\n\ti += 1\n"
+    },
+    {
+      "path": "E:\\Codes\\mmaction2-master\\data\\label.py",
+      "sha256": "a310eab3c39173d8685b4a2f1f37e57e10c0bca1f46e2374490b212484f8fd3a",
+      "text": "import os\nimport glob\nimport fnmatch\nimport random\n\nroot = r\"\"     # 抽帧后的图片存放目录文件夹，用于写到txt文件中在构建数据集的时候读取\n\ndef parse_ucf_splits():\n    class_ind = [x.strip().split() for x in open(r'E:\\Codes\\mmaction2-master\\data\\ucf101\\annotations/classInd.txt')]       # 类别txt\n    class_mapping = {x[1]:int(x[0])-1 for x in class_ind}\n\n    def line2rec(line):\n        items = line.strip().split('/')\n        label = class_mapping[items[0]]\n        vid = items[1].split('.')[0]\n        return vid, label\n\n    splits = []\n    for i in range(1, 4):\n        train_list = [line2rec(x) for x in open(r'E:\\Codes\\mmaction2-master\\data\\ucf101\\annotations/trainlist{:02d}.txt'.format(i))]       # 训练集txt\n        test_list = [line2rec(x) for x in open(r'E:\\Codes\\mmaction2-master\\data\\ucf101\\annotations/testlist{:02d}.txt'.format(i))]          # 测试集txt\n        splits.append((train_list, test_list))\n    return splits\n\nsplit_parsers = dict()\nsplit_parsers['ucf101'] = parse_ucf_splits()\n\ndef parse_split_file(dataset):\n    sp = split_parsers[dataset]\n    return tuple(sp)\n\ndef parse_directory(path, rgb_prefix='image_', flow_x_prefix='flow_x_', flow_y_prefix='flow_y_'):\n    \"\"\"\n    Parse directories holding extracted frames from standard benchmarks\n    \"\"\"\n    print('parse frames under folder {}'.format(path))\n    frame_folders = []\n    frame = glob.glob(os.path.join(path, '*'))\n    for frame_name in frame:\n        frame_path = glob.glob(os.path.join(frame_name, '*'))\n        frame_folders.extend(frame_path)\n\n    def count_files(directory, prefix_list):\n        lst = os.listdir(directory)\n        cnt_list = [len(fnmatch.filter(lst, x+'*')) for x in prefix_list]\n        return cnt_list\n\n    # check RGB\n    rgb_counts = {}\n    flow_counts = {}\n    dir_dict = {}\n    for i,f in enumerate(frame_folders):\n        all_cnt = count_files(f, (rgb_prefix, flow_x_prefix, flow_y_prefix))\n        k = f.split('\\\\')[-1]\n        rgb_counts[k] = all_cnt[0]\n        dir_dict[k] = f\n\n        x_cnt = all_cnt[1]\n        y_cnt = all_cnt[2]\n        if x_cnt != y_cnt:\n            raise ValueError('x and y direction have different number of flow images. video: '+f)\n        flow_counts[k] = x_cnt\n        if i % 200 == 0:\n            print('{} videos parsed'.format(i))\n\n    print('frame folder analysis done')\n    return dir_dict, rgb_counts, flow_counts\n\ndef build_split_list(split_tuple, frame_info, split_idx, shuffle=False):\n    split = split_tuple[split_idx]\n\n    def build_set_list(set_list):\n        rgb_list, flow_list = list(), list()\n        for item in set_list:\n            frame_dir = frame_info[0][item[0]]\n            frame_dir = root + frame_dir.split('\\\\')[-2] +'/'+ frame_dir.split('\\\\')[-1]\n\n            rgb_cnt = frame_info[1][item[0]]\n            flow_cnt = frame_info[2][item[0]]\n            rgb_list.append('{} {} {}\\n'.format(frame_dir, rgb_cnt, item[1]))\n            flow_list.append('{} {} {}\\n'.format(frame_dir, flow_cnt, item[1]))\n        if shuffle:\n            random.shuffle(rgb_list)\n            random.shuffle(flow_list)\n        return rgb_list, flow_list\n    train_rgb_list, train_flow_list = build_set_list(split[0])\n    test_rgb_list, test_flow_list = build_set_list(split[1])\n    return (train_rgb_list, test_rgb_list), (train_flow_list, test_flow_list)\n\nspl = parse_split_file('ucf101')\nf_info = parse_directory(r\"E:\\Codes\\mmaction2-master\\data\\ucf101\\rawframes\")    # 存放抽帧后的图片\n\nout_path = r\"E:\\Codes\\mmaction2-master\\data\\ucf101\"      # 标签路径\ndataset = \"ucf101\"\n\nfor i in range(max(3,len(spl))):\n    lists = build_split_list(spl,f_info,i)\n    open(os.path.join(out_path, '{}_train_split_{}_rawframes.txt'.format(dataset, i + 1)), 'w').writelines(lists[0][0])\n    open(os.path.join(out_path, '{}_val_split_{}_rawframes.txt'.format(dataset, i + 1)), 'w').writelines(lists[0][1])\n    # open(os.path.join(out_path, '{}_flow_train_split_{}.txt'.format(dataset, i + 1)), 'w').writelines(lists[1][0])\n    # open(os.path.join(out_path, '{}_flow_val_split_{}.txt'.format(dataset, i + 1)), 'w').writelines(lists[1][1])\n"
+    },
+    {
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\project\\Model_Train\\object-detection-model\\data_processing\\generator_train_and_test_data.py",
+      "sha256": "273f3d01a7ff2e187a9c8c9dfd9162544ee99b2f95a9c862ff27456f516df8a1",
+      "text": "#!/usr/bin/env python\n# -*- encoding: utf-8 -*-\n\"\"\"\n@File    :   generator_train_and_test_data.py    \n@Contact :   70904372cecilia@gmail.com\n@License :   (C)Copyright 2019-2020\n\n@Modify Time      @Author    @Version    @Desciption\n------------      -------    --------    -----------\n2019/6/13 10:37   cecilia      1.0      对于重新拆分的数据集，为了不需要重新标注，需要重新生成训练集和数据集的TXT文件\n\"\"\"\nimport os\nimport random\n\ntrain_percent = 0.8 #训练验证集中用于训练的数据的比例8:2，根据实际情况修改\nXML_FILE_Dir = 'D:\\\\documents\\\\DataSets\\\\newdata\\\\secondData\\\\newall\\\\shua-zuoxia'     #注释文件的路径\nIMAGESET_Dir = 'D:\\\\documents\\\\DataSets\\\\newdata\\\\secondData\\\\newall\\\\shua-zuoxia'     #生成的txt文件的路径\nXML_FILE_PATH = os.path.join(XML_FILE_Dir, 'Annotations')\nIMAGESET_PATH = os.path.join(IMAGESET_Dir, 'ImageSets', 'Main')\nif not os.path.exists(IMAGESET_PATH):\n    os.makedirs(IMAGESET_PATH)\ntotal_xml = os.listdir(XML_FILE_PATH)   #得到整个注释文件的文件名\nprint(\"xml total:{}\".format(len(total_xml)))\n\nfile_name_0 = os.path.splitext(total_xml[0])[0]\nsub_file_name = file_name_0[0:file_name_0.rfind(\"(\")]\nftest = open(os.path.join(IMAGESET_PATH, sub_file_name + '_test.txt'), 'w')\nftrain = open(os.path.join(IMAGESET_PATH, sub_file_name + '_train.txt'), 'w')\nprint('ftest:{}, ftrain:{}'.format(ftest, ftrain))\n\ndef split_data():\n    \"\"\"\n    分割数据集，生成对应的TXT文件\n    :return:\n    \"\"\"\n    tr = int(len(total_xml) * train_percent)  # 训练文件的个数\n    print('训练文件的个数:{}'.format(tr))\n    train = random.sample(range(len(total_xml)), tr)  # 从中随机选取tr个\n\n    for i in range(len(total_xml)):\n        file_name = os.path.splitext(total_xml[i])[0]\n        if i in train:\n            ftrain.write(file_name+\" \"+'1'+'\\n')\n        else:\n            ftest.write(file_name+\" \"+'1'+'\\n')\n    ftrain.close()\n    ftest.close()\n\nif __name__ == '__main__':\n    split_data()\n\n\n\n"
+    },
+    {
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\project\\Model_Train\\object-detection-model\\calculate_and_record\\calculate_mp4time.py",
+      "sha256": "3816537478d6b279c79d41d9b479651e687441d94cc1a1a2249d5df4227c22ef",
+      "text": "# -*- coding: utf-8 -*-\n\"\"\"\nCreated on Thu Dec  6 11:03:13 2018\n\n@author: Kris\n\n注意:在视频的情况下，除以帧率（一般情况均为25），就能得到时间\n\"\"\"\n\nimport cv2\nimport os\nimport re\nimport csv\nimport numpy as np\n\ndata_dir = \"D:\\\\documents\\\\DataSets\\\\newdata\\\\secondData\\\\modifydata\\\\temp\"\n\nclass_list = []  # 记录所有信息的列表\n# 文件的头部由类名、平均帧数和每个mp4文件按编号对应的帧数组成\nheaders = ['类名', '最大值', '最小值', '平均值', '标准差', '左区间', '右区间', 'drop平均值', '时间中位数', '帧数中位数']\nfor i in range(1, 61):\n    headers.append('视频' + str(i))\n\n\ndef sum_std(num_list, mean):\n    std = 0\n    for i in num_list:\n        std += (i - mean) ** 2\n    return (std / (len(num_list) - 1)) ** 0.5\n\n\nfor class_name in os.listdir(data_dir):\n    class_dir = os.path.join(data_dir, class_name)\n    mp4_counts = 0\n    mp4_list = []  # 按headrs顺序来排序的mp4帧数列表\n    mp4_dict = {}  # 记录文件与帧数相对应的字典\n    mp4_frames = []\n\n    for file in os.listdir(class_dir):\n        extension_name = os.path.splitext(file)[1]\n\n        if extension_name == '.mp4':\n            num = re.search(r'[(](\\d*?)[)]', os.path.splitext(file)[0]).group(0)[1:-1]  # 得到mp4文件编号\n            mp4_counts += 1  # 记录当前类别视频的总数\n            video = cv2.VideoCapture(os.path.join(class_dir, file))\n            fps = video.get(cv2.CAP_PROP_FPS)\n            frame_count = video.get(cv2.CAP_PROP_FRAME_COUNT)  # 读取当前视频总帧数\n            mp4_dict.update({(\"视频\" + num): frame_count / fps})  # 将当前视频信息加入字典\n            # print(\"file:{},{}\".format(file,frame_count))\n\n    # 将字典mp4_dict转换为headers顺序的列表mp4_list\n    temp = sorted(list(mp4_dict.values()))\n    # print(temp)\n    min_count = temp[0]\n    max_count = temp[mp4_counts - 1]\n    mid_count = (temp[int(mp4_counts / 2 - 1)] + temp[int(mp4_counts / 2)]) / 2\n    mid_drop = 0  # 去掉最大最小的平均值\n    mp4_mean = np.mean(temp)  # 均值\n    mp4_std = sum_std(temp, mp4_mean)  # 标准差\n\n    for i in range(1, len(temp) - 1):\n        mid_drop += temp[i]\n    for i in headers:\n        if i == '类名':\n            mp4_list.append(class_name)\n        elif i == '最大值':\n            mp4_list.append(max_count)\n        elif i == '最小值':\n            mp4_list.append(min_count)\n        elif i == '平均值':\n            mp4_list.append(mp4_mean)\n        elif i == '标准差':\n            mp4_list.append(mp4_std)\n        elif i == '左区间':\n            mp4_list.append(mp4_mean - 2 * mp4_std)\n        elif i == '右区间':\n            mp4_list.append(mp4_mean + 2 * mp4_std)\n        elif i == 'drop平均值':\n            mp4_list.append(mid_drop / (len(temp) - 2))\n        elif i == '时间中位数':\n            mp4_list.append(mid_count)\n        elif i == '帧数中位数':\n            mp4_list.append(mid_count * 25)\n        elif i in mp4_dict.keys():\n            mp4_list.append(mp4_dict[i])\n        else:\n            mp4_list.append(0)\n\n    class_list.append(mp4_list)\n\n# 写入csv\nwith open(os.path.join(data_dir, '视频统计_25_29.csv'), 'a', newline='') as f:\n    f_csv = csv.writer(f)\n    f_csv.writerow(headers)\n    f_csv.writerows(class_list)\n\nprint('^o^')\n# print(round(133/25,4))\n"
+    }
+  ],
+  "workbook_checks": [
+    {
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\视频时间统计.xlsx",
+      "sheet_sizes": [
+        {
+          "sheet": "视频时间统计",
+          "nonempty_cells": 1560
+        }
+      ],
+      "first_nonempty_cells_by_sheet": [
+        {
+          "sheet": "视频时间统计",
+          "cells": [
+            {
+              "cell": "A1",
+              "value": "类名"
+            },
+            {
+              "cell": "B1",
+              "value": "最大值"
+            },
+            {
+              "cell": "C1",
+              "value": "最小值"
+            },
+            {
+              "cell": "D1",
+              "value": "平均值"
+            },
+            {
+              "cell": "E1",
+              "value": "drop平均值"
+            },
+            {
+              "cell": "F1",
+              "value": "中位数：="
+            },
+            {
+              "cell": "G1",
+              "value": "耗时"
+            },
+            {
+              "cell": "H1",
+              "value": "视频1"
+            },
+            {
+              "cell": "I1",
+              "value": "视频2"
+            },
+            {
+              "cell": "J1",
+              "value": "视频3"
+            },
+            {
+              "cell": "K1",
+              "value": "视频4"
+            },
+            {
+              "cell": "L1",
+              "value": "视频5"
+            },
+            {
+              "cell": "M1",
+              "value": "视频6"
+            },
+            {
+              "cell": "N1",
+              "value": "视频7"
+            },
+            {
+              "cell": "O1",
+              "value": "视频8"
+            },
+            {
+              "cell": "P1",
+              "value": "视频9"
+            },
+            {
+              "cell": "Q1",
+              "value": "视频10"
+            },
+            {
+              "cell": "R1",
+              "value": "视频11"
+            },
+            {
+              "cell": "S1",
+              "value": "视频12"
+            },
+            {
+              "cell": "T1",
+              "value": "视频13"
+            },
+            {
+              "cell": "U1",
+              "value": "视频14"
+            },
+            {
+              "cell": "V1",
+              "value": "视频15"
+            },
+            {
+              "cell": "W1",
+              "value": "视频16"
+            },
+            {
+              "cell": "X1",
+              "value": "视频17"
+            },
+            {
+              "cell": "Y1",
+              "value": "视频18"
+            }
+          ]
+        }
+      ],
+      "exact_current_clip_name_matches": [],
+      "related_text_cells": [
+        {
+          "sheet": "视频时间统计",
+          "cell": "H1",
+          "value": "视频1"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "I1",
+          "value": "视频2"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "J1",
+          "value": "视频3"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "K1",
+          "value": "视频4"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "L1",
+          "value": "视频5"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "M1",
+          "value": "视频6"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "N1",
+          "value": "视频7"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "O1",
+          "value": "视频8"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "P1",
+          "value": "视频9"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "Q1",
+          "value": "视频10"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "R1",
+          "value": "视频11"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "S1",
+          "value": "视频12"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "T1",
+          "value": "视频13"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "U1",
+          "value": "视频14"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "V1",
+          "value": "视频15"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "W1",
+          "value": "视频16"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "X1",
+          "value": "视频17"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "Y1",
+          "value": "视频18"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "Z1",
+          "value": "视频19"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "AA1",
+          "value": "视频20"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "AB1",
+          "value": "视频21"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "AC1",
+          "value": "视频22"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "AD1",
+          "value": "视频23"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "AE1",
+          "value": "视频24"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "AF1",
+          "value": "视频25"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "AG1",
+          "value": "视频26"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "AH1",
+          "value": "视频27"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "AI1",
+          "value": "视频28"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "AJ1",
+          "value": "视频29"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "AK1",
+          "value": "视频30"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "AL1",
+          "value": "视频31"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "AM1",
+          "value": "视频32"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "A2",
+          "value": "bai"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "A4",
+          "value": "cha"
+        },
+        {
+          "sheet": "视频时间统计",
+          "cell": "A5",
+          "value": "chai"
+        }
+      ],
+      "relation_to_current_clips": "unconfirmed; class-name similarity does not establish source mapping"
+    },
+    {
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\验证阶段\\驗證data 20200120.xlsx",
+      "sheet_sizes": [
+        {
+          "sheet": "原始數據",
+          "nonempty_cells": 3208
+        },
+        {
+          "sheet": "raw data",
+          "nonempty_cells": 2672
+        },
+        {
+          "sheet": "驗證結果",
+          "nonempty_cells": 20
+        },
+        {
+          "sheet": "cam25",
+          "nonempty_cells": 1186
+        },
+        {
+          "sheet": "cam26",
+          "nonempty_cells": 727
+        },
+        {
+          "sheet": "cam29",
+          "nonempty_cells": 1237
+        }
+      ],
+      "first_nonempty_cells_by_sheet": [
+        {
+          "sheet": "原始數據",
+          "cells": [
+            {
+              "cell": "A1",
+              "value": "流水线ID"
+            },
+            {
+              "cell": "B1",
+              "value": "设备IP"
+            },
+            {
+              "cell": "C1",
+              "value": "基本动作名称"
+            },
+            {
+              "cell": "D1",
+              "value": "跳帧率"
+            },
+            {
+              "cell": "E1",
+              "value": "匹配率"
+            },
+            {
+              "cell": "F1",
+              "value": "耗时"
+            },
+            {
+              "cell": "G1",
+              "value": "创建时间"
+            },
+            {
+              "cell": "H1",
+              "value": "更新时间"
+            },
+            {
+              "cell": "A2",
+              "value": "1107"
+            },
+            {
+              "cell": "B2",
+              "value": "172.29.47.26"
+            },
+            {
+              "cell": "C2",
+              "value": "dakai-part"
+            },
+            {
+              "cell": "D2",
+              "value": "5"
+            },
+            {
+              "cell": "E2",
+              "value": "0.83330000000000004"
+            },
+            {
+              "cell": "F2",
+              "value": "1.2"
+            },
+            {
+              "cell": "G2",
+              "value": "43840.449282407404"
+            },
+            {
+              "cell": "H2",
+              "value": "43840.449282407404"
+            },
+            {
+              "cell": "A3",
+              "value": "1108"
+            },
+            {
+              "cell": "B3",
+              "value": "172.29.47.29"
+            },
+            {
+              "cell": "C3",
+              "value": "suo-song"
+            },
+            {
+              "cell": "D3",
+              "value": "5"
+            },
+            {
+              "cell": "E3",
+              "value": "0.69230000000000003"
+            },
+            {
+              "cell": "F3",
+              "value": "2.6"
+            },
+            {
+              "cell": "G3",
+              "value": "43840.449328703704"
+            },
+            {
+              "cell": "H3",
+              "value": "43840.449328703704"
+            },
+            {
+              "cell": "A4",
+              "value": "1109"
+            }
+          ]
+        },
+        {
+          "sheet": "raw data",
+          "cells": [
+            {
+              "cell": "A1",
+              "value": "流水线ID"
+            },
+            {
+              "cell": "B1",
+              "value": "设备IP"
+            },
+            {
+              "cell": "C1",
+              "value": "基本动作名称"
+            },
+            {
+              "cell": "D1",
+              "value": "跳帧率"
+            },
+            {
+              "cell": "E1",
+              "value": "匹配率"
+            },
+            {
+              "cell": "F1",
+              "value": "耗时"
+            },
+            {
+              "cell": "G1",
+              "value": "创建时间"
+            },
+            {
+              "cell": "H1",
+              "value": "更新时间"
+            },
+            {
+              "cell": "A2",
+              "value": "1154"
+            },
+            {
+              "cell": "B2",
+              "value": "172.29.47.25"
+            },
+            {
+              "cell": "C2",
+              "value": "cha-sai-you"
+            },
+            {
+              "cell": "D2",
+              "value": "5"
+            },
+            {
+              "cell": "E2",
+              "value": "1"
+            },
+            {
+              "cell": "F2",
+              "value": "1.2"
+            },
+            {
+              "cell": "G2",
+              "value": "43840.451898148145"
+            },
+            {
+              "cell": "H2",
+              "value": "43840.451898148145"
+            },
+            {
+              "cell": "A3",
+              "value": "1155"
+            },
+            {
+              "cell": "B3",
+              "value": "172.29.47.25"
+            },
+            {
+              "cell": "C3",
+              "value": "cha-sai-zuo"
+            },
+            {
+              "cell": "D3",
+              "value": "5"
+            },
+            {
+              "cell": "E3",
+              "value": "1"
+            },
+            {
+              "cell": "F3",
+              "value": "1"
+            },
+            {
+              "cell": "G3",
+              "value": "43840.451944444445"
+            },
+            {
+              "cell": "H3",
+              "value": "43840.451944444445"
+            },
+            {
+              "cell": "A4",
+              "value": "1156"
+            }
+          ]
+        },
+        {
+          "sheet": "驗證結果",
+          "cells": [
+            {
+              "cell": "B1",
+              "value": "camera"
+            },
+            {
+              "cell": "C1",
+              "value": "系統識別總數量"
+            },
+            {
+              "cell": "D1",
+              "value": "人工判別總數量"
+            },
+            {
+              "cell": "E1",
+              "value": "兩者比對匹配數量"
+            },
+            {
+              "cell": "F1",
+              "value": "系統識別正確率"
+            },
+            {
+              "cell": "B2",
+              "value": "cam25"
+            },
+            {
+              "cell": "C2",
+              "value": "62"
+            },
+            {
+              "cell": "D2",
+              "value": "142"
+            },
+            {
+              "cell": "E2",
+              "value": "21"
+            },
+            {
+              "cell": "F2",
+              "value": "0.14788732394366197"
+            },
+            {
+              "cell": "B3",
+              "value": "cam26"
+            },
+            {
+              "cell": "C3",
+              "value": "50"
+            },
+            {
+              "cell": "D3",
+              "value": "68"
+            },
+            {
+              "cell": "E3",
+              "value": "7"
+            },
+            {
+              "cell": "F3",
+              "value": "0.10294117647058823"
+            },
+            {
+              "cell": "B4",
+              "value": "cam29"
+            },
+            {
+              "cell": "C4",
+              "value": "60"
+            },
+            {
+              "cell": "D4",
+              "value": "176"
+            },
+            {
+              "cell": "E4",
+              "value": "7"
+            },
+            {
+              "cell": "F4",
+              "value": "3.9772727272727272E-2"
+            }
+          ]
+        },
+        {
+          "sheet": "cam25",
+          "cells": [
+            {
+              "cell": "A1",
+              "value": "系統識別數據"
+            },
+            {
+              "cell": "I1",
+              "value": "比對結果"
+            },
+            {
+              "cell": "J1",
+              "value": "人工識別結果（2020/1/10 10:50:47-11:13:08）"
+            },
+            {
+              "cell": "A2",
+              "value": "流水线ID"
+            },
+            {
+              "cell": "B2",
+              "value": "设备IP"
+            },
+            {
+              "cell": "C2",
+              "value": "基本动作名称"
+            },
+            {
+              "cell": "D2",
+              "value": "跳帧率"
+            },
+            {
+              "cell": "E2",
+              "value": "匹配率"
+            },
+            {
+              "cell": "F2",
+              "value": "耗时"
+            },
+            {
+              "cell": "G2",
+              "value": "创建时间"
+            },
+            {
+              "cell": "H2",
+              "value": "更新时间"
+            },
+            {
+              "cell": "J2",
+              "value": "識別步驟"
+            },
+            {
+              "cell": "K2",
+              "value": "步驟名稱"
+            },
+            {
+              "cell": "L2",
+              "value": "視頻時間"
+            },
+            {
+              "cell": "M2",
+              "value": "發生時間"
+            },
+            {
+              "cell": "N2",
+              "value": "Remark"
+            },
+            {
+              "cell": "P2",
+              "value": "操作步驟"
+            },
+            {
+              "cell": "A3",
+              "value": "1155"
+            },
+            {
+              "cell": "B3",
+              "value": "172.29.47.25"
+            },
+            {
+              "cell": "C3",
+              "value": "cha-sai-zuo"
+            },
+            {
+              "cell": "D3",
+              "value": "5"
+            },
+            {
+              "cell": "E3",
+              "value": "1"
+            },
+            {
+              "cell": "F3",
+              "value": "1"
+            },
+            {
+              "cell": "G3",
+              "value": "43840.451944444445"
+            },
+            {
+              "cell": "H3",
+              "value": "43840.451944444445"
+            }
+          ]
+        },
+        {
+          "sheet": "cam26",
+          "cells": [
+            {
+              "cell": "A1",
+              "value": "系統識別數據"
+            },
+            {
+              "cell": "I1",
+              "value": "比對結果"
+            },
+            {
+              "cell": "J1",
+              "value": "人工識別結果（2020/1/10 10:51:33-11:13:08）"
+            },
+            {
+              "cell": "A2",
+              "value": "流水线ID"
+            },
+            {
+              "cell": "B2",
+              "value": "设备IP"
+            },
+            {
+              "cell": "C2",
+              "value": "基本动作名称"
+            },
+            {
+              "cell": "D2",
+              "value": "跳帧率"
+            },
+            {
+              "cell": "E2",
+              "value": "匹配率"
+            },
+            {
+              "cell": "F2",
+              "value": "耗时"
+            },
+            {
+              "cell": "G2",
+              "value": "创建时间"
+            },
+            {
+              "cell": "H2",
+              "value": "更新时间"
+            },
+            {
+              "cell": "J2",
+              "value": "識別步驟"
+            },
+            {
+              "cell": "K2",
+              "value": "步驟名稱"
+            },
+            {
+              "cell": "L2",
+              "value": "視頻時間"
+            },
+            {
+              "cell": "M2",
+              "value": "發生時間"
+            },
+            {
+              "cell": "N2",
+              "value": "Remark"
+            },
+            {
+              "cell": "P2",
+              "value": "操作步驟"
+            },
+            {
+              "cell": "A3",
+              "value": "1171"
+            },
+            {
+              "cell": "B3",
+              "value": "172.29.47.26"
+            },
+            {
+              "cell": "C3",
+              "value": "fang-zhua-qu-zuo"
+            },
+            {
+              "cell": "D3",
+              "value": "5"
+            },
+            {
+              "cell": "E3",
+              "value": "1"
+            },
+            {
+              "cell": "F3",
+              "value": "0.2"
+            },
+            {
+              "cell": "G3",
+              "value": "43840.452465277776"
+            },
+            {
+              "cell": "H3",
+              "value": "43840.452465277776"
+            }
+          ]
+        },
+        {
+          "sheet": "cam29",
+          "cells": [
+            {
+              "cell": "A1",
+              "value": "系統識別數據"
+            },
+            {
+              "cell": "I1",
+              "value": "比對結果"
+            },
+            {
+              "cell": "J1",
+              "value": "人工識別結果（2020/1/10 10:53:07-11:13:08）"
+            },
+            {
+              "cell": "A2",
+              "value": "流水线ID"
+            },
+            {
+              "cell": "B2",
+              "value": "设备IP"
+            },
+            {
+              "cell": "C2",
+              "value": "基本动作名称"
+            },
+            {
+              "cell": "D2",
+              "value": "跳帧率"
+            },
+            {
+              "cell": "E2",
+              "value": "匹配率"
+            },
+            {
+              "cell": "F2",
+              "value": "耗时"
+            },
+            {
+              "cell": "G2",
+              "value": "创建时间"
+            },
+            {
+              "cell": "H2",
+              "value": "更新时间"
+            },
+            {
+              "cell": "J2",
+              "value": "識別步驟"
+            },
+            {
+              "cell": "K2",
+              "value": "步驟名稱"
+            },
+            {
+              "cell": "L2",
+              "value": "視頻時間"
+            },
+            {
+              "cell": "M2",
+              "value": "發生時間"
+            },
+            {
+              "cell": "N2",
+              "value": "Remark"
+            },
+            {
+              "cell": "P2",
+              "value": "操作步驟"
+            },
+            {
+              "cell": "A3",
+              "value": "1206"
+            },
+            {
+              "cell": "B3",
+              "value": "172.29.47.29"
+            },
+            {
+              "cell": "C3",
+              "value": "suo-song"
+            },
+            {
+              "cell": "D3",
+              "value": "5"
+            },
+            {
+              "cell": "E3",
+              "value": "0.93879999999999997"
+            },
+            {
+              "cell": "F3",
+              "value": "9.8000000000000007"
+            },
+            {
+              "cell": "G3",
+              "value": "43840.453900462962"
+            },
+            {
+              "cell": "H3",
+              "value": "43840.453900462962"
+            }
+          ]
+        }
+      ],
+      "exact_current_clip_name_matches": [],
+      "related_text_cells": [
+        {
+          "sheet": "原始數據",
+          "cell": "D1",
+          "value": "跳帧率"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C6",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C21",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C23",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C43",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C45",
+          "value": "cha-fang-zuo"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C49",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C50",
+          "value": "cha-sai-zuo"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C56",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C62",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C68",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C69",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C80",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C91",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C92",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C93",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C100",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C113",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C123",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C125",
+          "value": "anya-LCD"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C131",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C136",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C137",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C138",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C140",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C141",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C143",
+          "value": "cha-fang-zuo"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C148",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C150",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C156",
+          "value": "cha-fang-zuo"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C164",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C165",
+          "value": "cha1"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C170",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C171",
+          "value": "cha-sai-zuo"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C172",
+          "value": "cha1"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C173",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C183",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C187",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C190",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C192",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C193",
+          "value": "cha-fang-zuo"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C195",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C196",
+          "value": "cha1"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C199",
+          "value": "cha1"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C202",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C204",
+          "value": "cha-fang-zuo"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C209",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C210",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C211",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C221",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C225",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C233",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C235",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C241",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C245",
+          "value": "cha-fang-zuo"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C274",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C285",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C289",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C291",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C294",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C300",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C301",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C303",
+          "value": "anya-hinge"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C309",
+          "value": "anya-hinge"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C310",
+          "value": "anya-hinge"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C316",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C319",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C321",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C322",
+          "value": "anya-hinge"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C323",
+          "value": "anya-hinge"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C325",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C347",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C351",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C361",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C363",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C366",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C368",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C369",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "原始數據",
+          "cell": "C376",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "D1",
+          "value": "跳帧率"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C2",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C3",
+          "value": "cha-sai-zuo"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C9",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C15",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C21",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C22",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C33",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C44",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C45",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C46",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C53",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C66",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C76",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C78",
+          "value": "anya-LCD"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C84",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C89",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C90",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C91",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C93",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C94",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C96",
+          "value": "cha-fang-zuo"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C101",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C103",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C109",
+          "value": "cha-fang-zuo"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C117",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C118",
+          "value": "cha1"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C123",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C124",
+          "value": "cha-sai-zuo"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C125",
+          "value": "cha1"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C126",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C136",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C140",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C143",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C145",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C146",
+          "value": "cha-fang-zuo"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C148",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C149",
+          "value": "cha1"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C152",
+          "value": "cha1"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C155",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C157",
+          "value": "cha-fang-zuo"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C162",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C163",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C164",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C174",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C178",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C186",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C188",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C194",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C198",
+          "value": "cha-fang-zuo"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C227",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C238",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C242",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C244",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C247",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C253",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C254",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C256",
+          "value": "anya-hinge"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C262",
+          "value": "anya-hinge"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C263",
+          "value": "anya-hinge"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C269",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C272",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C274",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C275",
+          "value": "anya-hinge"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C276",
+          "value": "anya-hinge"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C278",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C300",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C304",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C314",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C316",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C319",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C321",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C322",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "raw data",
+          "cell": "C329",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "D2",
+          "value": "跳帧率"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "L2",
+          "value": "視頻時間"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C3",
+          "value": "cha-sai-zuo"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C9",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "R10",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "R11",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K13",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K14",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C22",
+          "value": "anya-LCD"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C27",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C28",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C30",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C32",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C37",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C39",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C40",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C41",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C46",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C48",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C50",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K50",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C51",
+          "value": "cha-fang-zuo"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K51",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C52",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C53",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "C57",
+          "value": "cha-sai-you"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K63",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K64",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K76",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K77",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K89",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K90",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K102",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K103",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K115",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K116",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K128",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K129",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K141",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam25",
+          "cell": "K142",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "D2",
+          "value": "跳帧率"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "L2",
+          "value": "視頻時間"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "C4",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "K6",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "C10",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "C11",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "R11",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "K12",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "C13",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "C20",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "C24",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "K25",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "C28",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "C30",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "K31",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "C36",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "K41",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "C42",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "C46",
+          "value": "chai-part"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "K46",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "K51",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "K57",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "K63",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam26",
+          "cell": "K69",
+          "value": "cha1"
+        },
+        {
+          "sheet": "cam29",
+          "cell": "D2",
+          "value": "跳帧率"
+        },
+        {
+          "sheet": "cam29",
+          "cell": "L2",
+          "value": "視頻時間"
+        },
+        {
+          "sheet": "cam29",
+          "cell": "C13",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "cam29",
+          "cell": "C15",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "cam29",
+          "cell": "C16",
+          "value": "cha-fang-zuo"
+        },
+        {
+          "sheet": "cam29",
+          "cell": "C21",
+          "value": "cha-fang-zuo"
+        },
+        {
+          "sheet": "cam29",
+          "cell": "C26",
+          "value": "cha-sai-zuo"
+        },
+        {
+          "sheet": "cam29",
+          "cell": "C33",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "cam29",
+          "cell": "C37",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "cam29",
+          "cell": "C38",
+          "value": "cha-fang-zuo"
+        },
+        {
+          "sheet": "cam29",
+          "cell": "C40",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "cam29",
+          "cell": "C43",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "cam29",
+          "cell": "C45",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "cam29",
+          "cell": "C50",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "cam29",
+          "cell": "C52",
+          "value": "cha-fang-you"
+        },
+        {
+          "sheet": "cam29",
+          "cell": "C54",
+          "value": "cha-fang-zuo"
+        }
+      ],
+      "relation_to_current_clips": "unconfirmed; class-name similarity does not establish source mapping"
+    },
+    {
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\验证阶段\\基本單元動作资料20190322.xlsx",
+      "sheet_sizes": [
+        {
+          "sheet": "动作序列",
+          "nonempty_cells": 448
+        },
+        {
+          "sheet": "分类状况",
+          "nonempty_cells": 222
+        },
+        {
+          "sheet": "工作表1",
+          "nonempty_cells": 11
+        }
+      ],
+      "first_nonempty_cells_by_sheet": [
+        {
+          "sheet": "动作序列",
+          "cells": [
+            {
+              "cell": "A1",
+              "value": "ip"
+            },
+            {
+              "cell": "B1",
+              "value": "17"
+            },
+            {
+              "cell": "C1",
+              "value": "18"
+            },
+            {
+              "cell": "D1",
+              "value": "19"
+            },
+            {
+              "cell": "F1",
+              "value": "20"
+            },
+            {
+              "cell": "G1",
+              "value": "21"
+            },
+            {
+              "cell": "I1",
+              "value": "22"
+            },
+            {
+              "cell": "K1",
+              "value": "23"
+            },
+            {
+              "cell": "M1",
+              "value": "24"
+            },
+            {
+              "cell": "O1",
+              "value": "25(13)"
+            },
+            {
+              "cell": "Q1",
+              "value": "26"
+            },
+            {
+              "cell": "S1",
+              "value": "27"
+            },
+            {
+              "cell": "U1",
+              "value": "28"
+            },
+            {
+              "cell": "W1",
+              "value": "29"
+            },
+            {
+              "cell": "Y1",
+              "value": "30"
+            },
+            {
+              "cell": "AA1",
+              "value": "31"
+            },
+            {
+              "cell": "AC1",
+              "value": "32"
+            },
+            {
+              "cell": "AE1",
+              "value": "33"
+            },
+            {
+              "cell": "AG1",
+              "value": "34"
+            },
+            {
+              "cell": "AI1",
+              "value": "35"
+            },
+            {
+              "cell": "AJ1",
+              "value": "36"
+            },
+            {
+              "cell": "A2",
+              "value": "录制情况"
+            },
+            {
+              "cell": "D2",
+              "value": "V"
+            },
+            {
+              "cell": "F2",
+              "value": "V"
+            },
+            {
+              "cell": "G2",
+              "value": "V"
+            }
+          ]
+        },
+        {
+          "sheet": "分类状况",
+          "cells": [
+            {
+              "cell": "A1",
+              "value": "Ip"
+            },
+            {
+              "cell": "B1",
+              "value": "remark"
+            },
+            {
+              "cell": "C1",
+              "value": "17"
+            },
+            {
+              "cell": "D1",
+              "value": "18"
+            },
+            {
+              "cell": "E1",
+              "value": "19(6类)"
+            },
+            {
+              "cell": "F1",
+              "value": "20"
+            },
+            {
+              "cell": "G1",
+              "value": "21"
+            },
+            {
+              "cell": "H1",
+              "value": "22(2类)"
+            },
+            {
+              "cell": "I1",
+              "value": "23(14类)"
+            },
+            {
+              "cell": "J1",
+              "value": "24(6类)"
+            },
+            {
+              "cell": "K1",
+              "value": "25(13类)"
+            },
+            {
+              "cell": "L1",
+              "value": "26(2类)"
+            },
+            {
+              "cell": "M1",
+              "value": "27(6类)"
+            },
+            {
+              "cell": "N1",
+              "value": "28(8类)"
+            },
+            {
+              "cell": "O1",
+              "value": "29(7类)"
+            },
+            {
+              "cell": "P1",
+              "value": "30"
+            },
+            {
+              "cell": "Q1",
+              "value": "31(2类)"
+            },
+            {
+              "cell": "R1",
+              "value": "32(3类)"
+            },
+            {
+              "cell": "S1",
+              "value": "33(2类)"
+            },
+            {
+              "cell": "T1",
+              "value": "34(1类)"
+            },
+            {
+              "cell": "U1",
+              "value": "35"
+            },
+            {
+              "cell": "V1",
+              "value": "36(2类)"
+            },
+            {
+              "cell": "A2",
+              "value": "标记情况"
+            },
+            {
+              "cell": "B2",
+              "value": "共53-3=50"
+            },
+            {
+              "cell": "E2",
+              "value": "6"
+            }
+          ]
+        },
+        {
+          "sheet": "工作表1",
+          "cells": [
+            {
+              "cell": "A1",
+              "value": "標記時幀數定義規則"
+            },
+            {
+              "cell": "B2",
+              "value": "視頻大小（s）"
+            },
+            {
+              "cell": "C2",
+              "value": "幀數（幀/s）"
+            },
+            {
+              "cell": "B3",
+              "value": "0-2"
+            },
+            {
+              "cell": "C3",
+              "value": "10"
+            },
+            {
+              "cell": "B4",
+              "value": "2-4"
+            },
+            {
+              "cell": "C4",
+              "value": "7"
+            },
+            {
+              "cell": "B5",
+              "value": "4-5"
+            },
+            {
+              "cell": "C5",
+              "value": "6"
+            },
+            {
+              "cell": "B6",
+              "value": "5+"
+            },
+            {
+              "cell": "C6",
+              "value": "5"
+            }
+          ]
+        }
+      ],
+      "exact_current_clip_name_matches": [],
+      "related_text_cells": [
+        {
+          "sheet": "动作序列",
+          "cell": "R6",
+          "value": "chai"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "T6",
+          "value": "cha1"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "E7",
+          "value": "cha1"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "V7",
+          "value": "cha1"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "AD7",
+          "value": "cha3"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "V8",
+          "value": "cha1"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "AD8",
+          "value": "cha1"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "L9",
+          "value": "chai"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "AD9",
+          "value": "cha3"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "AD10",
+          "value": "cha3"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "P11",
+          "value": "bai-zuo"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "T11",
+          "value": "cha1"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "AD11",
+          "value": "cha3"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "AD12",
+          "value": "cha1"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "V13",
+          "value": "cha2"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "L14",
+          "value": "cha1"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "N14",
+          "value": "cha4"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "N15",
+          "value": "bai-you"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "P15",
+          "value": "bai-zuo"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "V15",
+          "value": "cha2"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "N18",
+          "value": "bai-you"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "AB20",
+          "value": "cha1*2"
+        },
+        {
+          "sheet": "动作序列",
+          "cell": "X21",
+          "value": "cha1"
+        },
+        {
+          "sheet": "分类状况",
+          "cell": "B4",
+          "value": "bai-shang"
+        },
+        {
+          "sheet": "分类状况",
+          "cell": "B5",
+          "value": "bai-xia"
+        },
+        {
+          "sheet": "分类状况",
+          "cell": "B6",
+          "value": "bai-you"
+        },
+        {
+          "sheet": "分类状况",
+          "cell": "B7",
+          "value": "bai-zuo"
+        },
+        {
+          "sheet": "分类状况",
+          "cell": "B9",
+          "value": "cha1"
+        },
+        {
+          "sheet": "分类状况",
+          "cell": "B10",
+          "value": "cha2"
+        },
+        {
+          "sheet": "分类状况",
+          "cell": "B11",
+          "value": "cha3"
+        },
+        {
+          "sheet": "分类状况",
+          "cell": "B12",
+          "value": "cha4"
+        },
+        {
+          "sheet": "分类状况",
+          "cell": "B13",
+          "value": "chai"
+        },
+        {
+          "sheet": "工作表1",
+          "cell": "A1",
+          "value": "標記時幀數定義規則"
+        },
+        {
+          "sheet": "工作表1",
+          "cell": "B2",
+          "value": "視頻大小（s）"
+        },
+        {
+          "sheet": "工作表1",
+          "cell": "C2",
+          "value": "幀數（幀/s）"
+        }
+      ],
+      "relation_to_current_clips": "unconfirmed; class-name similarity does not establish source mapping"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "file_count": 29,
+  "bytes": 287389,
+  "data_paths": 0,
+  "video_or_sample_images": 0,
+  "weights_archives_environments": 0,
+  "svg_embedded_raster_images": 0,
+  "python_ast": "PASS",
+  "publication_directory": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild_github",
+  "source_model_and_scripts_copied_without_changes": true,
+  "manifest_sha256": "ae49e6937f23d25d6fb70d87c46ee7a83a8452cb1bceb060bb8fb897eda0f05e"
+}

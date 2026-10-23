@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "generated": "2026-10-18T21:24:49.646906+08:00",
+  "scope": "MMAction2 industrial classification engineering baseline; MAE deferred",
+  "environment": "reports/environment_final.json",
+  "data": "reports/data_preparation.json",
+  "smoke": "work_dirs/smoke_gpu_01/result.json",
+  "training": "work_dirs/train_gpu_01/result.json",
+  "checkpoint_evaluation": "work_dirs/evaluate_gpu_01/result.json",
+  "checkpoint": "work_dirs/train_gpu_01/epoch_1.pth",
+  "best_checkpoint": "work_dirs/train_gpu_01/best_acc_top1_epoch_1.pth",
+  "epochs": 1,
+  "train_clips": 10,
+  "val_clips": 10,
+  "mean_training_loss": 2.590540552139282,
+  "metrics": {
+    "acc/top1": 0.2,
+    "acc/top5": 0.8,
+    "acc/mean1": 0.2
+  },
+  "train_and_reloaded_metrics_identical": true,
+  "checkpoint_sha256": "1cc648417efff8ad7664fd258841de760d5fe1c455a3aaec5eee46bf9831d7bb",
+  "source_independence": false,
+  "mae_implemented": false
+}

@@ -1,0 +1,341 @@
+{
+  "status": "PASS",
+  "mode": "train",
+  "started": "2026-10-18T21:20:52.886666+08:00",
+  "output_directory": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\work_dirs\\train_gpu_01",
+  "command": [
+    "mmaction_rebuild\\scripts\\run_baseline.py",
+    "train",
+    "--output-dir",
+    "mmaction_rebuild\\work_dirs\\train_gpu_01"
+  ],
+  "python": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Scripts\\python.exe",
+  "limitation": "Engineering validation only. Source sessions/persons are unknown; clips may share an acquisition source. No independent test set and no target accuracy. No MAE pretraining is performed here.",
+  "framework_registration": {
+    "mode": "scoped_official_classification_imports_for_mmcv_lite",
+    "mmaction_version": "1.2.0",
+    "mmcv_version": "2.1.0",
+    "official_module_files": {
+      "mmaction.models.losses.cross_entropy_loss": {
+        "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\models\\losses\\cross_entropy_loss.py",
+        "sha256": "998636cd87a82b23a0fefd12d51b8b1861cd4c7bb9b9c97d06e2dbd090541dde"
+      },
+      "mmaction.models.backbones.swin": {
+        "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\models\\backbones\\swin.py",
+        "sha256": "1cd31329c8f5311936a5599c67604b9787be49f20ae485e7902d4bc4cd310034"
+      },
+      "mmaction.models.heads.i3d_head": {
+        "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\models\\heads\\i3d_head.py",
+        "sha256": "3f32dde8916c5604b30ae9d586e6bc82509590005e74ff3beffb280650e9ab0e"
+      },
+      "mmaction.models.data_preprocessors.data_preprocessor": {
+        "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\models\\data_preprocessors\\data_preprocessor.py",
+        "sha256": "1a23913f552be1eba0954f9162ecd91df04600d528f79f10c81efc5038bc95da"
+      },
+      "mmaction.models.recognizers.recognizer3d": {
+        "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\models\\recognizers\\recognizer3d.py",
+        "sha256": "5daa9b5fa72a1c4c7e69a41f2079cb4a6e7411d8877c1b5f06182ecee3e2c638"
+      },
+      "mmaction.datasets": {
+        "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\lib\\site-packages\\mmaction\\datasets\\__init__.py",
+        "sha256": "6e22097a712a5d23615b66682e21eb448a39ef40c2a8ff6432d824a2b27c80ee"
+      },
+      "mmaction.evaluation": {
+        "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\lib\\site-packages\\mmaction\\evaluation\\__init__.py",
+        "sha256": "af3f5f48657d811e3c05a05710018d5840a85a8be54e64963f453acf3d728785"
+      },
+      "mmaction.visualization": {
+        "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\lib\\site-packages\\mmaction\\visualization\\__init__.py",
+        "sha256": "ca0cd670f7efdc6de60789ac8f7c24c08aedd57e4f636abcb2be164341e8c7e1"
+      }
+    },
+    "note": "Compiled detection operators are unavailable with mmcv-lite; this run only uses official Swin classification components."
+  },
+  "versions": {
+    "torch": "2.1.2+cu118",
+    "torchvision": "0.16.2+cu118",
+    "mmengine": "0.10.7",
+    "mmcv-lite": "2.1.0",
+    "mmaction2": "1.2.0",
+    "numpy": "1.26.4"
+  },
+  "config_source": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\configs\\swin_tiny_industrial.py",
+  "config_sha256": "4937bab892f8849d6adfb974c14ca8ece1d67e6d339c60bd9a6a5c8316648604",
+  "dataset": {
+    "num_classes": 10,
+    "limitation": "Engineering validation only. Source sessions/persons are unknown; clips may share an acquisition source. No independent test set and no target accuracy. No MAE pretraining is performed here.",
+    "train": {
+      "annotations": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\configs\\..\\data\\splits\\train.txt",
+      "sha256": "3b842415cb8b3d017931e4a052010f3b3f12c78f3054da3e0102c6ba3a0019ce",
+      "clips": 10,
+      "annotated_frames": 1545,
+      "labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rows": [
+        {
+          "clip": "an_mopping/v_an_mopping_1",
+          "frames": 174,
+          "label": 0
+        },
+        {
+          "clip": "anya_hinge/v_anya_hinge_1",
+          "frames": 168,
+          "label": 1
+        },
+        {
+          "clip": "anya_LCD/v_anya_LCD_1",
+          "frames": 150,
+          "label": 2
+        },
+        {
+          "clip": "anya_MB/v_anya_MB_1",
+          "frames": 157,
+          "label": 3
+        },
+        {
+          "clip": "bai_you/v_baiyou_1",
+          "frames": 100,
+          "label": 4
+        },
+        {
+          "clip": "bai_zuo/v_baizuo_1",
+          "frames": 149,
+          "label": 5
+        },
+        {
+          "clip": "bao/v_bao_1",
+          "frames": 166,
+          "label": 6
+        },
+        {
+          "clip": "cha_fang_you/v_cha_fang_you_1",
+          "frames": 150,
+          "label": 7
+        },
+        {
+          "clip": "cha_fang_zuo/v_cha_fang_zuo_1",
+          "frames": 159,
+          "label": 8
+        },
+        {
+          "clip": "cha1/v_cha1_1",
+          "frames": 172,
+          "label": 9
+        }
+      ]
+    },
+    "val": {
+      "annotations": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\configs\\..\\data\\splits\\val.txt",
+      "sha256": "03141817ce8b02916fc81638ac936bb645de74993dede77f0a51e353b721ff62",
+      "clips": 10,
+      "annotated_frames": 1401,
+      "labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rows": [
+        {
+          "clip": "an_mopping/v_an_mopping_2",
+          "frames": 72,
+          "label": 0
+        },
+        {
+          "clip": "anya_hinge/v_anya_hinge_2",
+          "frames": 169,
+          "label": 1
+        },
+        {
+          "clip": "anya_LCD/v_anya_LCD_2",
+          "frames": 150,
+          "label": 2
+        },
+        {
+          "clip": "anya_MB/v_anya_MB_2",
+          "frames": 157,
+          "label": 3
+        },
+        {
+          "clip": "bai_you/v_baiyou_2",
+          "frames": 99,
+          "label": 4
+        },
+        {
+          "clip": "bai_zuo/v_baizuo_2",
+          "frames": 149,
+          "label": 5
+        },
+        {
+          "clip": "bao/v_bao_2",
+          "frames": 167,
+          "label": 6
+        },
+        {
+          "clip": "cha_fang_you/v_cha_fang_you_2",
+          "frames": 143,
+          "label": 7
+        },
+        {
+          "clip": "cha_fang_zuo/v_cha_fang_zuo_2",
+          "frames": 123,
+          "label": 8
+        },
+        {
+          "clip": "cha1/v_cha1_2",
+          "frames": 172,
+          "label": 9
+        }
+      ]
+    }
+  },
+  "epochs": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "metrics": {
+        "loss": 2.249542474746704,
+        "top1_acc": 0.0,
+        "top5_acc": 1.0,
+        "loss_cls": 2.249542474746704
+      }
+    },
+    {
+      "iteration": 2,
+      "metrics": {
+        "loss": 2.5392818450927734,
+        "top1_acc": 0.0,
+        "top5_acc": 0.0,
+        "loss_cls": 2.5392818450927734
+      }
+    },
+    {
+      "iteration": 3,
+      "metrics": {
+        "loss": 2.308232307434082,
+        "top1_acc": 0.0,
+        "top5_acc": 0.0,
+        "loss_cls": 2.308232307434082
+      }
+    },
+    {
+      "iteration": 4,
+      "metrics": {
+        "loss": 2.2460896968841553,
+        "top1_acc": 0.0,
+        "top5_acc": 1.0,
+        "loss_cls": 2.2460896968841553
+      }
+    },
+    {
+      "iteration": 5,
+      "metrics": {
+        "loss": 2.412583351135254,
+        "top1_acc": 0.0,
+        "top5_acc": 0.0,
+        "loss_cls": 2.412583351135254
+      }
+    },
+    {
+      "iteration": 6,
+      "metrics": {
+        "loss": 2.397465705871582,
+        "top1_acc": 0.0,
+        "top5_acc": 0.0,
+        "loss_cls": 2.397465705871582
+      }
+    },
+    {
+      "iteration": 7,
+      "metrics": {
+        "loss": 2.6922903060913086,
+        "top1_acc": 0.0,
+        "top5_acc": 0.0,
+        "loss_cls": 2.6922903060913086
+      }
+    },
+    {
+      "iteration": 8,
+      "metrics": {
+        "loss": 3.03153920173645,
+        "top1_acc": 0.0,
+        "top5_acc": 0.0,
+        "loss_cls": 3.03153920173645
+      }
+    },
+    {
+      "iteration": 9,
+      "metrics": {
+        "loss": 2.994609832763672,
+        "top1_acc": 0.0,
+        "top5_acc": 0.0,
+        "loss_cls": 2.994609832763672
+      }
+    },
+    {
+      "iteration": 10,
+      "metrics": {
+        "loss": 3.033770799636841,
+        "top1_acc": 0.0,
+        "top5_acc": 0.0,
+        "loss_cls": 3.033770799636841
+      }
+    }
+  ],
+  "validation_metrics": {
+    "acc/top1": 0.2,
+    "acc/top5": 0.8,
+    "acc/mean1": 0.2
+  },
+  "checkpoint": {
+    "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\work_dirs\\train_gpu_01\\epoch_1.pth",
+    "sha256": "1cc648417efff8ad7664fd258841de760d5fe1c455a3aaec5eee46bf9831d7bb",
+    "bytes": 237752614,
+    "strict": true,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "optimizer_present": true,
+    "epoch": 1,
+    "iteration": 10
+  },
+  "checkpoint_files": [
+    {
+      "name": "best_acc_top1_epoch_1.pth",
+      "sha256": "cf9d1a85542baf56bd79148119f0ec4e8d6b3798bd3e3d342192f0a4b729839b",
+      "bytes": 126271168
+    },
+    {
+      "name": "epoch_1.pth",
+      "sha256": "1cc648417efff8ad7664fd258841de760d5fe1c455a3aaec5eee46bf9831d7bb",
+      "bytes": 237752614
+    }
+  ],
+  "gpu_memory": {
+    "device": "cuda:0",
+    "cuda_used": true,
+    "allocated_bytes": 311199744,
+    "reserved_bytes": 570425344,
+    "peak_allocated_bytes": 311201280,
+    "peak_reserved_bytes": 570425344,
+    "free_bytes": 991765915,
+    "total_bytes": 2147352576
+  },
+  "finished": "2026-10-18T21:22:26.149959+08:00",
+  "seconds": 93.2635313
+}

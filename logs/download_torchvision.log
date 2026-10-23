@@ -1,0 +1,6 @@
+Looking in indexes: https://download.pytorch.org/whl/cu118
+Collecting torchvision==0.16.2+cu118
+  Downloading https://download-r2.pytorch.org/whl/cu118/torchvision-0.16.2%2Bcu118-cp39-cp39-win_amd64.whl (4.9 MB)
+     ---------------------------------------- 4.9/4.9 MB 528.7 kB/s eta 0:00:00
+Saved c:\users\dala\documents\new project\mmaction_rebuild\downloads\torchvision-0.16.2+cu118-cp39-cp39-win_amd64.whl
+Successfully downloaded torchvision

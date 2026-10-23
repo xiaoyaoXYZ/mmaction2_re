@@ -1,0 +1,5 @@
+Looking in links: mmaction_rebuild\downloads
+Processing c:\users\dala\documents\new project\mmaction_rebuild\downloads\torch-2.1.2+cu118-cp39-cp39-win_amd64.whl
+Processing c:\users\dala\documents\new project\mmaction_rebuild\downloads\torchvision-0.16.2+cu118-cp39-cp39-win_amd64.whl
+Installing collected packages: torchvision, torch
+Successfully installed torch-2.1.2+cu118 torchvision-0.16.2+cu118

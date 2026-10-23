@@ -1,0 +1,31 @@
+Collecting numpy==1.26.4
+  Downloading numpy-1.26.4-cp39-cp39-win_amd64.whl.metadata (61 kB)
+Collecting mmengine==0.10.7
+  Downloading mmengine-0.10.7-py3-none-any.whl.metadata (20 kB)
+Collecting mmcv-lite==2.1.0
+  Downloading mmcv_lite-2.1.0-py2.py3-none-any.whl.metadata (2.4 kB)
+Collecting mmaction2==1.2.0
+  Downloading mmaction2-1.2.0-py2.py3-none-any.whl.metadata (29 kB)
+Collecting einops==0.8.1
+  Downloading einops-0.8.1-py3-none-any.whl.metadata (13 kB)
+Collecting psutil==6.1.1
+  Downloading psutil-6.1.1-cp37-abi3-win_amd64.whl.metadata (23 kB)
+Downloading numpy-1.26.4-cp39-cp39-win_amd64.whl (15.8 MB)
+   ---------------------------------------- 15.8/15.8 MB 685.0 kB/s eta 0:00:00
+Downloading mmengine-0.10.7-py3-none-any.whl (452 kB)
+Downloading mmcv_lite-2.1.0-py2.py3-none-any.whl (719 kB)
+   -------------------------------------- 720.0/720.0 kB 505.3 kB/s eta 0:00:00
+Downloading mmaction2-1.2.0-py2.py3-none-any.whl (882 kB)
+   -------------------------------------- 882.2/882.2 kB 945.2 kB/s eta 0:00:00
+Downloading einops-0.8.1-py3-none-any.whl (64 kB)
+Downloading psutil-6.1.1-cp37-abi3-win_amd64.whl (254 kB)
+Saved c:\users\dala\documents\new project\mmaction_rebuild\downloads\numpy-1.26.4-cp39-cp39-win_amd64.whl
+Saved c:\users\dala\documents\new project\mmaction_rebuild\downloads\mmengine-0.10.7-py3-none-any.whl
+Saved c:\users\dala\documents\new project\mmaction_rebuild\downloads\mmcv_lite-2.1.0-py2.py3-none-any.whl
+Saved c:\users\dala\documents\new project\mmaction_rebuild\downloads\mmaction2-1.2.0-py2.py3-none-any.whl
+Saved c:\users\dala\documents\new project\mmaction_rebuild\downloads\einops-0.8.1-py3-none-any.whl
+Saved c:\users\dala\documents\new project\mmaction_rebuild\downloads\psutil-6.1.1-cp37-abi3-win_amd64.whl
+Successfully downloaded numpy mmengine mmcv-lite mmaction2 einops psutil
+
+[notice] A new release of pip is available: 24.3.1 -> 26.0.1
+[notice] To update, run: C:\Users\Dala\Documents\New project\mmaction_rebuild\.venv\Scripts\python.exe -m pip install --upgrade pip

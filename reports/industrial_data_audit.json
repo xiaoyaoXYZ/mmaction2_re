@@ -1,0 +1,586 @@
+{
+  "archive": "E:\\Codes\\mmaction2-master\\data2\\ucf101.zip",
+  "archive_bytes": 592494060,
+  "archive_sha256": "3f1fd5235193a831cd156c823c8d6a0c91c8e6d310c76799ddcea4bb75f96cbc",
+  "member_count": 3073,
+  "uncompressed_bytes": 592733228,
+  "file_extensions": {
+    ".txt": 3,
+    ".jpg": 3037
+  },
+  "unsafe_archive_paths": [],
+  "class_index_one_based": {
+    "1": "anya_mopping",
+    "2": "anya_hinge",
+    "3": "anya_LCD",
+    "4": "anya_MB",
+    "5": "bai_you",
+    "6": "bai_zuo",
+    "7": "bao",
+    "8": "cha_fang_you",
+    "9": "cha_fang_zuo",
+    "10": "cha1"
+  },
+  "class_folder_alias": {
+    "an_mopping": "anya_mopping"
+  },
+  "actual_class_folders": [
+    "an_mopping",
+    "anya_LCD",
+    "anya_MB",
+    "anya_hinge",
+    "bai_you",
+    "bai_zuo",
+    "bao",
+    "cha1",
+    "cha_fang_you",
+    "cha_fang_zuo"
+  ],
+  "clips": [
+    {
+      "clip": "an_mopping/v_an_mopping_1",
+      "frames": 174,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "an_mopping/v_an_mopping_2",
+      "frames": 121,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "anya_LCD/v_anya_LCD_1",
+      "frames": 150,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "anya_LCD/v_anya_LCD_2",
+      "frames": 150,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "anya_MB/v_anya_MB_1",
+      "frames": 157,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "anya_MB/v_anya_MB_2",
+      "frames": 157,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "anya_hinge/v_anya_hinge_1",
+      "frames": 168,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "anya_hinge/v_anya_hinge_2",
+      "frames": 169,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "bai_you/v_baiyou_1",
+      "frames": 100,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "bai_you/v_baiyou_2",
+      "frames": 99,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "bai_zuo/v_baizuo_1",
+      "frames": 149,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "bai_zuo/v_baizuo_2",
+      "frames": 149,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "bao/v_bao_1",
+      "frames": 166,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "bao/v_bao_2",
+      "frames": 167,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "cha1/v_cha1_1",
+      "frames": 172,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "cha1/v_cha1_2",
+      "frames": 172,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "cha_fang_you/v_cha_fang_you_1",
+      "frames": 150,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "cha_fang_you/v_cha_fang_you_2",
+      "frames": 149,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "cha_fang_zuo/v_cha_fang_zuo_1",
+      "frames": 159,
+      "contiguous_from_one": true
+    },
+    {
+      "clip": "cha_fang_zuo/v_cha_fang_zuo_2",
+      "frames": 159,
+      "contiguous_from_one": true
+    }
+  ],
+  "frame_count": 3037,
+  "image_sizes": {
+    "1280x720": 3037
+  },
+  "image_modes": {
+    "RGB": 3037
+  },
+  "decode_or_crc_errors": [],
+  "frame_sequence_errors": [],
+  "original_annotations": {
+    "ucf101/annotations/classInd.txt": "1 anya_mopping\r\n2 anya_hinge\r\n3 anya_LCD\r\n4 anya_MB\r\n5 bai_you\r\n6 bai_zuo\r\n7 bao\r\n8 cha_fang_you\r\n9 cha_fang_zuo\r\n10 cha1",
+    "ucf101/annotations/testlist01.txt": "cha_fang_you/v_cha_fang_you_2.mp4\r\ncha_fang_zuo/v_cha_fang_zuo_1.mp4\r\ncha_fang_zuo/v_cha_fang_zuo_2.mp4 \r\ncha1/v_cha1_1.mp4\r\ncha1/v_cha1_2.mp4",
+    "ucf101/annotations/trainlist01.txt": "an_mopping/v_an_mopping_1.mp4 1\r\nan_mopping/v_an_mopping_2.mp4 1\r\nanya_hinge/v_anya_hinge_1.mp4 2\r\nanya_hinge/v_anya_hinge_2.mp4 2\r\nanya_LCD/v_anya_LCD_1.mp4 3\r\nanya_LCD/v_anya_LCD_2.mp4 3\r\nanya_MB/v_anya_MB_1.mp4 4\r\nanya_MB/v_anya_MB_2.mp4 4\r\nbai_you/v_baiyou_1.mp4 5\r\nbai_you/v_baiyou_2.mp4 5\r\nbai_zuo/v_baizuo_1.mp4 6\r\nbai_zuo/v_baizuo_2.mp4 6\r\nbao/v_bao_1.mp4 7\r\nbao/v_bao_2.mp4 7\r\ncha_fang_you/v_cha_fang_you_1.mp4 8"
+  },
+  "original_train_count": 15,
+  "original_test_count": 5,
+  "original_train_class_counts": {
+    "3": 2,
+    "8": 1,
+    "6": 2,
+    "2": 2,
+    "1": 2,
+    "7": 2,
+    "5": 2,
+    "4": 2
+  },
+  "original_test_class_counts": {
+    "10": 2,
+    "9": 2,
+    "8": 1
+  },
+  "original_clip_overlap": [],
+  "original_references_missing_from_archive": [],
+  "unreferenced_archive_clips": [],
+  "exact_duplicate_frame_groups": [
+    [
+      "anya_LCD/v_anya_LCD_1/img_00067.jpg",
+      "anya_LCD/v_anya_LCD_1/img_00068.jpg"
+    ],
+    [
+      "anya_LCD/v_anya_LCD_1/img_00078.jpg",
+      "anya_LCD/v_anya_LCD_1/img_00079.jpg"
+    ],
+    [
+      "anya_LCD/v_anya_LCD_1/img_00093.jpg",
+      "anya_LCD/v_anya_LCD_1/img_00094.jpg"
+    ],
+    [
+      "anya_LCD/v_anya_LCD_1/img_00146.jpg",
+      "anya_LCD/v_anya_LCD_1/img_00149.jpg"
+    ],
+    [
+      "anya_LCD/v_anya_LCD_2/img_00010.jpg",
+      "anya_LCD/v_anya_LCD_2/img_00014.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00111.jpg",
+      "an_mopping/v_an_mopping_2/img_00073.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00112.jpg",
+      "an_mopping/v_an_mopping_2/img_00074.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00113.jpg",
+      "an_mopping/v_an_mopping_2/img_00075.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00114.jpg",
+      "an_mopping/v_an_mopping_2/img_00076.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00115.jpg",
+      "an_mopping/v_an_mopping_2/img_00077.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00116.jpg",
+      "an_mopping/v_an_mopping_2/img_00078.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00027.jpg",
+      "an_mopping/v_an_mopping_2/img_00114.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00028.jpg",
+      "an_mopping/v_an_mopping_2/img_00115.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00029.jpg",
+      "an_mopping/v_an_mopping_2/img_00116.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00030.jpg",
+      "an_mopping/v_an_mopping_2/img_00117.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00031.jpg",
+      "an_mopping/v_an_mopping_2/img_00118.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00032.jpg",
+      "an_mopping/v_an_mopping_2/img_00119.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00033.jpg",
+      "an_mopping/v_an_mopping_2/img_00120.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00034.jpg",
+      "an_mopping/v_an_mopping_2/img_00121.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00035.jpg",
+      "an_mopping/v_an_mopping_2/img_00105.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00036.jpg",
+      "an_mopping/v_an_mopping_2/img_00106.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00037.jpg",
+      "an_mopping/v_an_mopping_2/img_00107.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00038.jpg",
+      "an_mopping/v_an_mopping_2/img_00108.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00039.jpg",
+      "an_mopping/v_an_mopping_2/img_00109.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00040.jpg",
+      "an_mopping/v_an_mopping_2/img_00110.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00041.jpg",
+      "an_mopping/v_an_mopping_2/img_00111.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00042.jpg",
+      "an_mopping/v_an_mopping_2/img_00112.jpg"
+    ],
+    [
+      "bai_you/v_baiyou_1/img_00012.jpg",
+      "bai_you/v_baiyou_1/img_00013.jpg"
+    ],
+    [
+      "bai_zuo/v_baizuo_1/img_00125.jpg",
+      "bai_zuo/v_baizuo_1/img_00126.jpg"
+    ],
+    [
+      "cha1/v_cha1_1/img_00005.jpg",
+      "cha1/v_cha1_1/img_00009.jpg"
+    ],
+    [
+      "cha1/v_cha1_1/img_00057.jpg",
+      "cha1/v_cha1_1/img_00112.jpg"
+    ],
+    [
+      "cha1/v_cha1_1/img_00124.jpg",
+      "cha1/v_cha1_1/img_00146.jpg"
+    ],
+    [
+      "cha1/v_cha1_1/img_00145.jpg",
+      "cha1/v_cha1_1/img_00150.jpg",
+      "cha1/v_cha1_1/img_00153.jpg"
+    ],
+    [
+      "cha1/v_cha1_2/img_00024.jpg",
+      "cha1/v_cha1_2/img_00026.jpg"
+    ],
+    [
+      "cha1/v_cha1_2/img_00133.jpg",
+      "cha1/v_cha1_2/img_00134.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00027.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00144.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00028.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00145.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00029.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00146.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00030.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00147.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00031.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00148.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00032.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00149.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00116.jpg",
+      "cha_fang_you/v_cha_fang_you_1/img_00119.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00011.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00092.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00012.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00093.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00013.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00094.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00014.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00095.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00015.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00096.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00029.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00033.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00081.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00124.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00082.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00125.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00083.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00126.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00084.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00127.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00085.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00128.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00086.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00129.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00087.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00130.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00088.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00131.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00089.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00132.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00090.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00133.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00091.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00134.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00092.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00135.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00093.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00136.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00094.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00137.jpg"
+    ]
+  ],
+  "exact_duplicate_frames_across_clips": [
+    [
+      "an_mopping/v_an_mopping_1/img_00111.jpg",
+      "an_mopping/v_an_mopping_2/img_00073.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00112.jpg",
+      "an_mopping/v_an_mopping_2/img_00074.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00113.jpg",
+      "an_mopping/v_an_mopping_2/img_00075.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00114.jpg",
+      "an_mopping/v_an_mopping_2/img_00076.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00115.jpg",
+      "an_mopping/v_an_mopping_2/img_00077.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00116.jpg",
+      "an_mopping/v_an_mopping_2/img_00078.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00027.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00144.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00028.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00145.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00029.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00146.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00030.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00147.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00031.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00148.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00032.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00149.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00081.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00124.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00082.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00125.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00083.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00126.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00084.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00127.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00085.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00128.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00086.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00129.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00087.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00130.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00088.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00131.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00089.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00132.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00090.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00133.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00091.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00134.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00092.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00135.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00093.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00136.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00094.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00137.jpg"
+    ]
+  ],
+  "proposed_train": [
+    "an_mopping/v_an_mopping_1",
+    "anya_hinge/v_anya_hinge_1",
+    "anya_LCD/v_anya_LCD_1",
+    "anya_MB/v_anya_MB_1",
+    "bai_you/v_baiyou_1",
+    "bai_zuo/v_baizuo_1",
+    "bao/v_bao_1",
+    "cha_fang_you/v_cha_fang_you_1",
+    "cha_fang_zuo/v_cha_fang_zuo_1",
+    "cha1/v_cha1_1"
+  ],
+  "proposed_val": [
+    "an_mopping/v_an_mopping_2",
+    "anya_hinge/v_anya_hinge_2",
+    "anya_LCD/v_anya_LCD_2",
+    "anya_MB/v_anya_MB_2",
+    "bai_you/v_baiyou_2",
+    "bai_zuo/v_baizuo_2",
+    "bao/v_bao_2",
+    "cha_fang_you/v_cha_fang_you_2",
+    "cha_fang_zuo/v_cha_fang_zuo_2",
+    "cha1/v_cha1_2"
+  ],
+  "proposed_split_shared_exact_frame_hash_count": 26,
+  "limitations": [
+    "This archive contains RGB frame sequences, not original videos, and is not the public UCF101 dataset.",
+    "Original split excludes classes 9 and 10 from training; a new balanced split is needed for pipeline validation.",
+    "Each class has only two clips. Source video, subject, camera, production session, timestamps and FPS are unknown.",
+    "Clip-disjoint split and exact frame hashes cannot prove independence at source-video or acquisition-session level.",
+    "A one-epoch run is a pipeline validation baseline, not evidence of deployment or generalization accuracy."
+  ],
+  "sample_files": [
+    "mmaction_rebuild\\reports\\samples\\anya_hinge__v_anya_hinge_1.jpg",
+    "mmaction_rebuild\\reports\\samples\\anya_hinge__v_anya_hinge_2.jpg",
+    "mmaction_rebuild\\reports\\samples\\anya_LCD__v_anya_LCD_1.jpg",
+    "mmaction_rebuild\\reports\\samples\\anya_LCD__v_anya_LCD_2.jpg",
+    "mmaction_rebuild\\reports\\samples\\anya_MB__v_anya_MB_1.jpg",
+    "mmaction_rebuild\\reports\\samples\\anya_MB__v_anya_MB_2.jpg",
+    "mmaction_rebuild\\reports\\samples\\an_mopping__v_an_mopping_1.jpg",
+    "mmaction_rebuild\\reports\\samples\\an_mopping__v_an_mopping_2.jpg",
+    "mmaction_rebuild\\reports\\samples\\bai_you__v_baiyou_1.jpg",
+    "mmaction_rebuild\\reports\\samples\\bai_you__v_baiyou_2.jpg",
+    "mmaction_rebuild\\reports\\samples\\bai_zuo__v_baizuo_1.jpg",
+    "mmaction_rebuild\\reports\\samples\\bai_zuo__v_baizuo_2.jpg",
+    "mmaction_rebuild\\reports\\samples\\bao__v_bao_1.jpg",
+    "mmaction_rebuild\\reports\\samples\\bao__v_bao_2.jpg",
+    "mmaction_rebuild\\reports\\samples\\cha1__v_cha1_1.jpg",
+    "mmaction_rebuild\\reports\\samples\\cha1__v_cha1_2.jpg",
+    "mmaction_rebuild\\reports\\samples\\cha_fang_you__v_cha_fang_you_1.jpg",
+    "mmaction_rebuild\\reports\\samples\\cha_fang_you__v_cha_fang_you_2.jpg",
+    "mmaction_rebuild\\reports\\samples\\cha_fang_zuo__v_cha_fang_zuo_1.jpg",
+    "mmaction_rebuild\\reports\\samples\\cha_fang_zuo__v_cha_fang_zuo_2.jpg"
+  ]
+}

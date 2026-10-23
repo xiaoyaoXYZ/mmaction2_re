@@ -1,0 +1,2239 @@
+{
+  "schema_version": 1,
+  "audit_date_local": "2026-10-19",
+  "timezone": "Asia/Shanghai",
+  "purpose": "Local documentary provenance and implementation gap audit; not a literature search and not evidence of paper reproduction.",
+  "archive_sha256": "3da9e15e520c740c8f3f129136271e77848fa2d5000955a200ce57df9a9048c7",
+  "archive_path": "E:\\Codes\\Action_Recognition_Rebuild_Starter.zip",
+  "search_patterns": {
+    "video_swin": "Video\\s*Swin|SwinTransformer3D",
+    "tube_masking": "Tube[\\s_-]*Mask(?:ing)?",
+    "MIS": "\\bMIS\\b",
+    "MAE": "\\bMAE\\b|VideoMAE",
+    "self_supervised": "self[\\s_-]*supervis|自监督",
+    "E_VIST": "E[\\s_-]*VIST"
+  },
+  "scope_notes": [
+    "Current project: text/code/docs excluding .venv, downloads, data, work_dirs, baseline_v0 and new audit outputs; installed mmaction specific source files are an explicit exception.",
+    "E:/Codes/mmaction2-master: Markdown/RST/PDF/DOCX/TeX/Bib documentation outside data, data2, work_dirs, .git and environments, plus version.py and the saved C3D config.",
+    "All seven non-directory members of Action_Recognition_Rebuild_Starter.zip read as untrusted evidence; none executed.",
+    "Direct E:/Codes/action-analysis_package/action-analysis documentation and papers only; bundled TensorFlow models-master/cocoapi/protoc third-party repositories excluded from the paper claim search.",
+    "No internet search, no uploads, no model training.",
+    "PDF extraction uses pypdf text layer; no OCR or full page visual review. DOCX extraction uses word/document.xml body paragraphs; images, headers, embedded objects and tracked changes metadata not interpreted. No keyword match is bounded to these methods and scope, not proof a method never existed."
+  ],
+  "source_count": 155,
+  "sources": [
+    {
+      "id": "S001",
+      "scope": "current_project",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\configs\\swin_tiny_industrial.py",
+      "size_bytes": 3761,
+      "sha256": "4937bab892f8849d6adfb974c14ca8ece1d67e6d339c60bd9a6a5c8316648604",
+      "extension": ".py",
+      "text_character_count": 3687,
+      "search_matches": [
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 10,
+          "excerpt": "    backbone=dict(type='SwinTransformer3D', arch='tiny', pretrained=None,"
+        }
+      ],
+      "extraction_status": "ok",
+      "search_match_count": 1
+    },
+    {
+      "id": "S002",
+      "scope": "current_project",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\README.md",
+      "size_bytes": 7764,
+      "sha256": "981255f9f7cd41f51efa66f9345e8463171425c6ab9f4bd2ce7f4770fad17a1a",
+      "extension": ".md",
+      "text_character_count": 4334,
+      "search_matches": [
+        {
+          "term": "MAE",
+          "location_kind": "line",
+          "location": 3,
+          "excerpt": "、1 个完整 epoch 的训练与验证、保存模型、在新进程重新加载模型并复核预测。结果来自本次运行，未使用旧日志冒充结果，未设定准确率目标。MAE 尚未实现或运行，作为分类基线之后的独立阶段。"
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 26,
+          "excerpt": "模型为官方 MMAction2 **SwinTransformer3D(arch='tiny') + I3DHead(10类)**。保持完整网络结构，输入8帧、帧间隔2、112×112、batch=1、FP32、gradient checkpointing，SGD(lr=0.001, momentum=0.9)、种子20261017；关闭水平翻转以保留左右动作语义。没"
+        },
+        {
+          "term": "MAE",
+          "location_kind": "line",
+          "location": 66,
+          "excerpt": "## MAE 后续阶段"
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 75,
+          "excerpt": "- [官方Video Swin实现](https://github.com/open-mmlab/mmaction2/blob/v1.2.0/mmaction/models/backbones/swin.py)"
+        }
+      ],
+      "extraction_status": "ok",
+      "search_match_count": 4
+    },
+    {
+      "id": "S003",
+      "scope": "current_project",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\reports\\data_quality.md",
+      "size_bytes": 6404,
+      "sha256": "1139531a7909c0b16244186c52184c6423b8ece9987c0acbce4c20421a8f8804",
+      "extension": ".md",
+      "text_character_count": 3156,
+      "search_matches": [
+        {
+          "term": "MAE",
+          "location_kind": "line",
+          "location": 57,
+          "excerpt": "后续正式评估需要补充来源元数据并按源视频/采集场次分组，确保所有类别在训练与独立验证中均有足够组数，再冻结划分。MAE 预训练也必须使用训练侧数据，不能把本次验证帧用于预训练后仍称其为独立验证；MAE 实验应在分类基线跑通后另行记录。"
+        },
+        {
+          "term": "MAE",
+          "location_kind": "line",
+          "location": 57,
+          "excerpt": "，确保所有类别在训练与独立验证中均有足够组数，再冻结划分。MAE 预训练也必须使用训练侧数据，不能把本次验证帧用于预训练后仍称其为独立验证；MAE 实验应在分类基线跑通后另行记录。"
+        }
+      ],
+      "extraction_status": "ok",
+      "search_match_count": 2
+    },
+    {
+      "id": "S004",
+      "scope": "current_project",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\reports\\data_summary.md",
+      "size_bytes": 2820,
+      "sha256": "944d8ca45904fc709bf537ca062afc88fc292b151791dd21e9897e72b807f88b",
+      "extension": ".md",
+      "text_character_count": 1542,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S005",
+      "scope": "current_project",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\reports\\package_audit.md",
+      "size_bytes": 6241,
+      "sha256": "61c07fd64b0792574d7fb15883ef914305356c33cd10b7e9822f60d3a1e16537",
+      "extension": ".md",
+      "text_character_count": 3193,
+      "search_matches": [
+        {
+          "term": "MAE",
+          "location_kind": "line",
+          "location": 23,
+          "excerpt": "该包没有 MMAction2 框架源码、训练好的模型、权重、视频或 MAE 实现。它是辅助工作流包，不能直接称为可加载的识别模型包。"
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 25,
+          "excerpt": "生成模型是 **Video Swin Tiny + I3DHead**：随机初始化，16 RGB 帧、frame_interval=2、224×224、batch_size=1、梯度累积 4、AdamW；默认关闭 AMP 和水平翻转。配置使用 MMEngine 的数据加载器、优化包装器和 Runner，目标是 MMAction2 1."
+        },
+        {
+          "term": "MAE",
+          "location_kind": "line",
+          "location": 47,
+          "excerpt": "+ I3DHead，10 类，Sports1M 预训练，RawframeDataset，16 帧、112×112**。它不是 Swin 或 MAE。保存配置 SHA256：`7CF8FA883BE57D90F01D52F0AFA288CF624BF3ACF2202A583925C34581E16D0E`。"
+        },
+        {
+          "term": "MAE",
+          "location_kind": "line",
+          "location": 66,
+          "excerpt": "8. MAE 应在分类基线成功后作为独立阶段实现，明确编码器、解码器、掩码策略、重建目标与迁移机制。简单遮挡增强或加载外部权重不能称为本次完成了 MAE 预训练。"
+        },
+        {
+          "term": "MAE",
+          "location_kind": "line",
+          "location": 66,
+          "excerpt": "MAE 应在分类基线成功后作为独立阶段实现，明确编码器、解码器、掩码策略、重建目标与迁移机制。简单遮挡增强或加载外部权重不能称为本次完成了 MAE 预训练。"
+        }
+      ],
+      "extraction_status": "ok",
+      "search_match_count": 5
+    },
+    {
+      "id": "S006",
+      "scope": "current_project",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\requirements-lock.txt",
+      "size_bytes": 960,
+      "sha256": "d863132f871866542a31b2a05f2b2af9c33e748b023ef159e3617d323874f236",
+      "extension": ".txt",
+      "text_character_count": 856,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S007",
+      "scope": "current_project",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\requirements-support.txt",
+      "size_bytes": 346,
+      "sha256": "49d2b5e72986825cacf31da9cfbfbd4d296933234549d0af77dcce9d3f7d19d6",
+      "extension": ".txt",
+      "text_character_count": 325,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S008",
+      "scope": "current_project",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\scripts\\audit_industrial_data.py",
+      "size_bytes": 7699,
+      "sha256": "52e54a4e4cac9fd72fb42f07c555cb0d0d8f54623fe6d554d4eae44c94dcf782",
+      "extension": ".py",
+      "text_character_count": 7563,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S009",
+      "scope": "current_project",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\scripts\\download_verified.py",
+      "size_bytes": 3224,
+      "sha256": "f39fbef6995de7c8c5921f04ed865b96688c0812a2166d767bd01203303fe8ab",
+      "extension": ".py",
+      "text_character_count": 3149,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S010",
+      "scope": "current_project",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\scripts\\finish_report.py",
+      "size_bytes": 11731,
+      "sha256": "729602372e472ff132659650d084dbccbb6913ec0b16c39738266ba7d4062282",
+      "extension": ".py",
+      "text_character_count": 8302,
+      "search_matches": [
+        {
+          "term": "MAE",
+          "location_kind": "line",
+          "location": 44,
+          "excerpt": "     scope='MMAction2 industrial classification engineering baseline; MAE deferred',"
+        },
+        {
+          "term": "MAE",
+          "location_kind": "line",
+          "location": 59,
+          "excerpt": "、1 个完整 epoch 的训练与验证、保存模型、在新进程重新加载模型并复核预测。结果来自本次运行，未使用旧日志冒充结果，未设定准确率目标。MAE 尚未实现或运行，作为分类基线之后的独立阶段。"
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 82,
+          "excerpt": "模型为官方 MMAction2 **SwinTransformer3D(arch='tiny') + I3DHead(10类)**。保持完整网络结构，输入8帧、帧间隔2、112×112、batch=1、FP32、gradient checkpointing，SGD(lr=0.001, momentum=0.9)、种子20261017；关闭水平翻转以保留左右动作语义。没"
+        },
+        {
+          "term": "MAE",
+          "location_kind": "line",
+          "location": 122,
+          "excerpt": "## MAE 后续阶段"
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 131,
+          "excerpt": "- [官方Video Swin实现](https://github.com/open-mmlab/mmaction2/blob/v1.2.0/mmaction/models/backbones/swin.py)"
+        }
+      ],
+      "extraction_status": "ok",
+      "search_match_count": 5
+    },
+    {
+      "id": "S011",
+      "scope": "current_project",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\scripts\\inventory.py",
+      "size_bytes": 1336,
+      "sha256": "f0b5c6ed8c74d94cd35fb7f96099a2b32b8c73fae761d572bd6b7230c67aa093",
+      "extension": ".py",
+      "text_character_count": 1320,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S012",
+      "scope": "current_project",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\scripts\\prepare_data.py",
+      "size_bytes": 8125,
+      "sha256": "7230373e70c46f50d6de1163f605d5195d9f4191fd0ec3080cba7fc6bfc9e4c1",
+      "extension": ".py",
+      "text_character_count": 7363,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S013",
+      "scope": "current_project",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\scripts\\propose_engineering_split.py",
+      "size_bytes": 2811,
+      "sha256": "5a9569088382108486eeee1a5da7961973cf072f3768ef24004f7aecf2d96761",
+      "extension": ".py",
+      "text_character_count": 2760,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S014",
+      "scope": "current_project",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\scripts\\record_environment.py",
+      "size_bytes": 3752,
+      "sha256": "79a514f2c76ce9630fdf2d12a5133707c83d867cd7ea51d6e3ef1b7971f0f2f9",
+      "extension": ".py",
+      "text_character_count": 3679,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S015",
+      "scope": "current_project",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\scripts\\run_baseline.py",
+      "size_bytes": 23784,
+      "sha256": "d53c8f5066f5df9a8f0f0893d7a328eb482868526c045deec11e40d7e520b3b8",
+      "extension": ".py",
+      "text_character_count": 23294,
+      "search_matches": [
+        {
+          "term": "MAE",
+          "location_kind": "line",
+          "location": 27,
+          "excerpt": "              'and no target accuracy. No MAE pretraining is performed here.')"
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 135,
+          "excerpt": "    if cfg.model.backbone.type != 'SwinTransformer3D' or cfg.model.backbone.arch != 'tiny':"
+        }
+      ],
+      "extraction_status": "ok",
+      "search_match_count": 2
+    },
+    {
+      "id": "S016",
+      "scope": "starter_zip",
+      "path": "E:\\Codes\\Action_Recognition_Rebuild_Starter.zip",
+      "size_bytes": 7978,
+      "sha256": "1edccfdd36d48e6902d358b35554df570a48735722b407907de3c3accf7a8bb5",
+      "extension": ".md",
+      "zip_member": "Action_Recognition_Rebuild_20261017/README_CN.md",
+      "text_character_count": 3733,
+      "search_matches": [
+        {
+          "term": "E_VIST",
+          "location_kind": "line",
+          "location": 3,
+          "excerpt": "阶段工具包，帮助检查原有数据、记录实验电脑环境，并准备MMAction2视频分类基线。它是当前的新实现，尚未完成MAE预训练或原论文MIS和E-VIST的复现。包内没有模型训练结果、原始代码、视频或模型权重。"
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 23,
+          "excerpt": "| build_config.py | 生成Video Swin Tiny有监督分类基线配置及实验记录 |"
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 71,
+          "excerpt": "配置使用Video Swin Tiny、16帧输入、224像素裁剪、batch size为1及梯度累积；默认随机初始化，无需下载Kinetics数据。这个配置的目的是检查视频解码、分类训练和验证流程，不承诺收敛或取得原论文准确率。默认关闭混合精度；确认CUDA可用后，可重新生成配置并增加`--amp`。"
+        },
+        {
+          "term": "self_supervised",
+          "location_kind": "line",
+          "location": 75,
+          "excerpt": "-checkpoint-source`。传入Kinetics权重不表示本次在Kinetics上训练或评测，也不会自动让普通分类训练变成MAE自监督训练。框架加载权重时如提示大量主干参数不匹配，应先停止核对；分类头因类别数改变而不匹配则需结合日志单独判断。"
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 103,
+          "excerpt": "- Video Swin模型与参数API：https://mmaction2.readthedocs.io/en/latest/api.html"
+        },
+        {
+          "term": "MAE",
+          "location_kind": "line",
+          "location": 105,
+          "excerpt": "- VideoMAE作者仓库：https://github.com/MCG-NJU/VideoMAE"
+        },
+        {
+          "term": "MAE",
+          "location_kind": "line",
+          "location": 105,
+          "excerpt": "- VideoMAE作者仓库：https://github.com/MCG-NJU/VideoMAE"
+        }
+      ],
+      "extraction_status": "ok",
+      "search_match_count": 7
+    },
+    {
+      "id": "S017",
+      "scope": "starter_zip",
+      "path": "E:\\Codes\\Action_Recognition_Rebuild_Starter.zip",
+      "size_bytes": 2112,
+      "sha256": "5da77faa2a88f7f0f0d1dcc3e76f57af48c861e9bcc6547f6441e4e3e3863708",
+      "extension": ".md",
+      "zip_member": "Action_Recognition_Rebuild_20261017/RECONSTRUCTION_NOTES.md",
+      "text_character_count": 796,
+      "search_matches": [
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 23,
+          "excerpt": "| MAE如何接入Video Swin以及解码器、损失函数的实际实现 | 残留配置、日志、备份；缺失部分以本次新实现记录 |"
+        }
+      ],
+      "extraction_status": "ok",
+      "search_match_count": 1
+    },
+    {
+      "id": "S018",
+      "scope": "starter_zip",
+      "path": "E:\\Codes\\Action_Recognition_Rebuild_Starter.zip",
+      "size_bytes": 951,
+      "sha256": "007bffb0eb2d9eab574dd11d38a2e6f62947660eb1f2f05d2b7f8796ec16fb7c",
+      "extension": ".md",
+      "zip_member": "Action_Recognition_Rebuild_20261017/VERIFICATION.md",
+      "text_character_count": 386,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S019",
+      "scope": "starter_zip",
+      "path": "E:\\Codes\\Action_Recognition_Rebuild_Starter.zip",
+      "size_bytes": 9238,
+      "sha256": "27316f6489db8920a0c81b93625c62bc51ba60dd7fca793beb3d680a9616feca",
+      "extension": ".py",
+      "zip_member": "Action_Recognition_Rebuild_20261017/build_config.py",
+      "text_character_count": 9067,
+      "search_matches": [
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 1,
+          "excerpt": "\"\"\"Create a supervised Video Swin Tiny baseline config for MMAction2 1.x."
+        },
+        {
+          "term": "MIS",
+          "location_kind": "line",
+          "location": 3,
+          "excerpt": "This is a new baseline, not an implementation of MIS/E-VIST or MAE pretraining."
+        },
+        {
+          "term": "MAE",
+          "location_kind": "line",
+          "location": 3,
+          "excerpt": "This is a new baseline, not an implementation of MIS/E-VIST or MAE pretraining."
+        },
+        {
+          "term": "E_VIST",
+          "location_kind": "line",
+          "location": 3,
+          "excerpt": "This is a new baseline, not an implementation of MIS/E-VIST or MAE pretraining."
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 67,
+          "excerpt": "            backbone=dict(type='SwinTransformer3D', arch='tiny', pretrained=None,"
+        },
+        {
+          "term": "MAE",
+          "location_kind": "line",
+          "location": 128,
+          "excerpt": "              '# No MAE reconstruction loss, mask pretraining, or historical results are included.\\n'"
+        },
+        {
+          "term": "MIS",
+          "location_kind": "line",
+          "location": 137,
+          "excerpt": "_to_paper='New reconstruction baseline; not original code or an exact MIS/E-VIST replica.',"
+        },
+        {
+          "term": "E_VIST",
+          "location_kind": "line",
+          "location": 137,
+          "excerpt": "paper='New reconstruction baseline; not original code or an exact MIS/E-VIST replica.',"
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 139,
+          "excerpt": "        architecture='Video Swin Tiny + I3DHead',"
+        }
+      ],
+      "extraction_status": "ok",
+      "search_match_count": 9
+    },
+    {
+      "id": "S020",
+      "scope": "starter_zip",
+      "path": "E:\\Codes\\Action_Recognition_Rebuild_Starter.zip",
+      "size_bytes": 2223,
+      "sha256": "b11bfcc5063927f19d39ee5025a965739e02d0809e4ddab42ecca6411cd7ebde",
+      "extension": ".py",
+      "zip_member": "Action_Recognition_Rebuild_20261017/inspect_environment.py",
+      "text_character_count": 2166,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S021",
+      "scope": "starter_zip",
+      "path": "E:\\Codes\\Action_Recognition_Rebuild_Starter.zip",
+      "size_bytes": 8639,
+      "sha256": "2ac1ccf772b0a58f1259004adc23e3364ec43358e293bfcbf79c21cf417cf1b6",
+      "extension": ".py",
+      "zip_member": "Action_Recognition_Rebuild_20261017/prepare_data.py",
+      "text_character_count": 8463,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S022",
+      "scope": "starter_zip",
+      "path": "E:\\Codes\\Action_Recognition_Rebuild_Starter.zip",
+      "size_bytes": 5235,
+      "sha256": "021adbb7c5448fdb394520955eae5d6f6294acf3b3aea2b30ad1b9032cb149bb",
+      "extension": ".py",
+      "zip_member": "Action_Recognition_Rebuild_20261017/tests/test_workflow.py",
+      "text_character_count": 5123,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S023",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\.github\\CODE_OF_CONDUCT.md",
+      "size_bytes": 3355,
+      "sha256": "ef2ac96041f0bdee89a1cb2bebedd642f1794e37ddc4e02cd1ce57884bf90e8f",
+      "extension": ".md",
+      "text_character_count": 3279,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S024",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\.github\\CONTRIBUTING.md",
+      "size_bytes": 211,
+      "sha256": "234a58ce8facd1a08e7e3d8a9788ab37b273a6d2fad2b81fb24613f723781fb5",
+      "extension": ".md",
+      "text_character_count": 210,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S025",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\.github\\ISSUE_TEMPLATE\\error-report.md",
+      "size_bytes": 1391,
+      "sha256": "1084985c009fe58693ac060700103fb539770104b4def4f46cc8edb36fbd9068",
+      "extension": ".md",
+      "text_character_count": 1342,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S026",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\.github\\ISSUE_TEMPLATE\\feature_request.md",
+      "size_bytes": 853,
+      "sha256": "da32636ffc5f35750b109644387509e9033fb8a8c8fff6cf9f5a498dd7464946",
+      "extension": ".md",
+      "text_character_count": 826,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S027",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\.github\\ISSUE_TEMPLATE\\general_questions.md",
+      "size_bytes": 396,
+      "sha256": "6458270410298478fd8e47f386f55c5892a044a80ce3d26b8893568977a9151f",
+      "extension": ".md",
+      "text_character_count": 382,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S028",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\.github\\ISSUE_TEMPLATE\\reimplementation_questions.md",
+      "size_bytes": 2713,
+      "sha256": "1fdc5050d7a777e6c9fb6976d5a3a072c96579635b35bf9207cb9a64ba73a125",
+      "extension": ".md",
+      "text_character_count": 2644,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S029",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\.github\\pull_request_template.md",
+      "size_bytes": 1294,
+      "sha256": "bd60298f69dde9767f03a3441e673d6ccf2ffcfd10edfe7865dc8e902d7ad8ff",
+      "extension": ".md",
+      "text_character_count": 1268,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S030",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\detection\\acrn\\README.md",
+      "size_bytes": 8823,
+      "sha256": "24c23f0d629a93bc99a79b1df0e818718ee4acf0221aab1d975e2282551eadbf",
+      "extension": ".md",
+      "text_character_count": 8726,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S031",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\detection\\acrn\\README_zh-CN.md",
+      "size_bytes": 7597,
+      "sha256": "e7774612d8468d04b2b7bf1fe2b27fe0977a1a8dd27205357a6762895738faaf",
+      "extension": ".md",
+      "text_character_count": 6904,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S032",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\detection\\ava\\README.md",
+      "size_bytes": 26214,
+      "sha256": "786f96ab537a78d778f89b58b89253994cb53b1e45515b19283f6acc4e021d8b",
+      "extension": ".md",
+      "text_character_count": 26068,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S033",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\detection\\ava\\README_zh-CN.md",
+      "size_bytes": 24171,
+      "sha256": "56e6e73a7f20dacc376c5dca00df8c584e8ebb615fe394b5a2932150ce96c5f7",
+      "extension": ".md",
+      "text_character_count": 22646,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S034",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\detection\\lfb\\README.md",
+      "size_bytes": 10692,
+      "sha256": "77f355b48110ea59200f290b1e35f72d00a95ab546bccf09af743aee7e5bd187",
+      "extension": ".md",
+      "text_character_count": 10560,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S035",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\detection\\lfb\\README_zh-CN.md",
+      "size_bytes": 9342,
+      "sha256": "cd6b9062aa126f19a1236b5fba7e4fea179d7e834ede36064368c55ff2305283",
+      "extension": ".md",
+      "text_character_count": 7639,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S036",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\localization\\bmn\\README.md",
+      "size_bytes": 9620,
+      "sha256": "dc8d7be295fe47897a60e3b9545ef68e7d6bd24ad7e1625c608e227161476aba",
+      "extension": ".md",
+      "text_character_count": 9505,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S037",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\localization\\bmn\\README_zh-CN.md",
+      "size_bytes": 8225,
+      "sha256": "e24ff4a85a99622738ecf24a2cf7439052acc9c294a412af3073ec2dc9493ded",
+      "extension": ".md",
+      "text_character_count": 6965,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S038",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\localization\\bsn\\README.md",
+      "size_bytes": 12217,
+      "sha256": "a5cede496bdf869ee5bec8bdcaedb79a795b8ae2e0fea7764c985b0fa450394f",
+      "extension": ".md",
+      "text_character_count": 12044,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S039",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\localization\\bsn\\README_zh-CN.md",
+      "size_bytes": 10838,
+      "sha256": "814eddff689898e4eef717366ba08c66b3a1444e034493f2e70b6afde23357b0",
+      "extension": ".md",
+      "text_character_count": 9488,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S040",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\localization\\ssn\\README.md",
+      "size_bytes": 7541,
+      "sha256": "a23dc8a300bfdb06c695565c3eee310b1a2bcd332ec1cee59381e813d38fe54d",
+      "extension": ".md",
+      "text_character_count": 7462,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S041",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\localization\\ssn\\README_zh-CN.md",
+      "size_bytes": 6340,
+      "sha256": "29a61eccc79d0d5c4fef0a99381b566249a692796f3f89b6c995695a3f343614",
+      "extension": ".md",
+      "text_character_count": 5399,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S042",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\c3d\\README.md",
+      "size_bytes": 5769,
+      "sha256": "ca76d750b1bd963c791344a3d21086b04e194435cde84e246f62263ea43d36b1",
+      "extension": ".md",
+      "text_character_count": 5682,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S043",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\c3d\\README_zh-CN.md",
+      "size_bytes": 4712,
+      "sha256": "2165a22d51c66296bfa68396c2f0bbd6e0f5b6e8cc6f5204e71449a64070613f",
+      "extension": ".md",
+      "text_character_count": 3693,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S044",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\csn\\README.md",
+      "size_bytes": 15830,
+      "sha256": "53a6cfd156f15e64fc5bb8eed6c190fffdfd22f87ce3ba32aa2d544f398e8616",
+      "extension": ".md",
+      "text_character_count": 15722,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S045",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\csn\\README_zh-CN.md",
+      "size_bytes": 14300,
+      "sha256": "dbcd34e863d8c1a786c9e0567ee1315b2683de80da6183c6927e8a02c6514574",
+      "extension": ".md",
+      "text_character_count": 13134,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S046",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\i3d\\README.md",
+      "size_bytes": 13942,
+      "sha256": "4c183ae3bfd89a34d1f655eab2a0a87ab1acd78b539f0211c5d90b86744ac94c",
+      "extension": ".md",
+      "text_character_count": 13834,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S047",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\i3d\\README_zh-CN.md",
+      "size_bytes": 12508,
+      "sha256": "bc41b6feb0843babb2dfa3a17e9a48cf4ad533541854f45a4ed6805d754d0aba",
+      "extension": ".md",
+      "text_character_count": 11387,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S048",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\omnisource\\README.md",
+      "size_bytes": 20674,
+      "sha256": "c58e0e71ac6280208bacf38fcc803c81973b5a3452e89d5fd3ceb246f3d77cc7",
+      "extension": ".md",
+      "text_character_count": 20594,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S049",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\omnisource\\README_zh-CN.md",
+      "size_bytes": 19543,
+      "sha256": "d67d43bec85a91b96b4cc9172bfd9e41465173fc8ebe88925ba7e0b17e35021a",
+      "extension": ".md",
+      "text_character_count": 18587,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S050",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\r2plus1d\\README.md",
+      "size_bytes": 8561,
+      "sha256": "0cb52a8f880d19dccea3de2134bdb789afe7d1cc3b222e97518801ceb5813146",
+      "extension": ".md",
+      "text_character_count": 8473,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S051",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\r2plus1d\\README_zh-CN.md",
+      "size_bytes": 7670,
+      "sha256": "d8477e359880456d40e61b9881dc6cec195f6122d2330b6f5e5369b8a2c7efd2",
+      "extension": ".md",
+      "text_character_count": 6579,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S052",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\slowfast\\README.md",
+      "size_bytes": 16751,
+      "sha256": "b08588d83e912ac28009df4ed5f0b2931eddb68cb11b4610aa5c98487a24d9c7",
+      "extension": ".md",
+      "text_character_count": 16650,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S053",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\slowfast\\README_zh-CN.md",
+      "size_bytes": 16038,
+      "sha256": "b589cfc47128bacfe647309e67f4246baaf374ca4f6d49627cc986a380e4e7ed",
+      "extension": ".md",
+      "text_character_count": 14844,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S054",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\slowonly\\README.md",
+      "size_bytes": 43890,
+      "sha256": "4c715b477038ba9fb0c85132414d15312d3bb66fc00714ed2874cf4419a23ca2",
+      "extension": ".md",
+      "text_character_count": 43730,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S055",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\slowonly\\README_zh-CN.md",
+      "size_bytes": 43582,
+      "sha256": "abedd2c06ac16a149fb0964d14b2cf43b4bcac545a243286f9cf50ded51756d3",
+      "extension": ".md",
+      "text_character_count": 41843,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S056",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\tanet\\README.md",
+      "size_bytes": 10207,
+      "sha256": "979dff38b867acc2ff775ec2b22d97953079c640ae090ee131332b3274f18aa9",
+      "extension": ".md",
+      "text_character_count": 10115,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S057",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\tanet\\README_zh-CN.md",
+      "size_bytes": 9027,
+      "sha256": "04e978c1410e8bc4b1284b379fe35fdd12938eb792dff4bcab9f02857f4971ff",
+      "extension": ".md",
+      "text_character_count": 7758,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S058",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\timesformer\\README.md",
+      "size_bytes": 7717,
+      "sha256": "8b73f5ab73f1ef734bc8cab5acdcd58859e29b171d96f10c8689cca6dc490619",
+      "extension": ".md",
+      "text_character_count": 7629,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S059",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\timesformer\\README_zh-CN.md",
+      "size_bytes": 6667,
+      "sha256": "2025ee461bba9511d814042d8fe4bd10b2418b5c03255dde057dcc63cd16b02d",
+      "extension": ".md",
+      "text_character_count": 5873,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S060",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\tin\\README.md",
+      "size_bytes": 11010,
+      "sha256": "a80b36b28d6ad4de35ff8a0c3ac80c87303e0cca503299e261dae243af9a14be",
+      "extension": ".md",
+      "text_character_count": 10908,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S061",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\tin\\README_zh-CN.md",
+      "size_bytes": 9609,
+      "sha256": "5cf1de24e44db306ed65d0d489822c92939a9116cd843ecca66182bc73af5a95",
+      "extension": ".md",
+      "text_character_count": 8166,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S062",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\tpn\\README.md",
+      "size_bytes": 10580,
+      "sha256": "0b5e6ca2d843d88d2e36d4869e430154d7e3b5601a2885a93e6f1d4908782b16",
+      "extension": ".md",
+      "text_character_count": 10488,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S063",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\tpn\\README_zh-CN.md",
+      "size_bytes": 8044,
+      "sha256": "53926783704af5e204360ec0589fdaa5dd5852c2162ba8c1166be1f801271c42",
+      "extension": ".md",
+      "text_character_count": 6872,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S064",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\trn\\README.md",
+      "size_bytes": 7950,
+      "sha256": "07e0168ea6e734a14e8e28d332c85167e2a3abbedb308b7eefd55ebd70322103",
+      "extension": ".md",
+      "text_character_count": 7856,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S065",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\trn\\README_zh-CN.md",
+      "size_bytes": 6803,
+      "sha256": "a40f2b5a693c9118d6399ff2851db07b28ffc7510c3291b0ed03ec2181014469",
+      "extension": ".md",
+      "text_character_count": 5627,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S066",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\tsm\\README.md",
+      "size_bytes": 52530,
+      "sha256": "08953c4f649a8b98b484763fd6f7781d12f5768d178f7b9187498636bbac2b87",
+      "extension": ".md",
+      "text_character_count": 52337,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S067",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\tsm\\README_zh-CN.md",
+      "size_bytes": 54510,
+      "sha256": "ac3cc9529b0997b0d83183a74334a87f5c2ab1a8a68aad5948e0cfba7f9fa8ff",
+      "extension": ".md",
+      "text_character_count": 52394,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S068",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\tsn\\README.md",
+      "size_bytes": 75048,
+      "sha256": "4053490393f6f79e9a8bc0c0429de8e62611a2d0d0678542f2698324646afa6c",
+      "extension": ".md",
+      "text_character_count": 74800,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S069",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\tsn\\README_zh-CN.md",
+      "size_bytes": 74543,
+      "sha256": "7efe5e2ab77ba1e54356d14d92ceface86a7e4a64acaaf39d2eba9c409c21200",
+      "extension": ".md",
+      "text_character_count": 71469,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S070",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\x3d\\README.md",
+      "size_bytes": 5361,
+      "sha256": "b2a84be0b989012d5c0a67b9aa55a4498d4d11b17756673cf3026a0c2327573d",
+      "extension": ".md",
+      "text_character_count": 5293,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S071",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition\\x3d\\README_zh-CN.md",
+      "size_bytes": 4064,
+      "sha256": "ec4bc8ce81410b256a63d0d70c25de19d6f8c31f64b5c3fac8e4a253b112527d",
+      "extension": ".md",
+      "text_character_count": 3408,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S072",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition_audio\\resnet\\README.md",
+      "size_bytes": 8347,
+      "sha256": "7520bac229a7cc3d98b35e83076dc4cf27ed2c2056e8d821f477ef1d2d8473b6",
+      "extension": ".md",
+      "text_character_count": 8250,
+      "search_matches": [
+        {
+          "term": "self_supervised",
+          "location_kind": "line",
+          "location": 12,
+          "excerpt": "blation studies, and show the gener- alization of AVSlowFast to learn self-supervised audiovi- sual features. Code will be made available at: https: //github.com/facebookresearch/SlowFast."
+        }
+      ],
+      "extraction_status": "ok",
+      "search_match_count": 1
+    },
+    {
+      "id": "S073",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\recognition_audio\\resnet\\README_zh-CN.md",
+      "size_bytes": 7241,
+      "sha256": "21bc9350dc6320738f58e7d55d28c1e34acc9f88cff0eee1fce55b76a42d25c4",
+      "extension": ".md",
+      "text_character_count": 6054,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S074",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\skeleton\\2s-agcn\\README.md",
+      "size_bytes": 6310,
+      "sha256": "fd902f6c352f8728364e248f958afd479edc718192502be1eee3f697e4acf09c",
+      "extension": ".md",
+      "text_character_count": 6220,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S075",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\skeleton\\2s-agcn\\README_zh-CN.md",
+      "size_bytes": 4690,
+      "sha256": "e97606e7c1213e45b61b9cd06a44bab782208ed5134b68188dc52f38d9ce06e2",
+      "extension": ".md",
+      "text_character_count": 4100,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S076",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\skeleton\\posec3d\\custom_dataset_training.md",
+      "size_bytes": 3221,
+      "sha256": "706998107a7f678bf09c9b8d40004851a5c001300c6dfdd9feca01a5e1bb1957",
+      "extension": ".md",
+      "text_character_count": 3180,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S077",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\skeleton\\posec3d\\README.md",
+      "size_bytes": 19513,
+      "sha256": "247d4defba24c6a159cebf2bbccf98ed0b339aa0b3801729b9e93e813786faea",
+      "extension": ".md",
+      "text_character_count": 19364,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S078",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\skeleton\\posec3d\\README_zh-CN.md",
+      "size_bytes": 18251,
+      "sha256": "906eb78dda8a096a1e1d5f0588ec7151c1d7247d884786503851df8db358f092",
+      "extension": ".md",
+      "text_character_count": 17236,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S079",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\skeleton\\stgcn\\README.md",
+      "size_bytes": 7460,
+      "sha256": "062c713dc3e39ba4ae5c9a03fa5bb1718158d78d6bb6071f4832af06783018df",
+      "extension": ".md",
+      "text_character_count": 7376,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S080",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\configs\\skeleton\\stgcn\\README_zh-CN.md",
+      "size_bytes": 6857,
+      "sha256": "b38b722af19fabd8fe0320873d5eb6329e6f8d5cbbb3897040d070ae9ff43f3f",
+      "extension": ".md",
+      "text_character_count": 6303,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S081",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\demo\\README.md",
+      "size_bytes": 41668,
+      "sha256": "375701ee83d342856f8c753eeaaf7ecf75e5b9e591d1da35dbcd4586c5a5ca7b",
+      "extension": ".md",
+      "text_character_count": 40994,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S082",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\api.rst",
+      "size_bytes": 1478,
+      "sha256": "04820c33c3335a906a47a97703cb63ee575eda9f317588f7309eec4cfe2a2ea5",
+      "extension": ".rst",
+      "text_character_count": 1377,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S083",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\benchmark.md",
+      "size_bytes": 17504,
+      "sha256": "33d3b91c46e48f6026f1667226d56853279493d1a73f27949274f8c116d24227",
+      "extension": ".md",
+      "text_character_count": 17344,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S084",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\changelog.md",
+      "size_bytes": 48364,
+      "sha256": "6d33b1f6f3824f493c0c1b5634255683c7420b981837ac10464e2e1a328d2ff1",
+      "extension": ".md",
+      "text_character_count": 47572,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S085",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\data_preparation.md",
+      "size_bytes": 8565,
+      "sha256": "a81f629c229e4221cf7268f4e178ae680d23990d50d333cbf061032352af8658",
+      "extension": ".md",
+      "text_character_count": 8411,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S086",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\faq.md",
+      "size_bytes": 8884,
+      "sha256": "aa80ecc7b05044f90bdcef76336f796e2971a78aca620eb25afd3767356e7853",
+      "extension": ".md",
+      "text_character_count": 8752,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S087",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\feature_extraction.md",
+      "size_bytes": 3333,
+      "sha256": "c213cf91a2eaa97cbec875e6e1129604dc3c2625f7acc91e457d16fe84a37beb",
+      "extension": ".md",
+      "text_character_count": 3263,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S088",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\getting_started.md",
+      "size_bytes": 20755,
+      "sha256": "41a8f8e1dfa3ec5ffcaa4c925fd8dda28c5cf49956612d8bc61827bbbd43bc82",
+      "extension": ".md",
+      "text_character_count": 20159,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S089",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\index.rst",
+      "size_bytes": 1219,
+      "sha256": "e8054ad2b9ad363f51016d2ebb6fecec1951c6eeb27b9e181dbbd3efc90a1fbb",
+      "extension": ".rst",
+      "text_character_count": 1112,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S090",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\install.md",
+      "size_bytes": 10038,
+      "sha256": "6abebb0dd089c0d8ea4091f99fb3b17d8085c2deaa3089811b9debd30e1e5f25",
+      "extension": ".md",
+      "text_character_count": 9783,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S091",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\projects.md",
+      "size_bytes": 1802,
+      "sha256": "c6625893bccbd71d40f511a22b4497cface551cb2c88f24c9fc9f762d08a194a",
+      "extension": ".md",
+      "text_character_count": 1779,
+      "search_matches": [
+        {
+          "term": "self_supervised",
+          "location_kind": "line",
+          "location": 19,
+          "excerpt": "- Rethinking Self-supervised Correspondence Learning: A Video Frame-level Similarity Perspective, ICCV 2021 Oral. [\\[paper\\]](https://arxiv.org/abs/2103.17263)[\\[github\\]](http"
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 22,
+          "excerpt": "- Video Swin Transformer. [\\[paper\\]](https://arxiv.org/abs/2106.13230)[\\[github\\]](https://github.com/SwinTransformer/Video-Swin-Transformer)"
+        }
+      ],
+      "extraction_status": "ok",
+      "search_match_count": 2
+    },
+    {
+      "id": "S092",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\supported_datasets.md",
+      "size_bytes": 2460,
+      "sha256": "3d36a3be2aa3eb00fd7c51fbffcbdf75f064758f70dd103ffdc99654a4940768",
+      "extension": ".md",
+      "text_character_count": 2424,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S093",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\switch_language.md",
+      "size_bytes": 147,
+      "sha256": "6d3f8252012d9652bbafc9da0d823681f76c660e203bc33ef8977c59553aa41a",
+      "extension": ".md",
+      "text_character_count": 136,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S094",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\tutorials\\1_config.md",
+      "size_bytes": 42232,
+      "sha256": "a3a81e2f76a85507f630f7dbde41f56fb39f3bfe92ef1b7a897708528e14ef3a",
+      "extension": ".md",
+      "text_character_count": 41475,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S095",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\tutorials\\2_finetune.md",
+      "size_bytes": 3752,
+      "sha256": "57a28b69b961c5e4714a3d3373772a5167498c23c87d5600d6acae37bde58cd8",
+      "extension": ".md",
+      "text_character_count": 3653,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S096",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\tutorials\\3_new_dataset.md",
+      "size_bytes": 7171,
+      "sha256": "62c5e28a9b418b3a2804e476783d3168707544e56b452dc93cde97e502c44eb4",
+      "extension": ".md",
+      "text_character_count": 6919,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S097",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\tutorials\\4_data_pipeline.md",
+      "size_bytes": 7741,
+      "sha256": "49985534c9a0128948bcb4d4dc0d838ce9196a1d31a0e9598dcca959e0884ea2",
+      "extension": ".md",
+      "text_character_count": 7479,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S098",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\tutorials\\5_new_modules.md",
+      "size_bytes": 8736,
+      "sha256": "e3ebd89eff95a0cc8d28d17c6d3b809cf3811794d3740911833233da2d845b60",
+      "extension": ".md",
+      "text_character_count": 8445,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S099",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\tutorials\\6_export_model.md",
+      "size_bytes": 2909,
+      "sha256": "1eacada72218c4f16881d16f121d16b66d50532521995a2909f25d8cc3178586",
+      "extension": ".md",
+      "text_character_count": 2835,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S100",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\tutorials\\7_customize_runtime.md",
+      "size_bytes": 12718,
+      "sha256": "b8049a093c8dfa6aae6ec61393374bdde3f76d6493f34c818b927187cd031cb1",
+      "extension": ".md",
+      "text_character_count": 12368,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S101",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs\\useful_tools.md",
+      "size_bytes": 8064,
+      "sha256": "9cb5515406f92acf98d6a7d2d9981a86c3963cfe2bd94f90255cd92bf65266f6",
+      "extension": ".md",
+      "text_character_count": 7834,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S102",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\api.rst",
+      "size_bytes": 1478,
+      "sha256": "04820c33c3335a906a47a97703cb63ee575eda9f317588f7309eec4cfe2a2ea5",
+      "extension": ".rst",
+      "text_character_count": 1377,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S103",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\benchmark.md",
+      "size_bytes": 17345,
+      "sha256": "a90631af41531b210397789e9e77cc963ed87e888a3a47293d02bd1ad6fea031",
+      "extension": ".md",
+      "text_character_count": 16184,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S104",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\data_preparation.md",
+      "size_bytes": 8603,
+      "sha256": "48391029b9ad7b31db6245e122bed04ea7b6ce6888ce3f8daee055a6a620044c",
+      "extension": ".md",
+      "text_character_count": 5270,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S105",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\demo.md",
+      "size_bytes": 38456,
+      "sha256": "97d288039e9254f3957c5d71e5ffad24a574e93fdbcf7910f13ad0a3e8af94aa",
+      "extension": ".md",
+      "text_character_count": 29290,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S106",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\faq.md",
+      "size_bytes": 8388,
+      "sha256": "e61e69fa9a20a3eb0ec58e3336dba8b6d016df6b6f9ee1a7c0d00e6bbd6ce3ca",
+      "extension": ".md",
+      "text_character_count": 5214,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S107",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\feature_extraction.md",
+      "size_bytes": 3240,
+      "sha256": "f8aecba1c8b2049571371320b60e5d037e399f17cc59e76cddd77bfbdb35192c",
+      "extension": ".md",
+      "text_character_count": 2431,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S108",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\getting_started.md",
+      "size_bytes": 21510,
+      "sha256": "2e9941e2b533b3336a02b103faac0f057e6a9e5b38b451d188a5d28aa07d6aff",
+      "extension": ".md",
+      "text_character_count": 14627,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S109",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\index.rst",
+      "size_bytes": 1205,
+      "sha256": "3d8215c7eda7904cf16ca5a62b1155c81c87e1fd952e6f0721170457584a3f6d",
+      "extension": ".rst",
+      "text_character_count": 1017,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S110",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\install.md",
+      "size_bytes": 10536,
+      "sha256": "8341125773d70cede120e9111c8da42616ddb1224c7d34540c7dc802ecabbcdb",
+      "extension": ".md",
+      "text_character_count": 7394,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S111",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\README.md",
+      "size_bytes": 19,
+      "sha256": "b45d71843e579f9e08c262082a283f469913c34fd168ebed29bff80d1959ca0b",
+      "extension": ".md",
+      "text_character_count": 18,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S112",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\supported_datasets.md",
+      "size_bytes": 2408,
+      "sha256": "8221adb62034daebc4a7d4bb85676df39ffb509f8b0384775eb1e4eb08208dbb",
+      "extension": ".md",
+      "text_character_count": 2100,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S113",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\switch_language.md",
+      "size_bytes": 147,
+      "sha256": "6d3f8252012d9652bbafc9da0d823681f76c660e203bc33ef8977c59553aa41a",
+      "extension": ".md",
+      "text_character_count": 136,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S114",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\tutorials\\1_config.md",
+      "size_bytes": 40507,
+      "sha256": "d3053dca545cc101629af1db2ab97337d5e0f91ea7173f315a84a13f989988ce",
+      "extension": ".md",
+      "text_character_count": 28955,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S115",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\tutorials\\2_finetune.md",
+      "size_bytes": 3957,
+      "sha256": "e0499717b4af4ec87b7a0c46bf5ee70e144104f2f12eefa8519aa8698cc22eb0",
+      "extension": ".md",
+      "text_character_count": 2672,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S116",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\tutorials\\3_new_dataset.md",
+      "size_bytes": 7647,
+      "sha256": "57bef9fb9c4ebc28281bf15d6c93f3e0536314edb112bc0b618cc0515c0b2363",
+      "extension": ".md",
+      "text_character_count": 5884,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S117",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\tutorials\\4_data_pipeline.md",
+      "size_bytes": 8258,
+      "sha256": "10fcc7f09065d44dd1d41e8dd6dba5abf09151332e4765845df89bcfe5a91927",
+      "extension": ".md",
+      "text_character_count": 6097,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S118",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\tutorials\\5_new_modules.md",
+      "size_bytes": 8558,
+      "sha256": "394b272be34aa2f9626863d79274ffa0738dbcb698dc3e3f5872761749b6fb1c",
+      "extension": ".md",
+      "text_character_count": 6209,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S119",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\tutorials\\6_export_model.md",
+      "size_bytes": 3261,
+      "sha256": "ea854f8668e6306a0773385077bfdf9d42b9f0a452a343ec80c748e21f5aa48e",
+      "extension": ".md",
+      "text_character_count": 2012,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S120",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\tutorials\\7_customize_runtime.md",
+      "size_bytes": 12749,
+      "sha256": "02352dfe93492384be04a92367c14f64807e04bc9b0ac00051c967611eaa5fd8",
+      "extension": ".md",
+      "text_character_count": 8774,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S121",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\docs_zh_CN\\useful_tools.md",
+      "size_bytes": 6581,
+      "sha256": "ca9177c97a76d61e97286b252bf6a3d18ba873954629244f185c63228c327457",
+      "extension": ".md",
+      "text_character_count": 4634,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S122",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\mmaction\\core\\evaluation\\ava_evaluation\\README.md",
+      "size_bytes": 181,
+      "sha256": "a8f85a7366bf1334057ebea6d8aa5db46a661de4f57520d3fd0914bcfd87e8c9",
+      "extension": ".md",
+      "text_character_count": 179,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S123",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\README.md",
+      "size_bytes": 22054,
+      "sha256": "5aa1590c08dbe20d61b9dd8f0d88988091ec61ace49103ea8678e56120a41a1d",
+      "extension": ".md",
+      "text_character_count": 21687,
+      "search_matches": [
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 280,
+          "excerpt": "- Video Swin Transformer. [\\[paper\\]](https://arxiv.org/abs/2106.13230)[\\[github\\]](https://github.com/SwinTransformer/Video-Swin-Transformer)"
+        },
+        {
+          "term": "self_supervised",
+          "location_kind": "line",
+          "location": 282,
+          "excerpt": "- Rethinking Self-supervised Correspondence Learning: A Video Frame-level Similarity Perspective, ICCV 2021 **Oral**. [\\[paper\\]](https://arxiv.org/abs/2103.17263)[\\[github\\]]("
+        },
+        {
+          "term": "self_supervised",
+          "location_kind": "line",
+          "location": 325,
+          "excerpt": "- [MMSelfSup](https://github.com/open-mmlab/mmselfsup): OpenMMLab self-supervised learning toolbox and benchmark."
+        }
+      ],
+      "extraction_status": "ok",
+      "search_match_count": 3
+    },
+    {
+      "id": "S124",
+      "scope": "old_mmaction2_documentation",
+      "path": "E:\\Codes\\mmaction2-master\\README_zh-CN.md",
+      "size_bytes": 22573,
+      "sha256": "23e9bda3be7cef96a8dd0256760a351720d7da72e9ada04dcc78b0f0b761b890",
+      "extension": ".md",
+      "text_character_count": 18847,
+      "search_matches": [
+        {
+          "term": "self_supervised",
+          "location_kind": "line",
+          "location": 275,
+          "excerpt": "- Rethinking Self-supervised Correspondence Learning: A Video Frame-level Similarity Perspective, ICCV 2021 **Oral**. [\\[论文\\]](https://arxiv.org/abs/2103.17263)[\\[代码\\]](https:/"
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 276,
+          "excerpt": "- Video Swin Transformer. [\\[论文\\]](https://arxiv.org/abs/2106.13230)[\\[代码\\]](https://github.com/SwinTransformer/Video-Swin-Transformer)"
+        },
+        {
+          "term": "self_supervised",
+          "location_kind": "line",
+          "location": 318,
+          "excerpt": "- [MMSelfSup](https://github.com/open-mmlab/mmselfsup): OpenMMLab 自监督学习工具箱与测试基准"
+        }
+      ],
+      "extraction_status": "ok",
+      "search_match_count": 3
+    },
+    {
+      "id": "S125",
+      "scope": "old_mmaction2_specific_code",
+      "path": "E:\\Codes\\mmaction2-master\\work_dirs\\c3d_sports1m_16x1x1_45e_ucf101_split_1_rgb\\c3d_sports1m_16x1x1_45e_ucf101_rgb.py",
+      "size_bytes": 6003,
+      "sha256": "7cf8fa883be57d90f01d52f0afa288cf624bf3acf2202a583925c34581e16d0e",
+      "extension": ".py",
+      "text_character_count": 5683,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S126",
+      "scope": "old_mmaction2_specific_code",
+      "path": "E:\\Codes\\mmaction2-master\\mmaction\\version.py",
+      "size_bytes": 502,
+      "sha256": "f3749e87100d8d3b7422fab3941202705904ac48a28e3c0dc4ff2fe98fc48ac3",
+      "extension": ".py",
+      "text_character_count": 484,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S127",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\motion-analysis.pdf",
+      "size_bytes": 330921,
+      "sha256": "4ba09afd243cb0f8851b0fccdf2b0cae7138b812dc143b5f3867ef6f61ee618f",
+      "extension": ".pdf",
+      "page_count": 4,
+      "pages_without_extractable_text": [],
+      "first_page_excerpt": "JDK 安装  \n0. 检查  java 运行环境是否存在\n1. 官网下载  jdk 或使用本地下载的安装包 , 截至目前最新  jdk8 为  jdk-8u191 , 下载命令如下 :\n如果提示没有  wget 则先安装  wget, 命令如下 :\n2. 解压安装\n3. 配置环境变量\n在  /etc/profile  中添加如下环境变量 , 然后执行  source /etc/profile  使环境变量生效\nMySQL 安装  \n0. 删除自带  mariadb, 命令如下\n1. 官网下载  mysql 或使用本地安装包\n# 如果输出  java 版本号则当前存在  java 运行环境 , 则跳过安装步骤\njava -version\n# 下载  jdk8\nwget --no-cookies --no-check-certificate --header \"Cookie: \ngpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie\" \n\"https://download.oracle.com/otn-pub/java/jdk/8u191-\nb12/2787e4a523244c269598db4e85c51e0c/jdk-8u191-linux-x64.tar.gz\"\n# 安装  weget\nyum install wget -y\n# 解压\ntar -xzf jdk-8u191",
+      "text_character_count": 3514,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S128",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\motion-analysis识别程序及UI程序更新文档.pdf",
+      "size_bytes": 275529,
+      "sha256": "501bb598b9f52fb8336bb11d5f8a6edc46ae2e2ff726b3935437ed7bf7f96f5c",
+      "extension": ".pdf",
+      "page_count": 2,
+      "pages_without_extractable_text": [],
+      "first_page_excerpt": "1 动作识别程序更新  \n第一步：\n第二步：\n2 UI 更新  \n第一步：\n# 1. 进入容器\ndocker exec -it ubuntu /bin/bash\n# 2. 切换到识别程序的根目录下\ncd data/\n# 3. 查看守护进程并杀掉\nps -ef | grep Daemon\nkill -9 39820\n# 4. 查询识别程序进程并杀掉\nps -ef | grep java\nkill -9 33778\n# 5. 删掉旧的识别程序\nrm ActionDetect-0.0.1-SNAPSHOT-jar-with-dependencies.jar\n# 1. 退出容器\nexit\n# 2. 把新的识别程序上传至服务器的 home 目录下 ( 用 filezilla 直接将新的识别程序拖到 home 根目录下 )\ncd /home/\n# 3. 第 2 步成功后把服务器上的 jar 删掉\nrm ActionDetect-0.0.1-SNAPSHOT-jar-with-dependencies.jar\n# 4. 把新的识别程序从服务器传到容器的 data 目录下\ndocker cp ActionDetect-0.0.1-SNAPSHOT-jar-with-dependencies.jar ubuntu:/data/\ndocker cp ubuntu:/data/logs/info.log ~/downloads        # 把 info 从 docker 容器拷贝到\n宿主机的\n#",
+      "text_character_count": 1170,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S129",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\python视频识别加框文档.docx",
+      "size_bytes": 195338,
+      "sha256": "806afd19bc57f8e1a784ab941e2e26dd8123f123b36f7fe13eb7a6864348bdb7",
+      "extension": ".docx",
+      "body_paragraph_count": 10,
+      "text_character_count": 227,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S130",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\Ubuntu18.04编译安装opencv3.4.3.docx",
+      "size_bytes": 360350,
+      "sha256": "0a96f7df4c32fe367f394ace1396e3d1646c322e3da4917c750cda7863ca2dd1",
+      "extension": ".docx",
+      "body_paragraph_count": 67,
+      "text_character_count": 2835,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S131",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\Windows训练环境搭建.docx",
+      "size_bytes": 19276,
+      "sha256": "e3aae5e9878454be71d8d0d90404466d62dce840d302c308811666685054d86a",
+      "extension": ".docx",
+      "body_paragraph_count": 38,
+      "text_character_count": 1262,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S132",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\产品化\\智能动作效率分析综合应用平台.docx",
+      "size_bytes": 969816,
+      "sha256": "da957eefeec84cdd8a95def95ab529c09dc61415d5bfaa2ad93dc56853c18064",
+      "extension": ".docx",
+      "body_paragraph_count": 91,
+      "text_character_count": 1751,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S133",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\动作分析项目阶段总结.docx",
+      "size_bytes": 667850,
+      "sha256": "4247d9a06aaf442261195bd84b0d8d6b66b87babe7a60fb268b2e3db37082b78",
+      "extension": ".docx",
+      "body_paragraph_count": 272,
+      "text_character_count": 6314,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S134",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\安装opencv并添加动态链接库.docx",
+      "size_bytes": 26592,
+      "sha256": "3e3a0b636928bebb23e0fa19e625faca031ff23d3d868c641fcdac378fa31f41",
+      "extension": ".docx",
+      "body_paragraph_count": 82,
+      "text_character_count": 2831,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S135",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\接口对接文档介绍.pdf",
+      "size_bytes": 290157,
+      "sha256": "412b67d4be864817bca9cdee419be56e318cdd653b98ff27eb04fc03fba032fc",
+      "extension": ".pdf",
+      "page_count": 1,
+      "pages_without_extractable_text": [],
+      "first_page_excerpt": "行为识别系统介绍  \n行为识别系统主要是提供基本动作的数据来源以及动作对比检测功能，与动作展示系统之间采用 http 方式进行接口\n对接。\n接口对接方式  \n以 Http 方式请求，以封装 Bean 的形式进行序列化和反序列化\n主要的接口  \n1. 接收到的基本动作检测数据接口  /check/worker\n如果当前检测的基本动作是在标准库中直接找不到，此时定义为错误的动作，基本动作的名称直接定\n为 \"error\", 然后存储把错误的基本动作的名称、耗时、以及缓存的该动作的路径等信息存储在动作库的\nerror_action 表中，  或者如果当前检测的基本动作超时（超过预定的时间），也存储在相应的 error_action 表\n中 ;\n如果当前检测的基本动作是正确的，那么直接把基本动作的名称、耗时、帧率、跳帧率以及匹配率等信息存\n储在 worker_action 表中。\n2. 接收动作单元检测的有效与否接口  /check/action\n动作单元的有效和无效的定义：\n如果该动作单元检测的顺序和标准的步骤顺序不匹配，即乱序，此时定义为无效的，否则，为有效的动\n作单元。\n如果当前检测的动作单元是有效的，那么将该动作单元的 id 、编号、耗时等信息存储在 eﬀective_action 表中 ;\n如果当前检测的动作单元信息是无效的，将对应的信息存储在 ineﬀective_action 表中。\n3. 发送已存在的每一个动作单元下的所有步骤信息接口  /send/actionUnitPr",
+      "text_character_count": 871,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S136",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\模型训练步骤文档.docx",
+      "size_bytes": 2422537,
+      "sha256": "cd044ce99a1fcbf8740dd8d9aa7e5d609fa6ae2281162317321f626699d82dee",
+      "extension": ".docx",
+      "body_paragraph_count": 100,
+      "text_character_count": 3312,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S137",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\系統開發工作说明书.docx",
+      "size_bytes": 42701,
+      "sha256": "38f80d9bb32177866aa29dbe6fd4329944c306b4b25e3b8f4e4b01f517e868ed",
+      "extension": ".docx",
+      "body_paragraph_count": 134,
+      "text_character_count": 1964,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S138",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\给运行中的容器配置端口映射.pdf",
+      "size_bytes": 198438,
+      "sha256": "1abbbec18dc28006eb63b0a7753b8cc9d5ca047eaabbd7c365354942e1e06980",
+      "extension": ".pdf",
+      "page_count": 1,
+      "pages_without_extractable_text": [],
+      "first_page_excerpt": "使用以下命令查看目标容器的端口映射配: \n$ docker port [CONTAINER] \n使用以下命令获取容器的具体信息： \n$ docker inspect [CONTAINER] \n \n1. 方法一：获取容器 IP 后使用 iptables 做转发 \n$ docker inspect [CONTAINER] | grep IPAddress \n(例：将容器的 8080 端口映射到宿主机的 8081 端口) \n$ iptables -t nat -A DOCKER -p tcp –dport 8081 -j DNA T --to-destination [container_ip:port] \n2. 方法二：提交一个运行中的容器为镜像，在运行镜像时添加端口，删除原有容器 \n$ docker commit [CONTAINER] [CONTAINER_NAME] \n$ docker run -d -p 80:8081 [CONTAINER_NAME] /bin/bash \n优点：简单快捷，在测试环境使用较多。 \n缺点：如果是数据库镜像，重建一个需要重新配置一次，较为麻烦。 \n3. 方法三：修改容器配置文件并重启 docker 服务 \n容器 ID 为容器哈希值的前 12 位，可以根据容器 ID 获得容器的哈希值。 \n容器文件夹名以容器哈希值命名。 \n$ vim /var/lib/docker/containers/[hash_of_the_container]/hostcon",
+      "text_character_count": 808,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S139",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\视频帧提取与标注.docx",
+      "size_bytes": 6678395,
+      "sha256": "e4394dd4674a44fec67f9f849396d7afc2e930b7f41a823004481032726ab6d6",
+      "extension": ".docx",
+      "body_paragraph_count": 59,
+      "text_character_count": 942,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S140",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\视频服务器环境安装.docx",
+      "size_bytes": 451226,
+      "sha256": "6c01f066c2097fe51dbeef71a1c0845589a406e3e0a5048f927a741095dc668c",
+      "extension": ".docx",
+      "body_paragraph_count": 49,
+      "text_character_count": 1105,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S141",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\训练及识别环境部署手册.docx",
+      "size_bytes": 48569,
+      "sha256": "8f22b36e1b8abffd05b686c70f481d298b74b5821cabc8a71920cd6e5e917d8a",
+      "extension": ".docx",
+      "body_paragraph_count": 161,
+      "text_character_count": 4653,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S142",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\验证阶段\\关于识别率情况的说明20200207(添加).docx",
+      "size_bytes": 156957,
+      "sha256": "824e5529f201a9b09924514813374f350c1a6a26216856c3ddd3042478af1dfa",
+      "extension": ".docx",
+      "body_paragraph_count": 19,
+      "text_character_count": 944,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S143",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\doc\\验证阶段\\关于识别率情况的说明20200207.docx",
+      "size_bytes": 157113,
+      "sha256": "dcc04a81c16c3b3917ea07ba00b1bfea7339f663b0feb6bb6472a42106504f50",
+      "extension": ".docx",
+      "body_paragraph_count": 19,
+      "text_character_count": 944,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S144",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\papers\\201871339_陈城_基于目标检测的动作语义分析的研究（定）.pdf",
+      "size_bytes": 2398407,
+      "sha256": "4e6f24e126cf7b2c38632e6f8c71c7f45bd69caf6aa16d4bc75c4b319785585f",
+      "extension": ".pdf",
+      "page_count": 73,
+      "pages_without_extractable_text": [],
+      "first_page_excerpt": " \n \n学号： 201871339                             密级：         \n \n \n硕 士 研 究 生 学 位 论 文 \n \n基于目标检测的动作语义分析的研究 \n \n \n            专    业： 软件工程 \n            研究方向： 机器学习与人工智能 \n            研 究 生： 陈城 \n            指导教师： 王同喜 副教授 \n \n \n \n \n论文起止日期：2020 年4 月至 2021 年 5 月 \n",
+      "text_character_count": 75512,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S145",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\papers\\Action Semantic Analysis.pdf",
+      "size_bytes": 1836188,
+      "sha256": "092d2fbcaf57e9260626a2d26d23f738f7bec5c9fd1e587f4103e1e930c5487b",
+      "extension": ".pdf",
+      "page_count": 8,
+      "pages_without_extractable_text": [],
+      "first_page_excerpt": "Semantic Analysis of Action with Spatio-Temporal\nFeatures Based on Object Detection\nCheng Chen, Yang Wang, Ke Yi, Tongxi Wang, Hua Xiang\nAbstract—Vast studies on action analysis with spatio-\ntemporal features and deep learning algorithms have proposed\ncountless improvements over the years. This paper presents a\ndomain model with continuous and spatio-temporal features\nbased on object detection for the industrial pipeline scenario.\nIn this way, we can conduct a comprehensive evaluation: action\npose accuracy in the spatial dimension and action efﬁciency in\nthe temporal dimension. The method is applicable to scenarios\nthat require semantic recog",
+      "text_character_count": 43554,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S146",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\project\\Model_Recognize\\ActionDetect\\readMe.md",
+      "size_bytes": 47,
+      "sha256": "dad6deb53ab8e45b313c968e6c05a4573382ce088274a2be987a56be758d7410",
+      "extension": ".md",
+      "text_character_count": 17,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S147",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\project\\Model_Train\\object-detection-model\\readMe.md",
+      "size_bytes": 874,
+      "sha256": "8913ba19ea969652cc1699f8f69d07e1e114f3f5f2b57177ba23e18a69dcd289",
+      "extension": ".md",
+      "text_character_count": 380,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S148",
+      "scope": "action_analysis_direct_documents",
+      "path": "E:\\Codes\\action-analysis_package\\action-analysis\\readMe.md",
+      "size_bytes": 500,
+      "sha256": "45f8c1d471a63653781f408bd02c582224d9599cf88042dd6a1ee9991d81cb54",
+      "extension": ".md",
+      "text_character_count": 214,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S149",
+      "scope": "installed_mmaction2_specific_source",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\models\\backbones\\swin.py",
+      "size_bytes": 40458,
+      "sha256": "1cd31329c8f5311936a5599c67604b9787be49f20ae485e7902d4bc4cd310034",
+      "extension": ".py",
+      "text_character_count": 39436,
+      "search_matches": [
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 704,
+          "excerpt": "class SwinTransformer3D(BaseModule):"
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 705,
+          "excerpt": "    \"\"\"Video Swin Transformer backbone."
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 707,
+          "excerpt": "    A pytorch implement of: `Video Swin Transformer"
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 711,
+          "excerpt": "        arch (str or dict): Video Swin Transformer architecture. If use string,"
+        },
+        {
+          "term": "video_swin",
+          "location_kind": "line",
+          "location": 1021,
+          "excerpt": "        super(SwinTransformer3D, self).train(mode)"
+        }
+      ],
+      "extraction_status": "ok",
+      "search_match_count": 5
+    },
+    {
+      "id": "S150",
+      "scope": "installed_mmaction2_specific_source",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\models\\heads\\i3d_head.py",
+      "size_bytes": 2662,
+      "sha256": "3f32dde8916c5604b30ae9d586e6bc82509590005e74ff3beffb280650e9ab0e",
+      "extension": ".py",
+      "text_character_count": 2587,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S151",
+      "scope": "installed_mmaction2_specific_source",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\models\\heads\\base.py",
+      "size_bytes": 8938,
+      "sha256": "f106eacd583407e7b685302a53086097ed9280d82e8263489fe8852d65223559",
+      "extension": ".py",
+      "text_character_count": 8712,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S152",
+      "scope": "installed_mmaction2_specific_source",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\models\\recognizers\\recognizer3d.py",
+      "size_bytes": 4521,
+      "sha256": "5daa9b5fa72a1c4c7e69a41f2079cb4a6e7411d8877c1b5f06182ecee3e2c638",
+      "extension": ".py",
+      "text_character_count": 4406,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S153",
+      "scope": "installed_mmaction2_specific_source",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\models\\recognizers\\base.py",
+      "size_bytes": 11016,
+      "sha256": "7f3ac5b9f77b701a06ad3077950915f81f1b2a058b92f3639f13d2feccaa8d84",
+      "extension": ".py",
+      "text_character_count": 10751,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S154",
+      "scope": "installed_mmaction2_specific_source",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\models\\losses\\cross_entropy_loss.py",
+      "size_bytes": 7885,
+      "sha256": "998636cd87a82b23a0fefd12d51b8b1861cd4c7bb9b9c97d06e2dbd090541dde",
+      "extension": ".py",
+      "text_character_count": 7685,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    },
+    {
+      "id": "S155",
+      "scope": "installed_mmaction2_specific_source",
+      "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\version.py",
+      "size_bytes": 774,
+      "sha256": "14d249f599a5451f2ef5e2afc2795bb517f801aad1b93352113794c508d03f93",
+      "extension": ".py",
+      "text_character_count": 748,
+      "search_matches": [],
+      "extraction_status": "ok",
+      "search_match_count": 0
+    }
+  ]
+}

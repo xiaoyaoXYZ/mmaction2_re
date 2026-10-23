@@ -1,0 +1,703 @@
+C:\Users\Dala\Documents\New project\mmaction_rebuild\.venv\lib\site-packages\torch\functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\TensorShape.cpp:3527.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+10/18 21:20:32 - mmengine - INFO - 
+backbone.patch_embed.proj.weight - torch.Size([96, 3, 2, 4, 4]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.patch_embed.proj.bias - torch.Size([96]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.patch_embed.norm.weight - torch.Size([96]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.patch_embed.norm.bias - torch.Size([96]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.0.norm1.weight - torch.Size([96]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.0.norm1.bias - torch.Size([96]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.0.attn.relative_position_bias_table - torch.Size([2535, 3]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.0.attn.qkv.weight - torch.Size([288, 96]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.0.attn.qkv.bias - torch.Size([288]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.0.attn.proj.weight - torch.Size([96, 96]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.0.attn.proj.bias - torch.Size([96]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.0.norm2.weight - torch.Size([96]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.0.norm2.bias - torch.Size([96]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.0.mlp.fc1.weight - torch.Size([384, 96]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.0.mlp.fc1.bias - torch.Size([384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.0.mlp.fc2.weight - torch.Size([96, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.0.mlp.fc2.bias - torch.Size([96]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.1.norm1.weight - torch.Size([96]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.1.norm1.bias - torch.Size([96]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.1.attn.relative_position_bias_table - torch.Size([2535, 3]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.1.attn.qkv.weight - torch.Size([288, 96]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.1.attn.qkv.bias - torch.Size([288]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.1.attn.proj.weight - torch.Size([96, 96]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.1.attn.proj.bias - torch.Size([96]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.1.norm2.weight - torch.Size([96]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.1.norm2.bias - torch.Size([96]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.1.mlp.fc1.weight - torch.Size([384, 96]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.1.mlp.fc1.bias - torch.Size([384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.1.mlp.fc2.weight - torch.Size([96, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.blocks.1.mlp.fc2.bias - torch.Size([96]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.downsample.reduction.weight - torch.Size([192, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.downsample.norm.weight - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.0.downsample.norm.bias - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.0.norm1.weight - torch.Size([192]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.0.norm1.bias - torch.Size([192]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.0.attn.relative_position_bias_table - torch.Size([2535, 6]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.0.attn.qkv.weight - torch.Size([576, 192]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.0.attn.qkv.bias - torch.Size([576]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.0.attn.proj.weight - torch.Size([192, 192]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.0.attn.proj.bias - torch.Size([192]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.0.norm2.weight - torch.Size([192]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.0.norm2.bias - torch.Size([192]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.0.mlp.fc1.weight - torch.Size([768, 192]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.0.mlp.fc1.bias - torch.Size([768]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.0.mlp.fc2.weight - torch.Size([192, 768]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.0.mlp.fc2.bias - torch.Size([192]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.1.norm1.weight - torch.Size([192]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.1.norm1.bias - torch.Size([192]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.1.attn.relative_position_bias_table - torch.Size([2535, 6]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.1.attn.qkv.weight - torch.Size([576, 192]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.1.attn.qkv.bias - torch.Size([576]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.1.attn.proj.weight - torch.Size([192, 192]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.1.attn.proj.bias - torch.Size([192]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.1.norm2.weight - torch.Size([192]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.1.norm2.bias - torch.Size([192]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.1.mlp.fc1.weight - torch.Size([768, 192]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.1.mlp.fc1.bias - torch.Size([768]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.1.mlp.fc2.weight - torch.Size([192, 768]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.blocks.1.mlp.fc2.bias - torch.Size([192]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.downsample.reduction.weight - torch.Size([384, 768]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.downsample.norm.weight - torch.Size([768]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.1.downsample.norm.bias - torch.Size([768]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.0.norm1.weight - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.0.norm1.bias - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.0.attn.relative_position_bias_table - torch.Size([2535, 12]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.0.attn.qkv.weight - torch.Size([1152, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.0.attn.qkv.bias - torch.Size([1152]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.0.attn.proj.weight - torch.Size([384, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.0.attn.proj.bias - torch.Size([384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.0.norm2.weight - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.0.norm2.bias - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.0.mlp.fc1.weight - torch.Size([1536, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.0.mlp.fc1.bias - torch.Size([1536]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.0.mlp.fc2.weight - torch.Size([384, 1536]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.0.mlp.fc2.bias - torch.Size([384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.1.norm1.weight - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.1.norm1.bias - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.1.attn.relative_position_bias_table - torch.Size([2535, 12]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.1.attn.qkv.weight - torch.Size([1152, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.1.attn.qkv.bias - torch.Size([1152]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.1.attn.proj.weight - torch.Size([384, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.1.attn.proj.bias - torch.Size([384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.1.norm2.weight - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.1.norm2.bias - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.1.mlp.fc1.weight - torch.Size([1536, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.1.mlp.fc1.bias - torch.Size([1536]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.1.mlp.fc2.weight - torch.Size([384, 1536]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.1.mlp.fc2.bias - torch.Size([384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.2.norm1.weight - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.2.norm1.bias - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.2.attn.relative_position_bias_table - torch.Size([2535, 12]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.2.attn.qkv.weight - torch.Size([1152, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.2.attn.qkv.bias - torch.Size([1152]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.2.attn.proj.weight - torch.Size([384, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.2.attn.proj.bias - torch.Size([384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.2.norm2.weight - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.2.norm2.bias - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.2.mlp.fc1.weight - torch.Size([1536, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.2.mlp.fc1.bias - torch.Size([1536]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.2.mlp.fc2.weight - torch.Size([384, 1536]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.2.mlp.fc2.bias - torch.Size([384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.3.norm1.weight - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.3.norm1.bias - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.3.attn.relative_position_bias_table - torch.Size([2535, 12]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.3.attn.qkv.weight - torch.Size([1152, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.3.attn.qkv.bias - torch.Size([1152]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.3.attn.proj.weight - torch.Size([384, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.3.attn.proj.bias - torch.Size([384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.3.norm2.weight - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.3.norm2.bias - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.3.mlp.fc1.weight - torch.Size([1536, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.3.mlp.fc1.bias - torch.Size([1536]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.3.mlp.fc2.weight - torch.Size([384, 1536]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.3.mlp.fc2.bias - torch.Size([384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.4.norm1.weight - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.4.norm1.bias - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.4.attn.relative_position_bias_table - torch.Size([2535, 12]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.4.attn.qkv.weight - torch.Size([1152, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.4.attn.qkv.bias - torch.Size([1152]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.4.attn.proj.weight - torch.Size([384, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.4.attn.proj.bias - torch.Size([384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.4.norm2.weight - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.4.norm2.bias - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.4.mlp.fc1.weight - torch.Size([1536, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.4.mlp.fc1.bias - torch.Size([1536]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.4.mlp.fc2.weight - torch.Size([384, 1536]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.4.mlp.fc2.bias - torch.Size([384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.5.norm1.weight - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.5.norm1.bias - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.5.attn.relative_position_bias_table - torch.Size([2535, 12]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.5.attn.qkv.weight - torch.Size([1152, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.5.attn.qkv.bias - torch.Size([1152]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.5.attn.proj.weight - torch.Size([384, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.5.attn.proj.bias - torch.Size([384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.5.norm2.weight - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.5.norm2.bias - torch.Size([384]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.5.mlp.fc1.weight - torch.Size([1536, 384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.5.mlp.fc1.bias - torch.Size([1536]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.5.mlp.fc2.weight - torch.Size([384, 1536]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.blocks.5.mlp.fc2.bias - torch.Size([384]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.downsample.reduction.weight - torch.Size([768, 1536]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.downsample.norm.weight - torch.Size([1536]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.2.downsample.norm.bias - torch.Size([1536]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.0.norm1.weight - torch.Size([768]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.0.norm1.bias - torch.Size([768]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.0.attn.relative_position_bias_table - torch.Size([2535, 24]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.0.attn.qkv.weight - torch.Size([2304, 768]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.0.attn.qkv.bias - torch.Size([2304]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.0.attn.proj.weight - torch.Size([768, 768]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.0.attn.proj.bias - torch.Size([768]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.0.norm2.weight - torch.Size([768]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.0.norm2.bias - torch.Size([768]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.0.mlp.fc1.weight - torch.Size([3072, 768]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.0.mlp.fc1.bias - torch.Size([3072]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.0.mlp.fc2.weight - torch.Size([768, 3072]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.0.mlp.fc2.bias - torch.Size([768]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.1.norm1.weight - torch.Size([768]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.1.norm1.bias - torch.Size([768]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.1.attn.relative_position_bias_table - torch.Size([2535, 24]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.1.attn.qkv.weight - torch.Size([2304, 768]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.1.attn.qkv.bias - torch.Size([2304]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.1.attn.proj.weight - torch.Size([768, 768]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.1.attn.proj.bias - torch.Size([768]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.1.norm2.weight - torch.Size([768]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.1.norm2.bias - torch.Size([768]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.1.mlp.fc1.weight - torch.Size([3072, 768]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.1.mlp.fc1.bias - torch.Size([3072]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.1.mlp.fc2.weight - torch.Size([768, 3072]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.layers.3.blocks.1.mlp.fc2.bias - torch.Size([768]): 
+TruncNormalInit: a=-2, b=2, mean=0, std=0.02, bias=0.0 
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.norm3.weight - torch.Size([768]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+backbone.norm3.bias - torch.Size([768]): 
+The value is the same before and after calling `init_weights` of Recognizer3D  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+cls_head.fc_cls.weight - torch.Size([10, 768]): 
+Initialized by user-defined `init_weights` in I3DHead  
+ 
+10/18 21:20:32 - mmengine - INFO - 
+cls_head.fc_cls.bias - torch.Size([10]): 
+Initialized by user-defined `init_weights` in I3DHead  
+ 
+10/18 21:20:33 - mmengine - WARNING - "FileClient" will be deprecated in future. Please use io functions in https://mmengine.readthedocs.io/en/latest/api/fileio.html#file-io
+10/18 21:20:33 - mmengine - WARNING - "HardDiskBackend" is the alias of "LocalBackend" and the former will be deprecated in future.
+C:\Users\Dala\Documents\New project\mmaction_rebuild\.venv\lib\site-packages\torch\utils\checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+C:\Users\Dala\Documents\New project\mmaction_rebuild\.venv\lib\site-packages\torch\utils\checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+{"smoke_step": 1, "loss": 2.2660865783691406, "parameter_update": {"backbone.patch_embed.proj.weight": 8.793547749519348e-05, "cls_head.fc_cls.weight": 0.002218288369476795}, "gpu_memory": {"device": "cuda:0", "cuda_used": true, "allocated_bytes": 311201792, "reserved_bytes": 549453824, "peak_allocated_bytes": 539267584, "peak_reserved_bytes": 549453824, "free_bytes": 1012737435, "total_bytes": 2147352576}}
+{"smoke_step": 2, "loss": 2.5226755142211914, "parameter_update": {"backbone.patch_embed.proj.weight": 0.00011891499161720276, "cls_head.fc_cls.weight": 0.002476029796525836}, "gpu_memory": {"device": "cuda:0", "cuda_used": true, "allocated_bytes": 311201792, "reserved_bytes": 570425344, "peak_allocated_bytes": 542292480, "peak_reserved_bytes": 570425344, "free_bytes": 991765915, "total_bytes": 2147352576}}
+{"status": "PASS", "mode": "smoke", "result": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\work_dirs\\smoke_gpu_01\\result.json"}

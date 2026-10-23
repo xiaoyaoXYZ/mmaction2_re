@@ -1,0 +1,32 @@
+# ===== 原始数据 - 不上传 =====
+/data/
+
+# ===== Python 环境 =====
+/.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== 大型安装包 =====
+/downloads/
+
+# ===== 模型权重（超 GitHub 100MB 限制）=====
+*.pth
+
+# ===== 含数据的快照和压缩包 =====
+/baseline_v0/snapshot.zip
+/reproduction_records.zip
+
+# ===== 含本机路径的清单 =====
+/baseline_v0/manifest.json
+
+# ===== 逐帧指纹（体积大、含数据路径）=====
+/audit_stage1/frame_fingerprints.json
+
+# ===== 样例帧截图（含原始数据图片）=====
+/reports/samples/
+
+# ===== 系统文件 =====
+Thumbs.db
+Desktop.ini
+.DS_Store

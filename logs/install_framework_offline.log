@@ -1,0 +1,9 @@
+Looking in links: mmaction_rebuild\downloads
+Processing c:\users\dala\documents\new project\mmaction_rebuild\downloads\numpy-1.26.4-cp39-cp39-win_amd64.whl
+Processing c:\users\dala\documents\new project\mmaction_rebuild\downloads\mmengine-0.10.7-py3-none-any.whl
+Processing c:\users\dala\documents\new project\mmaction_rebuild\downloads\mmcv_lite-2.1.0-py2.py3-none-any.whl
+Processing c:\users\dala\documents\new project\mmaction_rebuild\downloads\mmaction2-1.2.0-py2.py3-none-any.whl
+Processing c:\users\dala\documents\new project\mmaction_rebuild\downloads\einops-0.8.1-py3-none-any.whl
+Processing c:\users\dala\documents\new project\mmaction_rebuild\downloads\psutil-6.1.1-cp37-abi3-win_amd64.whl
+Installing collected packages: mmaction2, psutil, numpy, mmengine, mmcv-lite, einops
+Successfully installed einops-0.8.1 mmaction2-1.2.0 mmcv-lite-2.1.0 mmengine-0.10.7 numpy-1.26.4 psutil-6.1.1

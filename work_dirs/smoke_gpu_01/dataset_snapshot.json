@@ -1,0 +1,144 @@
+{
+  "num_classes": 10,
+  "limitation": "Engineering validation only. Source sessions/persons are unknown; clips may share an acquisition source. No independent test set and no target accuracy. No MAE pretraining is performed here.",
+  "train": {
+    "annotations": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\configs\\..\\data\\splits\\train.txt",
+    "sha256": "3b842415cb8b3d017931e4a052010f3b3f12c78f3054da3e0102c6ba3a0019ce",
+    "clips": 10,
+    "annotated_frames": 1545,
+    "labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "rows": [
+      {
+        "clip": "an_mopping/v_an_mopping_1",
+        "frames": 174,
+        "label": 0
+      },
+      {
+        "clip": "anya_hinge/v_anya_hinge_1",
+        "frames": 168,
+        "label": 1
+      },
+      {
+        "clip": "anya_LCD/v_anya_LCD_1",
+        "frames": 150,
+        "label": 2
+      },
+      {
+        "clip": "anya_MB/v_anya_MB_1",
+        "frames": 157,
+        "label": 3
+      },
+      {
+        "clip": "bai_you/v_baiyou_1",
+        "frames": 100,
+        "label": 4
+      },
+      {
+        "clip": "bai_zuo/v_baizuo_1",
+        "frames": 149,
+        "label": 5
+      },
+      {
+        "clip": "bao/v_bao_1",
+        "frames": 166,
+        "label": 6
+      },
+      {
+        "clip": "cha_fang_you/v_cha_fang_you_1",
+        "frames": 150,
+        "label": 7
+      },
+      {
+        "clip": "cha_fang_zuo/v_cha_fang_zuo_1",
+        "frames": 159,
+        "label": 8
+      },
+      {
+        "clip": "cha1/v_cha1_1",
+        "frames": 172,
+        "label": 9
+      }
+    ]
+  },
+  "val": {
+    "annotations": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\configs\\..\\data\\splits\\val.txt",
+    "sha256": "03141817ce8b02916fc81638ac936bb645de74993dede77f0a51e353b721ff62",
+    "clips": 10,
+    "annotated_frames": 1401,
+    "labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "rows": [
+      {
+        "clip": "an_mopping/v_an_mopping_2",
+        "frames": 72,
+        "label": 0
+      },
+      {
+        "clip": "anya_hinge/v_anya_hinge_2",
+        "frames": 169,
+        "label": 1
+      },
+      {
+        "clip": "anya_LCD/v_anya_LCD_2",
+        "frames": 150,
+        "label": 2
+      },
+      {
+        "clip": "anya_MB/v_anya_MB_2",
+        "frames": 157,
+        "label": 3
+      },
+      {
+        "clip": "bai_you/v_baiyou_2",
+        "frames": 99,
+        "label": 4
+      },
+      {
+        "clip": "bai_zuo/v_baizuo_2",
+        "frames": 149,
+        "label": 5
+      },
+      {
+        "clip": "bao/v_bao_2",
+        "frames": 167,
+        "label": 6
+      },
+      {
+        "clip": "cha_fang_you/v_cha_fang_you_2",
+        "frames": 143,
+        "label": 7
+      },
+      {
+        "clip": "cha_fang_zuo/v_cha_fang_zuo_2",
+        "frames": 123,
+        "label": 8
+      },
+      {
+        "clip": "cha1/v_cha1_2",
+        "frames": 172,
+        "label": 9
+      }
+    ]
+  }
+}

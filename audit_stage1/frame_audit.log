@@ -1,0 +1,27 @@
+decoded 500/3037
+decoded 1000/3037
+decoded 1500/3037
+decoded 2000/3037
+decoded 2500/3037
+decoded 3000/3037
+compared clip 1/20
+compared clip 2/20
+compared clip 3/20
+compared clip 4/20
+compared clip 5/20
+compared clip 6/20
+compared clip 7/20
+compared clip 8/20
+compared clip 9/20
+compared clip 10/20
+compared clip 11/20
+compared clip 12/20
+compared clip 13/20
+compared clip 14/20
+compared clip 15/20
+compared clip 16/20
+compared clip 17/20
+compared clip 18/20
+compared clip 19/20
+compared clip 20/20
+{"status": "PASS", "frames": 3037, "current_selected_cross_split_decoded_pixel_hash_count": 0, "elapsed_seconds": 51.73499999998603}

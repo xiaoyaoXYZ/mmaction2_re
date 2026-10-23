@@ -1,0 +1,47 @@
+Download 2722695404 bytes in 163 chunks; official SHA256=256589349b9611195fe585a5aaf616945477f73a22c481311e3dadf12fbc5cb2
+chunk=5 attempt=1: <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:1129)>
+5/163 chunks (3.1%), elapsed=63s
+10/163 chunks (6.1%), elapsed=88s
+chunk=11 attempt=1: <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:1129)>
+15/163 chunks (9.2%), elapsed=137s
+chunk=20 attempt=1: <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:1129)>
+chunk=21 attempt=1: <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:1129)>
+20/163 chunks (12.3%), elapsed=214s
+25/163 chunks (15.3%), elapsed=259s
+30/163 chunks (18.4%), elapsed=318s
+35/163 chunks (21.5%), elapsed=418s
+chunk=15 attempt=1: IncompleteRead(16774758 bytes read, 2458 more expected)
+40/163 chunks (24.5%), elapsed=508s
+45/163 chunks (27.6%), elapsed=640s
+50/163 chunks (30.7%), elapsed=708s
+55/163 chunks (33.7%), elapsed=761s
+60/163 chunks (36.8%), elapsed=810s
+65/163 chunks (39.9%), elapsed=857s
+70/163 chunks (42.9%), elapsed=904s
+chunk=75 attempt=1: <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:1129)>
+chunk=76 attempt=1: <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:1129)>
+75/163 chunks (46.0%), elapsed=958s
+80/163 chunks (49.1%), elapsed=1001s
+85/163 chunks (52.1%), elapsed=1043s
+90/163 chunks (55.2%), elapsed=1070s
+95/163 chunks (58.3%), elapsed=1107s
+100/163 chunks (61.3%), elapsed=1161s
+105/163 chunks (64.4%), elapsed=1214s
+110/163 chunks (67.5%), elapsed=1248s
+chunk=113 attempt=1: <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:1129)>
+115/163 chunks (70.6%), elapsed=1285s
+120/163 chunks (73.6%), elapsed=1322s
+chunk=124 attempt=1: <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:1129)>
+125/163 chunks (76.7%), elapsed=1361s
+chunk=129 attempt=1: <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:1129)>
+chunk=129 attempt=2: <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:1129)>
+chunk=131 attempt=1: <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:1129)>
+130/163 chunks (79.8%), elapsed=1413s
+135/163 chunks (82.8%), elapsed=1463s
+140/163 chunks (85.9%), elapsed=1511s
+145/163 chunks (89.0%), elapsed=1582s
+150/163 chunks (92.0%), elapsed=1622s
+155/163 chunks (95.1%), elapsed=1665s
+160/163 chunks (98.2%), elapsed=1711s
+163/163 chunks (100.0%), elapsed=1835s
+{"url": "https://download.pytorch.org/whl/cu118/torch-2.1.2%2Bcu118-cp39-cp39-win_amd64.whl", "bytes": 2722695404, "sha256": "256589349b9611195fe585a5aaf616945477f73a22c481311e3dadf12fbc5cb2", "status": "VERIFIED", "elapsed_seconds": 1842.4060000000172}

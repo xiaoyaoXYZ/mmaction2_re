@@ -1,0 +1,17 @@
+{
+  "status": "VERIFIED",
+  "recorded": "2026-10-19T02:48:49.658473+08:00",
+  "source_root": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild",
+  "snapshot": "snapshot.zip",
+  "snapshot_bytes": 962511719,
+  "snapshot_sha256": "9d86b0b811214f05446a872194310b35516b297169ca0f529a41eb25e24a2d77",
+  "file_count": 3126,
+  "previous_artifact_manifest_matches": true,
+  "all_archive_entries_sha256_verified": true,
+  "source_files_unchanged_during_snapshot": true,
+  "environment_versions_unchanged": true,
+  "environment_retained_in_place": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv",
+  "environment_binary_copy_in_archive": false,
+  "train_metric_top1": 0.2,
+  "meaning": "Engineering baseline only; not an independent or paper reproduction result"
+}

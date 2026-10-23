@@ -1,0 +1,586 @@
+{
+  "status": "PASS",
+  "mode": "evaluate",
+  "started": "2026-10-18T21:22:49.927361+08:00",
+  "output_directory": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\work_dirs\\evaluate_gpu_01",
+  "command": [
+    "mmaction_rebuild\\scripts\\run_baseline.py",
+    "evaluate",
+    "--checkpoint",
+    "mmaction_rebuild\\work_dirs\\train_gpu_01\\epoch_1.pth",
+    "--output-dir",
+    "mmaction_rebuild\\work_dirs\\evaluate_gpu_01"
+  ],
+  "python": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Scripts\\python.exe",
+  "limitation": "Engineering validation only. Source sessions/persons are unknown; clips may share an acquisition source. No independent test set and no target accuracy. No MAE pretraining is performed here.",
+  "framework_registration": {
+    "mode": "scoped_official_classification_imports_for_mmcv_lite",
+    "mmaction_version": "1.2.0",
+    "mmcv_version": "2.1.0",
+    "official_module_files": {
+      "mmaction.models.losses.cross_entropy_loss": {
+        "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\models\\losses\\cross_entropy_loss.py",
+        "sha256": "998636cd87a82b23a0fefd12d51b8b1861cd4c7bb9b9c97d06e2dbd090541dde"
+      },
+      "mmaction.models.backbones.swin": {
+        "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\models\\backbones\\swin.py",
+        "sha256": "1cd31329c8f5311936a5599c67604b9787be49f20ae485e7902d4bc4cd310034"
+      },
+      "mmaction.models.heads.i3d_head": {
+        "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\models\\heads\\i3d_head.py",
+        "sha256": "3f32dde8916c5604b30ae9d586e6bc82509590005e74ff3beffb280650e9ab0e"
+      },
+      "mmaction.models.data_preprocessors.data_preprocessor": {
+        "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\models\\data_preprocessors\\data_preprocessor.py",
+        "sha256": "1a23913f552be1eba0954f9162ecd91df04600d528f79f10c81efc5038bc95da"
+      },
+      "mmaction.models.recognizers.recognizer3d": {
+        "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\Lib\\site-packages\\mmaction\\models\\recognizers\\recognizer3d.py",
+        "sha256": "5daa9b5fa72a1c4c7e69a41f2079cb4a6e7411d8877c1b5f06182ecee3e2c638"
+      },
+      "mmaction.datasets": {
+        "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\lib\\site-packages\\mmaction\\datasets\\__init__.py",
+        "sha256": "6e22097a712a5d23615b66682e21eb448a39ef40c2a8ff6432d824a2b27c80ee"
+      },
+      "mmaction.evaluation": {
+        "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\lib\\site-packages\\mmaction\\evaluation\\__init__.py",
+        "sha256": "af3f5f48657d811e3c05a05710018d5840a85a8be54e64963f453acf3d728785"
+      },
+      "mmaction.visualization": {
+        "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\.venv\\lib\\site-packages\\mmaction\\visualization\\__init__.py",
+        "sha256": "ca0cd670f7efdc6de60789ac8f7c24c08aedd57e4f636abcb2be164341e8c7e1"
+      }
+    },
+    "note": "Compiled detection operators are unavailable with mmcv-lite; this run only uses official Swin classification components."
+  },
+  "versions": {
+    "torch": "2.1.2+cu118",
+    "torchvision": "0.16.2+cu118",
+    "mmengine": "0.10.7",
+    "mmcv-lite": "2.1.0",
+    "mmaction2": "1.2.0",
+    "numpy": "1.26.4"
+  },
+  "config_source": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\configs\\swin_tiny_industrial.py",
+  "config_sha256": "4937bab892f8849d6adfb974c14ca8ece1d67e6d339c60bd9a6a5c8316648604",
+  "dataset": {
+    "num_classes": 10,
+    "limitation": "Engineering validation only. Source sessions/persons are unknown; clips may share an acquisition source. No independent test set and no target accuracy. No MAE pretraining is performed here.",
+    "train": {
+      "annotations": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\configs\\..\\data\\splits\\train.txt",
+      "sha256": "3b842415cb8b3d017931e4a052010f3b3f12c78f3054da3e0102c6ba3a0019ce",
+      "clips": 10,
+      "annotated_frames": 1545,
+      "labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rows": [
+        {
+          "clip": "an_mopping/v_an_mopping_1",
+          "frames": 174,
+          "label": 0
+        },
+        {
+          "clip": "anya_hinge/v_anya_hinge_1",
+          "frames": 168,
+          "label": 1
+        },
+        {
+          "clip": "anya_LCD/v_anya_LCD_1",
+          "frames": 150,
+          "label": 2
+        },
+        {
+          "clip": "anya_MB/v_anya_MB_1",
+          "frames": 157,
+          "label": 3
+        },
+        {
+          "clip": "bai_you/v_baiyou_1",
+          "frames": 100,
+          "label": 4
+        },
+        {
+          "clip": "bai_zuo/v_baizuo_1",
+          "frames": 149,
+          "label": 5
+        },
+        {
+          "clip": "bao/v_bao_1",
+          "frames": 166,
+          "label": 6
+        },
+        {
+          "clip": "cha_fang_you/v_cha_fang_you_1",
+          "frames": 150,
+          "label": 7
+        },
+        {
+          "clip": "cha_fang_zuo/v_cha_fang_zuo_1",
+          "frames": 159,
+          "label": 8
+        },
+        {
+          "clip": "cha1/v_cha1_1",
+          "frames": 172,
+          "label": 9
+        }
+      ]
+    },
+    "val": {
+      "annotations": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\configs\\..\\data\\splits\\val.txt",
+      "sha256": "03141817ce8b02916fc81638ac936bb645de74993dede77f0a51e353b721ff62",
+      "clips": 10,
+      "annotated_frames": 1401,
+      "labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rows": [
+        {
+          "clip": "an_mopping/v_an_mopping_2",
+          "frames": 72,
+          "label": 0
+        },
+        {
+          "clip": "anya_hinge/v_anya_hinge_2",
+          "frames": 169,
+          "label": 1
+        },
+        {
+          "clip": "anya_LCD/v_anya_LCD_2",
+          "frames": 150,
+          "label": 2
+        },
+        {
+          "clip": "anya_MB/v_anya_MB_2",
+          "frames": 157,
+          "label": 3
+        },
+        {
+          "clip": "bai_you/v_baiyou_2",
+          "frames": 99,
+          "label": 4
+        },
+        {
+          "clip": "bai_zuo/v_baizuo_2",
+          "frames": 149,
+          "label": 5
+        },
+        {
+          "clip": "bao/v_bao_2",
+          "frames": 167,
+          "label": 6
+        },
+        {
+          "clip": "cha_fang_you/v_cha_fang_you_2",
+          "frames": 143,
+          "label": 7
+        },
+        {
+          "clip": "cha_fang_zuo/v_cha_fang_zuo_2",
+          "frames": 123,
+          "label": 8
+        },
+        {
+          "clip": "cha1/v_cha1_2",
+          "frames": 172,
+          "label": 9
+        }
+      ]
+    }
+  },
+  "checkpoint": {
+    "path": "C:\\Users\\Dala\\Documents\\New project\\mmaction_rebuild\\work_dirs\\train_gpu_01\\epoch_1.pth",
+    "sha256": "1cc648417efff8ad7664fd258841de760d5fe1c455a3aaec5eee46bf9831d7bb",
+    "bytes": 237752614,
+    "strict": true,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "optimizer_present": true,
+    "epoch": 1,
+    "iteration": 10
+  },
+  "validation_metrics": {
+    "acc/top1": 0.2,
+    "acc/top5": 0.8,
+    "acc/mean1": 0.2
+  },
+  "classes": {
+    "0": "anya_mopping",
+    "1": "anya_hinge",
+    "2": "anya_LCD",
+    "3": "anya_MB",
+    "4": "bai_you",
+    "5": "bai_zuo",
+    "6": "bao",
+    "7": "cha_fang_you",
+    "8": "cha_fang_zuo",
+    "9": "cha1"
+  },
+  "confusion_matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  ],
+  "confusion_orientation": "rows=true labels, columns=predicted labels",
+  "clips": [
+    {
+      "clip": "an_mopping/v_an_mopping_2",
+      "total_frames": 72,
+      "true_label": 0,
+      "true_class": "anya_mopping",
+      "predicted_label": 0,
+      "predicted_class": "anya_mopping",
+      "probabilities": [
+        0.1313805878162384,
+        0.06904970109462738,
+        0.07273869216442108,
+        0.07065644860267639,
+        0.12750281393527985,
+        0.09453269094228745,
+        0.11733470857143402,
+        0.11899326741695404,
+        0.09613417834043503,
+        0.10167695581912994
+      ],
+      "repeat_max_abs_difference": 0.0
+    },
+    {
+      "clip": "anya_hinge/v_anya_hinge_2",
+      "total_frames": 169,
+      "true_label": 1,
+      "true_class": "anya_hinge",
+      "predicted_label": 0,
+      "predicted_class": "anya_mopping",
+      "probabilities": [
+        0.16107895970344543,
+        0.09199360013008118,
+        0.08922839164733887,
+        0.057809606194496155,
+        0.11913134902715683,
+        0.0981377363204956,
+        0.12172239273786545,
+        0.08747616410255432,
+        0.0858829990029335,
+        0.08753879368305206
+      ],
+      "repeat_max_abs_difference": 0.0
+    },
+    {
+      "clip": "anya_LCD/v_anya_LCD_2",
+      "total_frames": 150,
+      "true_label": 2,
+      "true_class": "anya_LCD",
+      "predicted_label": 0,
+      "predicted_class": "anya_mopping",
+      "probabilities": [
+        0.1598004698753357,
+        0.0757937803864479,
+        0.07903377711772919,
+        0.06474458426237106,
+        0.12406466901302338,
+        0.08923278003931046,
+        0.1116952896118164,
+        0.09582404047250748,
+        0.08931941539049149,
+        0.11049124598503113
+      ],
+      "repeat_max_abs_difference": 0.0
+    },
+    {
+      "clip": "anya_MB/v_anya_MB_2",
+      "total_frames": 157,
+      "true_label": 3,
+      "true_class": "anya_MB",
+      "predicted_label": 7,
+      "predicted_class": "cha_fang_you",
+      "probabilities": [
+        0.11349839717149734,
+        0.08601459860801697,
+        0.08536975830793381,
+        0.06661728769540787,
+        0.10435342788696289,
+        0.09051578491926193,
+        0.11986487358808517,
+        0.12893830239772797,
+        0.09714208543300629,
+        0.10768548399209976
+      ],
+      "repeat_max_abs_difference": 0.0
+    },
+    {
+      "clip": "bai_you/v_baiyou_2",
+      "total_frames": 99,
+      "true_label": 4,
+      "true_class": "bai_you",
+      "predicted_label": 0,
+      "predicted_class": "anya_mopping",
+      "probabilities": [
+        0.14768707752227783,
+        0.07717345654964447,
+        0.08063079416751862,
+        0.06372049450874329,
+        0.131499245762825,
+        0.08902063965797424,
+        0.11627078801393509,
+        0.09971786290407181,
+        0.09413827955722809,
+        0.10014144331216812
+      ],
+      "repeat_max_abs_difference": 0.0
+    },
+    {
+      "clip": "bai_zuo/v_baizuo_2",
+      "total_frames": 149,
+      "true_label": 5,
+      "true_class": "bai_zuo",
+      "predicted_label": 0,
+      "predicted_class": "anya_mopping",
+      "probabilities": [
+        0.1719302237033844,
+        0.09042322635650635,
+        0.09660948812961578,
+        0.05660292133688927,
+        0.12598423659801483,
+        0.10020525008440018,
+        0.10902030020952225,
+        0.08636599034070969,
+        0.07877380400896072,
+        0.08408463001251221
+      ],
+      "repeat_max_abs_difference": 0.0
+    },
+    {
+      "clip": "bao/v_bao_2",
+      "total_frames": 167,
+      "true_label": 6,
+      "true_class": "bao",
+      "predicted_label": 7,
+      "predicted_class": "cha_fang_you",
+      "probabilities": [
+        0.09278319776058197,
+        0.08194318413734436,
+        0.07903285324573517,
+        0.06694764643907547,
+        0.10710811614990234,
+        0.08479326218366623,
+        0.12394118309020996,
+        0.14865055680274963,
+        0.10817901045084,
+        0.10662095248699188
+      ],
+      "repeat_max_abs_difference": 0.0
+    },
+    {
+      "clip": "cha_fang_you/v_cha_fang_you_2",
+      "total_frames": 143,
+      "true_label": 7,
+      "true_class": "cha_fang_you",
+      "predicted_label": 7,
+      "predicted_class": "cha_fang_you",
+      "probabilities": [
+        0.08129562437534332,
+        0.07972224801778793,
+        0.07526884973049164,
+        0.0704939067363739,
+        0.09972289949655533,
+        0.08378385007381439,
+        0.11364026367664337,
+        0.18146401643753052,
+        0.10382378846406937,
+        0.11078458279371262
+      ],
+      "repeat_max_abs_difference": 0.0
+    },
+    {
+      "clip": "cha_fang_zuo/v_cha_fang_zuo_2",
+      "total_frames": 123,
+      "true_label": 8,
+      "true_class": "cha_fang_zuo",
+      "predicted_label": 7,
+      "predicted_class": "cha_fang_you",
+      "probabilities": [
+        0.07833930850028992,
+        0.0771314799785614,
+        0.07645419239997864,
+        0.06591501086950302,
+        0.09465209394693375,
+        0.08433916419744492,
+        0.12203444540500641,
+        0.18776929378509521,
+        0.09724460542201996,
+        0.11612042784690857
+      ],
+      "repeat_max_abs_difference": 0.0
+    },
+    {
+      "clip": "cha1/v_cha1_2",
+      "total_frames": 172,
+      "true_label": 9,
+      "true_class": "cha1",
+      "predicted_label": 7,
+      "predicted_class": "cha_fang_you",
+      "probabilities": [
+        0.10957135260105133,
+        0.0770333856344223,
+        0.08062871545553207,
+        0.06878305971622467,
+        0.10417238622903824,
+        0.09131044894456863,
+        0.12236586958169937,
+        0.13359780609607697,
+        0.0981721431016922,
+        0.11436478048563004
+      ],
+      "repeat_max_abs_difference": 0.0
+    }
+  ],
+  "repeated_prediction_tolerance": 1e-06,
+  "gpu_memory": {
+    "device": "cuda:0",
+    "cuda_used": true,
+    "allocated_bytes": 163971584,
+    "reserved_bytes": 220200960,
+    "peak_allocated_bytes": 194268672,
+    "peak_reserved_bytes": 220200960,
+    "free_bytes": 1413293467,
+    "total_bytes": 2147352576
+  },
+  "finished": "2026-10-18T21:23:48.260132+08:00",
+  "seconds": 58.3323382
+}

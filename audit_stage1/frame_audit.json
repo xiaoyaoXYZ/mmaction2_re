@@ -1,0 +1,1828 @@
+{
+  "status": "PASS",
+  "frames": 3037,
+  "all_current_file_sha256_match_previous_manifest": true,
+  "image_sizes": {
+    "1280x720": 3037
+  },
+  "clips": [
+    {
+      "clip": "an_mopping/v_an_mopping_1",
+      "frames": 174,
+      "split": "train",
+      "active_frames": 174,
+      "label": 0,
+      "class_name": "anya_mopping",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 0,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "an_mopping/v_an_mopping_2",
+      "frames": 121,
+      "split": "val",
+      "active_frames": 72,
+      "label": 0,
+      "class_name": "anya_mopping",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 16,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "anya_LCD/v_anya_LCD_1",
+      "frames": 150,
+      "split": "train",
+      "active_frames": 150,
+      "label": 2,
+      "class_name": "anya_LCD",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 4,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "anya_LCD/v_anya_LCD_2",
+      "frames": 150,
+      "split": "val",
+      "active_frames": 150,
+      "label": 2,
+      "class_name": "anya_LCD",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 1,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "anya_MB/v_anya_MB_1",
+      "frames": 157,
+      "split": "train",
+      "active_frames": 157,
+      "label": 3,
+      "class_name": "anya_MB",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 0,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "anya_MB/v_anya_MB_2",
+      "frames": 157,
+      "split": "val",
+      "active_frames": 157,
+      "label": 3,
+      "class_name": "anya_MB",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 0,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "anya_hinge/v_anya_hinge_1",
+      "frames": 168,
+      "split": "train",
+      "active_frames": 168,
+      "label": 1,
+      "class_name": "anya_hinge",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 0,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "anya_hinge/v_anya_hinge_2",
+      "frames": 169,
+      "split": "val",
+      "active_frames": 169,
+      "label": 1,
+      "class_name": "anya_hinge",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 0,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "bai_you/v_baiyou_1",
+      "frames": 100,
+      "split": "train",
+      "active_frames": 100,
+      "label": 4,
+      "class_name": "bai_you",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 1,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "bai_you/v_baiyou_2",
+      "frames": 99,
+      "split": "val",
+      "active_frames": 99,
+      "label": 4,
+      "class_name": "bai_you",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 0,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "bai_zuo/v_baizuo_1",
+      "frames": 149,
+      "split": "train",
+      "active_frames": 149,
+      "label": 5,
+      "class_name": "bai_zuo",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 1,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "bai_zuo/v_baizuo_2",
+      "frames": 149,
+      "split": "val",
+      "active_frames": 149,
+      "label": 5,
+      "class_name": "bai_zuo",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 0,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "bao/v_bao_1",
+      "frames": 166,
+      "split": "train",
+      "active_frames": 166,
+      "label": 6,
+      "class_name": "bao",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 0,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "bao/v_bao_2",
+      "frames": 167,
+      "split": "val",
+      "active_frames": 167,
+      "label": 6,
+      "class_name": "bao",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 0,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "cha1/v_cha1_1",
+      "frames": 172,
+      "split": "train",
+      "active_frames": 172,
+      "label": 9,
+      "class_name": "cha1",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 5,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "cha1/v_cha1_2",
+      "frames": 172,
+      "split": "val",
+      "active_frames": 172,
+      "label": 9,
+      "class_name": "cha1",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 2,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "cha_fang_you/v_cha_fang_you_1",
+      "frames": 150,
+      "split": "train",
+      "active_frames": 150,
+      "label": 7,
+      "class_name": "cha_fang_you",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 1,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "cha_fang_you/v_cha_fang_you_2",
+      "frames": 149,
+      "split": "val",
+      "active_frames": 143,
+      "label": 7,
+      "class_name": "cha_fang_you",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 6,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "cha_fang_zuo/v_cha_fang_zuo_1",
+      "frames": 159,
+      "split": "train",
+      "active_frames": 159,
+      "label": 8,
+      "class_name": "cha_fang_zuo",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 0,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    },
+    {
+      "clip": "cha_fang_zuo/v_cha_fang_zuo_2",
+      "frames": 159,
+      "split": "val",
+      "active_frames": 123,
+      "label": 8,
+      "class_name": "cha_fang_zuo",
+      "numbering_contiguous": true,
+      "extra_byte_duplicate_occurrences": 0,
+      "source_video_id": "unknown",
+      "capture_session": "unknown"
+    }
+  ],
+  "byte_duplicate_groups": [
+    [
+      "an_mopping/v_an_mopping_1/img_00111.jpg",
+      "an_mopping/v_an_mopping_2/img_00073.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00112.jpg",
+      "an_mopping/v_an_mopping_2/img_00074.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00113.jpg",
+      "an_mopping/v_an_mopping_2/img_00075.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00114.jpg",
+      "an_mopping/v_an_mopping_2/img_00076.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00115.jpg",
+      "an_mopping/v_an_mopping_2/img_00077.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00116.jpg",
+      "an_mopping/v_an_mopping_2/img_00078.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00027.jpg",
+      "an_mopping/v_an_mopping_2/img_00114.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00028.jpg",
+      "an_mopping/v_an_mopping_2/img_00115.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00029.jpg",
+      "an_mopping/v_an_mopping_2/img_00116.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00030.jpg",
+      "an_mopping/v_an_mopping_2/img_00117.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00031.jpg",
+      "an_mopping/v_an_mopping_2/img_00118.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00032.jpg",
+      "an_mopping/v_an_mopping_2/img_00119.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00033.jpg",
+      "an_mopping/v_an_mopping_2/img_00120.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00034.jpg",
+      "an_mopping/v_an_mopping_2/img_00121.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00035.jpg",
+      "an_mopping/v_an_mopping_2/img_00105.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00036.jpg",
+      "an_mopping/v_an_mopping_2/img_00106.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00037.jpg",
+      "an_mopping/v_an_mopping_2/img_00107.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00038.jpg",
+      "an_mopping/v_an_mopping_2/img_00108.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00039.jpg",
+      "an_mopping/v_an_mopping_2/img_00109.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00040.jpg",
+      "an_mopping/v_an_mopping_2/img_00110.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00041.jpg",
+      "an_mopping/v_an_mopping_2/img_00111.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00042.jpg",
+      "an_mopping/v_an_mopping_2/img_00112.jpg"
+    ],
+    [
+      "anya_LCD/v_anya_LCD_1/img_00067.jpg",
+      "anya_LCD/v_anya_LCD_1/img_00068.jpg"
+    ],
+    [
+      "anya_LCD/v_anya_LCD_1/img_00078.jpg",
+      "anya_LCD/v_anya_LCD_1/img_00079.jpg"
+    ],
+    [
+      "anya_LCD/v_anya_LCD_1/img_00093.jpg",
+      "anya_LCD/v_anya_LCD_1/img_00094.jpg"
+    ],
+    [
+      "anya_LCD/v_anya_LCD_1/img_00146.jpg",
+      "anya_LCD/v_anya_LCD_1/img_00149.jpg"
+    ],
+    [
+      "anya_LCD/v_anya_LCD_2/img_00010.jpg",
+      "anya_LCD/v_anya_LCD_2/img_00014.jpg"
+    ],
+    [
+      "bai_you/v_baiyou_1/img_00012.jpg",
+      "bai_you/v_baiyou_1/img_00013.jpg"
+    ],
+    [
+      "bai_zuo/v_baizuo_1/img_00125.jpg",
+      "bai_zuo/v_baizuo_1/img_00126.jpg"
+    ],
+    [
+      "cha1/v_cha1_1/img_00005.jpg",
+      "cha1/v_cha1_1/img_00009.jpg"
+    ],
+    [
+      "cha1/v_cha1_1/img_00057.jpg",
+      "cha1/v_cha1_1/img_00112.jpg"
+    ],
+    [
+      "cha1/v_cha1_1/img_00124.jpg",
+      "cha1/v_cha1_1/img_00146.jpg"
+    ],
+    [
+      "cha1/v_cha1_1/img_00145.jpg",
+      "cha1/v_cha1_1/img_00150.jpg",
+      "cha1/v_cha1_1/img_00153.jpg"
+    ],
+    [
+      "cha1/v_cha1_2/img_00024.jpg",
+      "cha1/v_cha1_2/img_00026.jpg"
+    ],
+    [
+      "cha1/v_cha1_2/img_00133.jpg",
+      "cha1/v_cha1_2/img_00134.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00027.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00144.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00028.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00145.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00029.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00146.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00030.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00147.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00031.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00148.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00032.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00149.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00116.jpg",
+      "cha_fang_you/v_cha_fang_you_1/img_00119.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00011.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00092.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00012.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00093.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00013.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00094.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00014.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00095.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00015.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00096.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00029.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00033.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00081.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00124.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00082.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00125.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00083.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00126.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00084.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00127.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00085.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00128.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00086.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00129.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00087.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00130.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00088.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00131.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00089.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00132.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00090.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00133.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00091.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00134.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00092.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00135.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00093.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00136.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00094.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00137.jpg"
+    ]
+  ],
+  "decoded_pixel_duplicate_groups": [
+    [
+      "an_mopping/v_an_mopping_1/img_00111.jpg",
+      "an_mopping/v_an_mopping_2/img_00073.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00112.jpg",
+      "an_mopping/v_an_mopping_2/img_00074.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00113.jpg",
+      "an_mopping/v_an_mopping_2/img_00075.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00114.jpg",
+      "an_mopping/v_an_mopping_2/img_00076.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00115.jpg",
+      "an_mopping/v_an_mopping_2/img_00077.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_1/img_00116.jpg",
+      "an_mopping/v_an_mopping_2/img_00078.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00027.jpg",
+      "an_mopping/v_an_mopping_2/img_00114.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00028.jpg",
+      "an_mopping/v_an_mopping_2/img_00115.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00029.jpg",
+      "an_mopping/v_an_mopping_2/img_00116.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00030.jpg",
+      "an_mopping/v_an_mopping_2/img_00117.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00031.jpg",
+      "an_mopping/v_an_mopping_2/img_00118.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00032.jpg",
+      "an_mopping/v_an_mopping_2/img_00119.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00033.jpg",
+      "an_mopping/v_an_mopping_2/img_00120.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00034.jpg",
+      "an_mopping/v_an_mopping_2/img_00121.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00035.jpg",
+      "an_mopping/v_an_mopping_2/img_00105.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00036.jpg",
+      "an_mopping/v_an_mopping_2/img_00106.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00037.jpg",
+      "an_mopping/v_an_mopping_2/img_00107.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00038.jpg",
+      "an_mopping/v_an_mopping_2/img_00108.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00039.jpg",
+      "an_mopping/v_an_mopping_2/img_00109.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00040.jpg",
+      "an_mopping/v_an_mopping_2/img_00110.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00041.jpg",
+      "an_mopping/v_an_mopping_2/img_00111.jpg"
+    ],
+    [
+      "an_mopping/v_an_mopping_2/img_00042.jpg",
+      "an_mopping/v_an_mopping_2/img_00112.jpg"
+    ],
+    [
+      "anya_LCD/v_anya_LCD_1/img_00067.jpg",
+      "anya_LCD/v_anya_LCD_1/img_00068.jpg"
+    ],
+    [
+      "anya_LCD/v_anya_LCD_1/img_00078.jpg",
+      "anya_LCD/v_anya_LCD_1/img_00079.jpg"
+    ],
+    [
+      "anya_LCD/v_anya_LCD_1/img_00093.jpg",
+      "anya_LCD/v_anya_LCD_1/img_00094.jpg"
+    ],
+    [
+      "anya_LCD/v_anya_LCD_1/img_00146.jpg",
+      "anya_LCD/v_anya_LCD_1/img_00149.jpg"
+    ],
+    [
+      "anya_LCD/v_anya_LCD_2/img_00010.jpg",
+      "anya_LCD/v_anya_LCD_2/img_00014.jpg"
+    ],
+    [
+      "bai_you/v_baiyou_1/img_00012.jpg",
+      "bai_you/v_baiyou_1/img_00013.jpg"
+    ],
+    [
+      "bai_zuo/v_baizuo_1/img_00125.jpg",
+      "bai_zuo/v_baizuo_1/img_00126.jpg"
+    ],
+    [
+      "cha1/v_cha1_1/img_00005.jpg",
+      "cha1/v_cha1_1/img_00009.jpg"
+    ],
+    [
+      "cha1/v_cha1_1/img_00057.jpg",
+      "cha1/v_cha1_1/img_00112.jpg"
+    ],
+    [
+      "cha1/v_cha1_1/img_00124.jpg",
+      "cha1/v_cha1_1/img_00146.jpg"
+    ],
+    [
+      "cha1/v_cha1_1/img_00145.jpg",
+      "cha1/v_cha1_1/img_00150.jpg",
+      "cha1/v_cha1_1/img_00153.jpg"
+    ],
+    [
+      "cha1/v_cha1_2/img_00024.jpg",
+      "cha1/v_cha1_2/img_00026.jpg"
+    ],
+    [
+      "cha1/v_cha1_2/img_00133.jpg",
+      "cha1/v_cha1_2/img_00134.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00027.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00144.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00028.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00145.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00029.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00146.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00030.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00147.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00031.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00148.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00032.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00149.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1/img_00116.jpg",
+      "cha_fang_you/v_cha_fang_you_1/img_00119.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00011.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00092.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00012.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00093.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00013.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00094.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00014.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00095.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00015.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00096.jpg"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_2/img_00029.jpg",
+      "cha_fang_you/v_cha_fang_you_2/img_00033.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00081.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00124.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00082.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00125.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00083.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00126.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00084.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00127.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00085.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00128.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00086.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00129.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00087.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00130.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00088.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00131.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00089.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00132.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00090.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00133.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00091.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00134.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00092.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00135.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00093.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00136.jpg"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1/img_00094.jpg",
+      "cha_fang_zuo/v_cha_fang_zuo_2/img_00137.jpg"
+    ]
+  ],
+  "exact_cross_clip_pairs": [
+    {
+      "clip_a": "an_mopping/v_an_mopping_1",
+      "clip_b": "an_mopping/v_an_mopping_2",
+      "frame_pairs": [
+        [
+          111,
+          73
+        ],
+        [
+          112,
+          74
+        ],
+        [
+          113,
+          75
+        ],
+        [
+          114,
+          76
+        ],
+        [
+          115,
+          77
+        ],
+        [
+          116,
+          78
+        ]
+      ],
+      "runs": [
+        {
+          "a_start": 111,
+          "a_end": 116,
+          "b_start": 73,
+          "b_end": 78,
+          "length": 6,
+          "offset": -38
+        }
+      ],
+      "currently_selected_pairs": []
+    },
+    {
+      "clip_a": "cha_fang_you/v_cha_fang_you_1",
+      "clip_b": "cha_fang_you/v_cha_fang_you_2",
+      "frame_pairs": [
+        [
+          27,
+          144
+        ],
+        [
+          28,
+          145
+        ],
+        [
+          29,
+          146
+        ],
+        [
+          30,
+          147
+        ],
+        [
+          31,
+          148
+        ],
+        [
+          32,
+          149
+        ]
+      ],
+      "runs": [
+        {
+          "a_start": 27,
+          "a_end": 32,
+          "b_start": 144,
+          "b_end": 149,
+          "length": 6,
+          "offset": 117
+        }
+      ],
+      "currently_selected_pairs": []
+    },
+    {
+      "clip_a": "cha_fang_zuo/v_cha_fang_zuo_1",
+      "clip_b": "cha_fang_zuo/v_cha_fang_zuo_2",
+      "frame_pairs": [
+        [
+          81,
+          124
+        ],
+        [
+          82,
+          125
+        ],
+        [
+          83,
+          126
+        ],
+        [
+          84,
+          127
+        ],
+        [
+          85,
+          128
+        ],
+        [
+          86,
+          129
+        ],
+        [
+          87,
+          130
+        ],
+        [
+          88,
+          131
+        ],
+        [
+          89,
+          132
+        ],
+        [
+          90,
+          133
+        ],
+        [
+          91,
+          134
+        ],
+        [
+          92,
+          135
+        ],
+        [
+          93,
+          136
+        ],
+        [
+          94,
+          137
+        ]
+      ],
+      "runs": [
+        {
+          "a_start": 81,
+          "a_end": 94,
+          "b_start": 124,
+          "b_end": 137,
+          "length": 14,
+          "offset": 43
+        }
+      ],
+      "currently_selected_pairs": []
+    }
+  ],
+  "conservative_content_components": [
+    [
+      "an_mopping/v_an_mopping_1",
+      "an_mopping/v_an_mopping_2"
+    ],
+    [
+      "anya_LCD/v_anya_LCD_1"
+    ],
+    [
+      "anya_LCD/v_anya_LCD_2"
+    ],
+    [
+      "anya_MB/v_anya_MB_1"
+    ],
+    [
+      "anya_MB/v_anya_MB_2"
+    ],
+    [
+      "anya_hinge/v_anya_hinge_1"
+    ],
+    [
+      "anya_hinge/v_anya_hinge_2"
+    ],
+    [
+      "bai_you/v_baiyou_1"
+    ],
+    [
+      "bai_you/v_baiyou_2"
+    ],
+    [
+      "bai_zuo/v_baizuo_1"
+    ],
+    [
+      "bai_zuo/v_baizuo_2"
+    ],
+    [
+      "bao/v_bao_1"
+    ],
+    [
+      "bao/v_bao_2"
+    ],
+    [
+      "cha1/v_cha1_1"
+    ],
+    [
+      "cha1/v_cha1_2"
+    ],
+    [
+      "cha_fang_you/v_cha_fang_you_1",
+      "cha_fang_you/v_cha_fang_you_2"
+    ],
+    [
+      "cha_fang_zuo/v_cha_fang_zuo_1",
+      "cha_fang_zuo/v_cha_fang_zuo_2"
+    ]
+  ],
+  "current_selected_cross_split_decoded_pixel_hash_count": 0,
+  "perceptual_method": {
+    "phash": "63 AC DCT bits from gray32x32",
+    "hamming_threshold": 6,
+    "color_thumbnail": "64x36 BGR INTER_AREA",
+    "normalized_thumbnail_mae_threshold": 0.01,
+    "long_run_minimum_frames": 8,
+    "interpretation": "Heuristic candidates only; not proof of same source or independent negatives"
+  },
+  "near_duplicate_clip_pairs": [
+    {
+      "clip_a": "an_mopping/v_an_mopping_1",
+      "clip_b": "an_mopping/v_an_mopping_2",
+      "cross_current_split": true,
+      "candidate_pairs": 13,
+      "pixel_different_candidate_pairs": 7,
+      "active_candidate_pairs": 5,
+      "longest_run": {
+        "a_start": 111,
+        "a_end": 116,
+        "b_start": 73,
+        "b_end": 78,
+        "length": 6,
+        "offset": -38
+      },
+      "longest_active_run": {
+        "a_start": 91,
+        "a_end": 92,
+        "b_start": 1,
+        "b_end": 2,
+        "length": 2,
+        "offset": -90
+      },
+      "long_runs": [],
+      "long_active_runs": []
+    },
+    {
+      "clip_a": "anya_MB/v_anya_MB_1",
+      "clip_b": "anya_MB/v_anya_MB_2",
+      "cross_current_split": true,
+      "candidate_pairs": 1,
+      "pixel_different_candidate_pairs": 1,
+      "active_candidate_pairs": 1,
+      "longest_run": {
+        "a_start": 74,
+        "a_end": 74,
+        "b_start": 1,
+        "b_end": 1,
+        "length": 1,
+        "offset": -73
+      },
+      "longest_active_run": {
+        "a_start": 74,
+        "a_end": 74,
+        "b_start": 1,
+        "b_end": 1,
+        "length": 1,
+        "offset": -73
+      },
+      "long_runs": [],
+      "long_active_runs": []
+    },
+    {
+      "clip_a": "anya_hinge/v_anya_hinge_1",
+      "clip_b": "anya_hinge/v_anya_hinge_2",
+      "cross_current_split": true,
+      "candidate_pairs": 1,
+      "pixel_different_candidate_pairs": 1,
+      "active_candidate_pairs": 1,
+      "longest_run": {
+        "a_start": 168,
+        "a_end": 168,
+        "b_start": 169,
+        "b_end": 169,
+        "length": 1,
+        "offset": 1
+      },
+      "longest_active_run": {
+        "a_start": 168,
+        "a_end": 168,
+        "b_start": 169,
+        "b_end": 169,
+        "length": 1,
+        "offset": 1
+      },
+      "long_runs": [],
+      "long_active_runs": []
+    },
+    {
+      "clip_a": "bao/v_bao_2",
+      "clip_b": "cha_fang_zuo/v_cha_fang_zuo_2",
+      "cross_current_split": false,
+      "candidate_pairs": 5,
+      "pixel_different_candidate_pairs": 5,
+      "active_candidate_pairs": 4,
+      "longest_run": {
+        "a_start": 35,
+        "a_end": 35,
+        "b_start": 48,
+        "b_end": 48,
+        "length": 1,
+        "offset": 13
+      },
+      "longest_active_run": {
+        "a_start": 35,
+        "a_end": 35,
+        "b_start": 48,
+        "b_end": 48,
+        "length": 1,
+        "offset": 13
+      },
+      "long_runs": [],
+      "long_active_runs": []
+    },
+    {
+      "clip_a": "cha1/v_cha1_1",
+      "clip_b": "cha1/v_cha1_2",
+      "cross_current_split": true,
+      "candidate_pairs": 36,
+      "pixel_different_candidate_pairs": 36,
+      "active_candidate_pairs": 36,
+      "longest_run": {
+        "a_start": 171,
+        "a_end": 172,
+        "b_start": 1,
+        "b_end": 2,
+        "length": 2,
+        "offset": -170
+      },
+      "longest_active_run": {
+        "a_start": 171,
+        "a_end": 172,
+        "b_start": 1,
+        "b_end": 2,
+        "length": 2,
+        "offset": -170
+      },
+      "long_runs": [],
+      "long_active_runs": []
+    },
+    {
+      "clip_a": "cha_fang_you/v_cha_fang_you_1",
+      "clip_b": "cha_fang_you/v_cha_fang_you_2",
+      "cross_current_split": true,
+      "candidate_pairs": 8,
+      "pixel_different_candidate_pairs": 2,
+      "active_candidate_pairs": 0,
+      "longest_run": {
+        "a_start": 27,
+        "a_end": 32,
+        "b_start": 144,
+        "b_end": 149,
+        "length": 6,
+        "offset": 117
+      },
+      "longest_active_run": null,
+      "long_runs": [],
+      "long_active_runs": []
+    },
+    {
+      "clip_a": "cha_fang_you/v_cha_fang_you_1",
+      "clip_b": "cha_fang_zuo/v_cha_fang_zuo_1",
+      "cross_current_split": false,
+      "candidate_pairs": 4,
+      "pixel_different_candidate_pairs": 4,
+      "active_candidate_pairs": 4,
+      "longest_run": {
+        "a_start": 6,
+        "a_end": 7,
+        "b_start": 6,
+        "b_end": 7,
+        "length": 2,
+        "offset": 0
+      },
+      "longest_active_run": {
+        "a_start": 6,
+        "a_end": 7,
+        "b_start": 6,
+        "b_end": 7,
+        "length": 2,
+        "offset": 0
+      },
+      "long_runs": [],
+      "long_active_runs": []
+    },
+    {
+      "clip_a": "cha_fang_zuo/v_cha_fang_zuo_1",
+      "clip_b": "cha_fang_zuo/v_cha_fang_zuo_2",
+      "cross_current_split": true,
+      "candidate_pairs": 20,
+      "pixel_different_candidate_pairs": 6,
+      "active_candidate_pairs": 0,
+      "longest_run": {
+        "a_start": 81,
+        "a_end": 94,
+        "b_start": 124,
+        "b_end": 137,
+        "length": 14,
+        "offset": 43
+      },
+      "longest_active_run": null,
+      "long_runs": [
+        {
+          "a_start": 81,
+          "a_end": 94,
+          "b_start": 124,
+          "b_end": 137,
+          "length": 14,
+          "offset": 43
+        }
+      ],
+      "long_active_runs": []
+    }
+  ],
+  "candidate_scene_transitions": [
+    {
+      "clip": "an_mopping/v_an_mopping_1",
+      "candidate_transitions": [
+        {
+          "before": 42,
+          "after": 43,
+          "thumbnail_mae": 0.1615326570442992
+        },
+        {
+          "before": 50,
+          "after": 51,
+          "thumbnail_mae": 0.1509089052287582
+        },
+        {
+          "before": 110,
+          "after": 111,
+          "thumbnail_mae": 0.1303978304284677
+        },
+        {
+          "before": 116,
+          "after": 117,
+          "thumbnail_mae": 0.1423134531590414
+        },
+        {
+          "before": 125,
+          "after": 126,
+          "thumbnail_mae": 0.12768813543936094
+        }
+      ]
+    },
+    {
+      "clip": "an_mopping/v_an_mopping_2",
+      "candidate_transitions": [
+        {
+          "before": 7,
+          "after": 8,
+          "thumbnail_mae": 0.1587730346768337
+        },
+        {
+          "before": 15,
+          "after": 16,
+          "thumbnail_mae": 0.21007228122730573
+        },
+        {
+          "before": 72,
+          "after": 73,
+          "thumbnail_mae": 0.12809946895424837
+        },
+        {
+          "before": 78,
+          "after": 79,
+          "thumbnail_mae": 0.15345179738562092
+        }
+      ]
+    },
+    {
+      "clip": "anya_MB/v_anya_MB_1",
+      "candidate_transitions": [
+        {
+          "before": 19,
+          "after": 20,
+          "thumbnail_mae": 0.13928774055918663
+        },
+        {
+          "before": 30,
+          "after": 31,
+          "thumbnail_mae": 0.13089199800290485
+        },
+        {
+          "before": 118,
+          "after": 119,
+          "thumbnail_mae": 0.1389325753449528
+        },
+        {
+          "before": 126,
+          "after": 127,
+          "thumbnail_mae": 0.1204889478939724
+        }
+      ]
+    },
+    {
+      "clip": "anya_MB/v_anya_MB_2",
+      "candidate_transitions": [
+        {
+          "before": 105,
+          "after": 106,
+          "thumbnail_mae": 0.1317424655047204
+        },
+        {
+          "before": 114,
+          "after": 115,
+          "thumbnail_mae": 0.12258759985475672
+        }
+      ]
+    },
+    {
+      "clip": "anya_hinge/v_anya_hinge_1",
+      "candidate_transitions": [
+        {
+          "before": 107,
+          "after": 108,
+          "thumbnail_mae": 0.12429761256354394
+        }
+      ]
+    },
+    {
+      "clip": "anya_hinge/v_anya_hinge_2",
+      "candidate_transitions": [
+        {
+          "before": 106,
+          "after": 107,
+          "thumbnail_mae": 0.16236553649237473
+        }
+      ]
+    },
+    {
+      "clip": "cha1/v_cha1_1",
+      "candidate_transitions": [
+        {
+          "before": 20,
+          "after": 21,
+          "thumbnail_mae": 0.1619803013798112
+        },
+        {
+          "before": 23,
+          "after": 24,
+          "thumbnail_mae": 0.17545388525780684
+        },
+        {
+          "before": 24,
+          "after": 25,
+          "thumbnail_mae": 0.17548225308641976
+        },
+        {
+          "before": 34,
+          "after": 35,
+          "thumbnail_mae": 0.17441959422657952
+        },
+        {
+          "before": 35,
+          "after": 36,
+          "thumbnail_mae": 0.17446441539578794
+        },
+        {
+          "before": 45,
+          "after": 46,
+          "thumbnail_mae": 0.1736905410312273
+        },
+        {
+          "before": 46,
+          "after": 47,
+          "thumbnail_mae": 0.17333821259985474
+        },
+        {
+          "before": 56,
+          "after": 57,
+          "thumbnail_mae": 0.16476375272331154
+        },
+        {
+          "before": 57,
+          "after": 58,
+          "thumbnail_mae": 0.1751026915395788
+        },
+        {
+          "before": 67,
+          "after": 68,
+          "thumbnail_mae": 0.17975898692810457
+        },
+        {
+          "before": 68,
+          "after": 69,
+          "thumbnail_mae": 0.17884781227305735
+        },
+        {
+          "before": 78,
+          "after": 79,
+          "thumbnail_mae": 0.15751123366013073
+        },
+        {
+          "before": 79,
+          "after": 80,
+          "thumbnail_mae": 0.17217342955700798
+        },
+        {
+          "before": 89,
+          "after": 90,
+          "thumbnail_mae": 0.17480255991285404
+        },
+        {
+          "before": 90,
+          "after": 91,
+          "thumbnail_mae": 0.16607775054466228
+        },
+        {
+          "before": 100,
+          "after": 101,
+          "thumbnail_mae": 0.17215754357298477
+        },
+        {
+          "before": 101,
+          "after": 102,
+          "thumbnail_mae": 0.17208095043572985
+        },
+        {
+          "before": 111,
+          "after": 112,
+          "thumbnail_mae": 0.1713082107843137
+        },
+        {
+          "before": 113,
+          "after": 114,
+          "thumbnail_mae": 0.1756223901597676
+        },
+        {
+          "before": 123,
+          "after": 124,
+          "thumbnail_mae": 0.17177230846042119
+        },
+        {
+          "before": 124,
+          "after": 125,
+          "thumbnail_mae": 0.16950685366739288
+        },
+        {
+          "before": 134,
+          "after": 135,
+          "thumbnail_mae": 0.17189258805374
+        },
+        {
+          "before": 135,
+          "after": 136,
+          "thumbnail_mae": 0.1728502859477124
+        },
+        {
+          "before": 138,
+          "after": 139,
+          "thumbnail_mae": 0.12405364923747278
+        },
+        {
+          "before": 145,
+          "after": 146,
+          "thumbnail_mae": 0.17452228576615833
+        },
+        {
+          "before": 146,
+          "after": 147,
+          "thumbnail_mae": 0.17462611201888165
+        },
+        {
+          "before": 156,
+          "after": 157,
+          "thumbnail_mae": 0.17195783405954973
+        },
+        {
+          "before": 157,
+          "after": 158,
+          "thumbnail_mae": 0.17347097403776324
+        },
+        {
+          "before": 161,
+          "after": 162,
+          "thumbnail_mae": 0.2063855982207698
+        },
+        {
+          "before": 167,
+          "after": 168,
+          "thumbnail_mae": 0.18025882806826432
+        },
+        {
+          "before": 168,
+          "after": 169,
+          "thumbnail_mae": 0.18101114288307915
+        }
+      ]
+    },
+    {
+      "clip": "cha1/v_cha1_2",
+      "candidate_transitions": [
+        {
+          "before": 6,
+          "after": 7,
+          "thumbnail_mae": 0.1825100989469862
+        },
+        {
+          "before": 7,
+          "after": 8,
+          "thumbnail_mae": 0.1819904003267974
+        },
+        {
+          "before": 16,
+          "after": 17,
+          "thumbnail_mae": 0.20139172567175018
+        },
+        {
+          "before": 17,
+          "after": 18,
+          "thumbnail_mae": 0.14982241739288307
+        },
+        {
+          "before": 18,
+          "after": 19,
+          "thumbnail_mae": 0.16716877723311546
+        },
+        {
+          "before": 28,
+          "after": 29,
+          "thumbnail_mae": 0.16177718772694263
+        },
+        {
+          "before": 29,
+          "after": 30,
+          "thumbnail_mae": 0.1508453612926652
+        },
+        {
+          "before": 38,
+          "after": 39,
+          "thumbnail_mae": 0.17917120551924473
+        },
+        {
+          "before": 57,
+          "after": 58,
+          "thumbnail_mae": 0.1771531181917211
+        },
+        {
+          "before": 62,
+          "after": 63,
+          "thumbnail_mae": 0.15440892792302108
+        },
+        {
+          "before": 63,
+          "after": 64,
+          "thumbnail_mae": 0.15462282135076252
+        },
+        {
+          "before": 73,
+          "after": 74,
+          "thumbnail_mae": 0.1553660584604212
+        },
+        {
+          "before": 74,
+          "after": 75,
+          "thumbnail_mae": 0.15459388616557734
+        },
+        {
+          "before": 82,
+          "after": 83,
+          "thumbnail_mae": 0.18723674655047207
+        }
+      ]
+    },
+    {
+      "clip": "cha_fang_you/v_cha_fang_you_1",
+      "candidate_transitions": [
+        {
+          "before": 14,
+          "after": 15,
+          "thumbnail_mae": 0.21207675199709514
+        },
+        {
+          "before": 26,
+          "after": 27,
+          "thumbnail_mae": 0.20400667211328974
+        },
+        {
+          "before": 32,
+          "after": 33,
+          "thumbnail_mae": 0.1937239015976761
+        },
+        {
+          "before": 37,
+          "after": 38,
+          "thumbnail_mae": 0.21876077977487293
+        },
+        {
+          "before": 52,
+          "after": 53,
+          "thumbnail_mae": 0.22318729575163399
+        },
+        {
+          "before": 57,
+          "after": 58,
+          "thumbnail_mae": 0.19955973129992738
+        },
+        {
+          "before": 63,
+          "after": 64,
+          "thumbnail_mae": 0.20271934005083514
+        },
+        {
+          "before": 74,
+          "after": 75,
+          "thumbnail_mae": 0.20695919571532315
+        },
+        {
+          "before": 79,
+          "after": 80,
+          "thumbnail_mae": 0.16711147421931735
+        },
+        {
+          "before": 85,
+          "after": 86,
+          "thumbnail_mae": 0.1890488834422658
+        },
+        {
+          "before": 98,
+          "after": 99,
+          "thumbnail_mae": 0.20571895424836603
+        },
+        {
+          "before": 103,
+          "after": 104,
+          "thumbnail_mae": 0.1920093500363108
+        },
+        {
+          "before": 111,
+          "after": 112,
+          "thumbnail_mae": 0.21138174019607844
+        },
+        {
+          "before": 121,
+          "after": 122,
+          "thumbnail_mae": 0.19219374092229483
+        },
+        {
+          "before": 127,
+          "after": 128,
+          "thumbnail_mae": 0.18602827705156136
+        },
+        {
+          "before": 136,
+          "after": 137,
+          "thumbnail_mae": 0.2128545978576616
+        },
+        {
+          "before": 145,
+          "after": 146,
+          "thumbnail_mae": 0.20759974128540307
+        }
+      ]
+    },
+    {
+      "clip": "cha_fang_you/v_cha_fang_you_2",
+      "candidate_transitions": [
+        {
+          "before": 10,
+          "after": 11,
+          "thumbnail_mae": 0.19671330337690632
+        },
+        {
+          "before": 15,
+          "after": 16,
+          "thumbnail_mae": 0.19594283315177924
+        },
+        {
+          "before": 24,
+          "after": 25,
+          "thumbnail_mae": 0.19680861928104573
+        },
+        {
+          "before": 34,
+          "after": 35,
+          "thumbnail_mae": 0.19675812454611474
+        },
+        {
+          "before": 38,
+          "after": 39,
+          "thumbnail_mae": 0.19761029411764705
+        },
+        {
+          "before": 45,
+          "after": 46,
+          "thumbnail_mae": 0.21154457153231662
+        },
+        {
+          "before": 61,
+          "after": 62,
+          "thumbnail_mae": 0.21044730392156863
+        },
+        {
+          "before": 68,
+          "after": 69,
+          "thumbnail_mae": 0.19628608387799562
+        },
+        {
+          "before": 73,
+          "after": 74,
+          "thumbnail_mae": 0.20080905047204067
+        },
+        {
+          "before": 86,
+          "after": 87,
+          "thumbnail_mae": 0.2145016339869281
+        },
+        {
+          "before": 107,
+          "after": 108,
+          "thumbnail_mae": 0.1997702205882353
+        },
+        {
+          "before": 122,
+          "after": 123,
+          "thumbnail_mae": 0.12064156681190995
+        },
+        {
+          "before": 143,
+          "after": 144,
+          "thumbnail_mae": 0.1847420797022513
+        }
+      ]
+    },
+    {
+      "clip": "cha_fang_zuo/v_cha_fang_zuo_1",
+      "candidate_transitions": [
+        {
+          "before": 7,
+          "after": 8,
+          "thumbnail_mae": 0.2011341457879448
+        },
+        {
+          "before": 18,
+          "after": 19,
+          "thumbnail_mae": 0.2279485521060276
+        },
+        {
+          "before": 27,
+          "after": 28,
+          "thumbnail_mae": 0.22916042574437184
+        },
+        {
+          "before": 40,
+          "after": 41,
+          "thumbnail_mae": 0.19207970225127088
+        },
+        {
+          "before": 48,
+          "after": 49,
+          "thumbnail_mae": 0.19890159767610746
+        },
+        {
+          "before": 70,
+          "after": 71,
+          "thumbnail_mae": 0.20545740286855482
+        },
+        {
+          "before": 80,
+          "after": 81,
+          "thumbnail_mae": 0.23430975399419027
+        },
+        {
+          "before": 94,
+          "after": 95,
+          "thumbnail_mae": 0.2169168709150327
+        },
+        {
+          "before": 103,
+          "after": 104,
+          "thumbnail_mae": 0.21534699527959333
+        },
+        {
+          "before": 122,
+          "after": 123,
+          "thumbnail_mae": 0.24419083605664488
+        },
+        {
+          "before": 137,
+          "after": 138,
+          "thumbnail_mae": 0.25000624092229484
+        },
+        {
+          "before": 151,
+          "after": 152,
+          "thumbnail_mae": 0.19386971223674657
+        }
+      ]
+    },
+    {
+      "clip": "cha_fang_zuo/v_cha_fang_zuo_2",
+      "candidate_transitions": [
+        {
+          "before": 15,
+          "after": 16,
+          "thumbnail_mae": 0.23537298021060277
+        },
+        {
+          "before": 24,
+          "after": 25,
+          "thumbnail_mae": 0.24464131717501814
+        },
+        {
+          "before": 37,
+          "after": 38,
+          "thumbnail_mae": 0.1991557734204793
+        },
+        {
+          "before": 47,
+          "after": 48,
+          "thumbnail_mae": 0.2127694943718228
+        },
+        {
+          "before": 64,
+          "after": 65,
+          "thumbnail_mae": 0.22623740468409587
+        },
+        {
+          "before": 74,
+          "after": 75,
+          "thumbnail_mae": 0.23980176561365288
+        },
+        {
+          "before": 89,
+          "after": 90,
+          "thumbnail_mae": 0.21131876361655774
+        },
+        {
+          "before": 97,
+          "after": 98,
+          "thumbnail_mae": 0.21406193264342774
+        },
+        {
+          "before": 110,
+          "after": 111,
+          "thumbnail_mae": 0.22724276053013798
+        },
+        {
+          "before": 123,
+          "after": 124,
+          "thumbnail_mae": 0.2349962554466231
+        },
+        {
+          "before": 137,
+          "after": 138,
+          "thumbnail_mae": 0.20498366013071898
+        },
+        {
+          "before": 144,
+          "after": 145,
+          "thumbnail_mae": 0.1971104529774873
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Pixel/byte equality confirms shared image content, not the identity of the original recording.",
+    "Low-resolution perceptual matches can be caused by static cameras or repeated actions.",
+    "No heuristic matches does not establish source independence.",
+    "Contiguous file numbers do not prove continuous acquisition or absence of edits."
+  ],
+  "elapsed_seconds": 51.73499999998603
+}
